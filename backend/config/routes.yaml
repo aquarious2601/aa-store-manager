@@ -1,0 +1,13 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+# Placeholder route for the json_login firewall. No controller — the
+# firewall intercepts POST /api/login, reads {login, password}, and on
+# success returns a Lexik JWT via its success handler. The route must
+# exist in the router; otherwise Symfony reports "No route found".
+api_login:
+    path: /api/login
+    methods: [POST]

@@ -1,0 +1,19 @@
+api_platform:
+    title: 'AA Shop Manager API'
+    version: '1.0.0'
+    formats:
+        jsonld: ['application/ld+json']
+        json: ['application/json']
+    docs_formats:
+        jsonld: ['application/ld+json']
+        json: ['application/json']
+        html: ['text/html']
+    defaults:
+        stateless: true
+        cache_headers:
+            vary: ['Content-Type', 'Authorization', 'Origin']
+        extra_properties:
+            standard_put: true
+            rfc_7807_compliant_errors: true
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']

@@ -1,0 +1,30 @@
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Scraper artefacts (regenerated; don't commit)
+/scraper/orders.json
+/scraper/product_details.json
+/scraper/sales.json
+/scraper/debug_*.html
+/scraper/debug_*.png
+/scraper/.venv/
+/scraper/.env
+
+# Backend secrets (also covered by backend/.gitignore but belt + braces)
+/backend/.env.local
+/backend/.env.*.local
+/backend/config/jwt/
+/backend/vendor/
+/backend/var/
+
+# Frontend build output / deps
+/frontend/dist/
+/frontend/node_modules/
+/frontend/.env.local
+/frontend/.env.production

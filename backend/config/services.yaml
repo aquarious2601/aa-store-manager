@@ -1,0 +1,29 @@
+parameters:
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\:
+        resource: '../src/'
+        exclude:
+            - '../src/DependencyInjection/'
+            - '../src/Entity/'
+            - '../src/Kernel.php'
+
+    # Decorate the default API Platform Doctrine persist processor so we can
+    # hash User::$plainPassword before it's saved.
+    App\State\UserPasswordHasher:
+        bind:
+            $persistProcessor: '@api_platform.doctrine.orm.state.persist_processor'
+
+    # Default ORDER BY for the Order collection (date DESC, nulls last).
+    App\Doctrine\OrderDateSortExtension:
+        tags:
+            - { name: api_platform.doctrine.orm.query_extension.collection }
+
+    # Server-side `?search=` filter for the Product collection.
+    App\Doctrine\ProductSearchExtension:
+        tags:
+            - { name: api_platform.doctrine.orm.query_extension.collection }

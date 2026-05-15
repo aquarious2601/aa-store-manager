@@ -1,0 +1,9 @@
+# Playwright 1.48+ ships prebuilt wheels for Python 3.13.
+# Older versions (1.45 and below) try to compile greenlet from source on 3.13
+# and fail with "C1189 #error: this header requires Py_BUILD_CORE define".
+playwright>=1.48.0
+python-dotenv>=1.0.1
+
+# Pin greenlet explicitly so pip never falls back to an older source build.
+# 3.0.3+ has wheels for Python 3.13 on Windows / macOS / Linux.
+greenlet>=3.0.3

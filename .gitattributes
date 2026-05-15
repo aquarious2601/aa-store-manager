@@ -1,0 +1,21 @@
+# Normalize line endings to LF in the repo for all text files. Git converts
+# back to CRLF on checkout for Windows machines, so this is invisible to
+# editors locally. It just stops the
+#   "LF will be replaced by CRLF the next time Git touches it"
+# warning that fires for every text file on the initial commit.
+* text=auto eol=lf
+
+# Shell scripts must keep LF endings even on Windows (otherwise bash on the
+# EC2 server fails with "\r: command not found").
+*.sh text eol=lf
+
+# Binary types — don't try to normalize these
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.pem binary

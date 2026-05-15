@@ -8,9 +8,6 @@ Thumbs.db
 .vscode/
 
 # Scraper artefacts (regenerated; don't commit)
-/scraper/orders.json
-/scraper/product_details.json
-/scraper/sales.json
 /scraper/debug_*.html
 /scraper/debug_*.png
 /scraper/.venv/

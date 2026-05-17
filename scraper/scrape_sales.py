@@ -216,7 +216,20 @@ def collect_sale_rows(
     try:
         page.wait_for_selector(table_selector, timeout=15000)
     except PWTimeout:
-        raise SystemExit(f"Sales list table not found ({table_selector})")
+        # Dump what actually loaded so we can see why the table didn't appear
+        # (wrong page, captcha, session expired, etc.). Filenames include the
+        # current URL slug so multiple failures don't overwrite each other.
+        slug = re.sub(r"[^a-zA-Z0-9]+", "_", page.url)[:80]
+        Path(f"debug_sales_no_table_{slug}.html").write_text(page.content(), encoding="utf-8")
+        try:
+            page.screenshot(path=f"debug_sales_no_table_{slug}.png", full_page=True)
+        except Exception:
+            pass
+        raise SystemExit(
+            f"Sales list table not found ({table_selector}). "
+            f"Current URL: {page.url}. "
+            f"Wrote debug_sales_no_table_{slug}.{{html,png}} for inspection."
+        )
 
     rows = page.query_selector_all(f"{table_selector} tbody tr")
     print(f"-> Found {len(rows)} rows in {table_selector}")
@@ -494,7 +507,25 @@ def main() -> int:
                   f"loaded from {out_path}, stop after {stop_after_known} consecutive known")
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=headless)
+        # Flags that strip Chromium's RAM usage on small EC2 instances.
+        # --disable-dev-shm-usage stops Chromium from writing crash dumps and
+        #   shared memory pages into /dev/shm (which is small on Ubuntu);
+        # --no-sandbox is required when running as root or non-typical user
+        #   like www-data without seccomp setup;
+        # --disable-gpu / -accelerated-2d-canvas remove the GPU stack we don't
+        #   need for scraping; --single-process collapses multi-process model.
+        browser = p.chromium.launch(
+            headless=headless,
+            args=[
+                '--no-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-gpu',
+                '--disable-accelerated-2d-canvas',
+                '--disable-extensions',
+                '--no-first-run',
+                '--no-zygote',
+            ],
+        )
         context = browser.new_context(locale="fr-FR")
         page = context.new_page()
 
@@ -527,11 +558,20 @@ def main() -> int:
         for page_num in range(page_limit):
             if apply_page_size:
                 url = f"{LIST_URL}?limit={PAGE_SIZE}&page={page_num}"
+            elif page_num == 0:
+                # Bare URL on the first page so Dolibarr keeps its session
+                # context (leftmenu / contextpage). Adding ?page=0 sometimes
+                # drops that context and makes the page load incorrectly.
+                url = LIST_URL
             else:
-                # Don't force a limit — let Dolibarr's session default apply.
                 url = f"{LIST_URL}?page={page_num}"
-            print(f"\n-> page {page_num + 1}: {url}")
-            page.goto(url, wait_until="domcontentloaded")
+            print(f"\n-> page {page_num + 1}: navigating to {url}", flush=True)
+            try:
+                page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            except PWTimeout:
+                print(f"   ! goto timed out after 30s, aborting this page", flush=True)
+                break
+            print(f"   landed on {page.url}", flush=True)
             if apply_page_size and page_num == 0:
                 # Belt-and-braces: also drive the dropdown the first time so
                 # Dolibarr remembers the 1000-per-page preference in its session.

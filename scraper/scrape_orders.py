@@ -597,7 +597,19 @@ def main() -> int:
                   f"loaded from {out_path}, stop after {stop_after_known} consecutive known")
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=headless)
+        # RAM-frugal flags for small EC2 instances — see scrape_sales.py
+        browser = p.chromium.launch(
+            headless=headless,
+            args=[
+                '--no-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-gpu',
+                '--disable-accelerated-2d-canvas',
+                '--disable-extensions',
+                '--no-first-run',
+                '--no-zygote',
+            ],
+        )
         context = browser.new_context(locale="fr-FR")
         page = context.new_page()
 

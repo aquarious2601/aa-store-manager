@@ -25,7 +25,10 @@ takes another ~400 MB), bump to `t3.medium` (4 GB) for ~$30/month total.
 1. Open the EC2 console in **us-east-2** (Ohio).
 2. **Launch Instance**:
    - Name: `aashop-prod`
-   - AMI: **Ubuntu Server 24.04 LTS** (HVM, 64-bit x86)
+   - **AMI: Ubuntu Server 24.04 LTS** (HVM, 64-bit x86). DO NOT pick a
+     non-LTS Ubuntu (25.04, 25.10, etc.) — they're not supported by the
+     Ondrej PHP PPA and you'll get 404s during install. 24.04 LTS is
+     supported through 2029.
    - Instance type: `t3.small`
    - Key pair: create a new one (`aashop-key.pem`), download and save it
    - Network settings → **Edit** → Security group inbound rules:
@@ -75,6 +78,9 @@ installed.
 cd /home/ubuntu/aashop/backend
 cp .env.local.example .env.local
 nano .env.local
+# - APP_ENV=prod        (CRITICAL on production — otherwise Symfony tries
+#                        to load MakerBundle which composer --no-dev skipped)
+# - APP_DEBUG=0
 # - APP_SECRET: paste a random 32-char hex
 # - JWT_PASSPHRASE: paste another random 32-char hex
 # - DATABASE_URL: change user/password to match what install.sh created
@@ -102,10 +108,13 @@ nano .env
 ```bash
 cd /home/ubuntu/aashop/backend
 composer install --no-dev --optimize-autoloader --no-interaction
-php bin/console doctrine:database:create --if-not-exists
-php bin/console doctrine:schema:create
-php bin/console lexik:jwt:generate-keypair
-php bin/console app:create-admin login password   # default admin
+# Every console command below runs in prod mode (APP_ENV=prod is also in
+# .env.local, so the --env flag is belt-and-braces).
+php bin/console doctrine:database:create --if-not-exists --env=prod
+php bin/console doctrine:schema:create --env=prod
+php bin/console lexik:jwt:generate-keypair --env=prod
+php bin/console app:create-admin login password --env=prod   # default admin
+php bin/console cache:clear --env=prod --no-debug
 sudo chown -R www-data:www-data var/ config/jwt/
 sudo chmod -R 775 var/
 ```

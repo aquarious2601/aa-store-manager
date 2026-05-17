@@ -1,6 +1,5940 @@
 {
-  "count": 1381,
+  "count": 1539,
   "sales": [
+    {
+      "reference": "TC1-2605-25584",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32136&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809447256412",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "21.4167",
+          "quantity": 1,
+          "total_ht": "21.42",
+          "total_ttc": "25.7"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25583",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32135&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809527486463",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "22.3333",
+          "quantity": 1,
+          "total_ht": "22.33",
+          "total_ttc": "26.8"
+        },
+        {
+          "description": "8809884771363",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.5833",
+          "quantity": 1,
+          "total_ht": "16.58",
+          "total_ttc": "19.9"
+        },
+        {
+          "description": "8809563104239",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "17.9167",
+          "quantity": 1,
+          "total_ht": "17.92",
+          "total_ttc": "21.5"
+        },
+        {
+          "description": "Green Tomato Pore Zero Ampoule+ 40ml",
+          "product_reference": "PRDX1601",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        },
+        {
+          "description": "Collagen Remodeling Cream",
+          "product_reference": "PRDX1613",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "29.75",
+          "quantity": 1,
+          "total_ht": "29.75",
+          "total_ttc": "35.7"
+        },
+        {
+          "description": "8806109107136",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "14.7917",
+          "quantity": 1,
+          "total_ht": "14.79",
+          "total_ttc": "17.75"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25582",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32134&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Mascara",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "10.75",
+          "quantity": 1,
+          "total_ht": "10.75",
+          "total_ttc": "12.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25581",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32133&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8800051001948",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "35.8333",
+          "quantity": 1,
+          "total_ht": "35.83",
+          "total_ttc": "43"
+        },
+        {
+          "description": "8809759080217",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.825",
+          "quantity": 1,
+          "total_ht": "20.83",
+          "total_ttc": "24.99"
+        },
+        {
+          "description": "Nutritive Cream",
+          "product_reference": "PRDX1363",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "30.8333",
+          "quantity": 1,
+          "total_ht": "30.83",
+          "total_ttc": "37"
+        },
+        {
+          "description": "8809963503021",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "29.75",
+          "quantity": 2,
+          "total_ht": "59.5",
+          "total_ttc": "71.4"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25580",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32132&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Probio-cica Glow Sun Ampoule SPF50+ PA++++",
+          "product_reference": "PRDX0533",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.825",
+          "quantity": 1,
+          "total_ht": "15.83",
+          "total_ttc": "18.99"
+        },
+        {
+          "description": "8809541379468 noni",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.5833",
+          "quantity": 1,
+          "total_ht": "16.58",
+          "total_ttc": "19.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25579",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32131&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Probio-cica Glow Sun Ampoule SPF50+ PA++++",
+          "product_reference": "PRDX0533",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.825",
+          "quantity": 1,
+          "total_ht": "15.83",
+          "total_ttc": "18.99"
+        },
+        {
+          "description": "8809409341422",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.25",
+          "quantity": 1,
+          "total_ht": "16.25",
+          "total_ttc": "19.5"
+        },
+        {
+          "description": "Pure Grinding Cleansing Balm",
+          "product_reference": "PRDX0977",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.825",
+          "quantity": 1,
+          "total_ht": "15.83",
+          "total_ttc": "18.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25578",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32130&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809447256122mist345",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "14.0833",
+          "quantity": 1,
+          "total_ht": "14.08",
+          "total_ttc": "16.9"
+        },
+        {
+          "description": "Green Tomato Pore Zero Ampoule+ 40ml",
+          "product_reference": "PRDX1601",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25577",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32129&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8806109107136",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "14.7917",
+          "quantity": 1,
+          "total_ht": "14.79",
+          "total_ttc": "17.75"
+        },
+        {
+          "description": "8809670682699",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.4167",
+          "quantity": 1,
+          "total_ht": "20.42",
+          "total_ttc": "24.5"
+        },
+        {
+          "description": "8809937361572",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.25",
+          "quantity": 1,
+          "total_ht": "16.25",
+          "total_ttc": "19.5"
+        },
+        {
+          "description": "8806109101158",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "22.3333",
+          "quantity": 1,
+          "total_ht": "22.33",
+          "total_ttc": "26.8"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25576",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32128&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809670683313",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "11.25",
+          "quantity": 1,
+          "total_ht": "11.25",
+          "total_ttc": "13.5"
+        },
+        {
+          "description": "8809670683320",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "10.4167",
+          "quantity": 1,
+          "total_ht": "10.42",
+          "total_ttc": "12.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25575",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32127&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809598456983corxpeptideeyepatch",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "17.9167",
+          "quantity": 1,
+          "total_ht": "17.92",
+          "total_ttc": "21.5"
+        },
+        {
+          "description": "PDRN 100",
+          "product_reference": "PRDX0606",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "28.825",
+          "quantity": 1,
+          "total_ht": "28.83",
+          "total_ttc": "34.59"
+        },
+        {
+          "description": "8806109101257 madeca cream",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.75",
+          "quantity": 1,
+          "total_ht": "20.75",
+          "total_ttc": "24.9"
+        },
+        {
+          "description": "8806109101158",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "22.3333",
+          "quantity": 1,
+          "total_ht": "22.33",
+          "total_ttc": "26.8"
+        },
+        {
+          "description": "8809700320812 retinal celimax",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.75",
+          "quantity": 1,
+          "total_ht": "15.75",
+          "total_ttc": "18.9"
+        },
+        {
+          "description": "8809730953677 œil mini",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "13.25",
+          "quantity": 1,
+          "total_ht": "13.25",
+          "total_ttc": "15.9"
+        },
+        {
+          "description": "Code:PMM05",
+          "product_reference": null,
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "-5.9417",
+          "quantity": 1,
+          "total_ht": "-5.94",
+          "total_ttc": "-7.13"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25574",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32126&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 2,
+          "total_ht": "9.83",
+          "total_ttc": "11.8"
+        },
+        {
+          "description": "PRDX1004-pPRD00441 - PDRN Pink Collagen Gel Mask",
+          "product_reference": null,
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 3,
+          "total_ht": "14.75",
+          "total_ttc": "17.7"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        },
+        {
+          "description": "PDRN Hyaluronic Acid Capsule 100 Serum",
+          "product_reference": "PRDX1477",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "20.4167",
+          "quantity": 1,
+          "total_ht": "20.42",
+          "total_ttc": "24.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25573",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32125&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8800051001948",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "35.8333",
+          "quantity": 1,
+          "total_ht": "35.83",
+          "total_ttc": "43"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25572",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32124&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8800051001948",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "35.8333",
+          "quantity": 1,
+          "total_ht": "35.83",
+          "total_ttc": "43"
+        },
+        {
+          "description": "8800256119042",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25571",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32123&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809635333093",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        },
+        {
+          "description": "Deep Clean Master",
+          "product_reference": "PRDX1002",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "12.4917",
+          "quantity": 1,
+          "total_ht": "12.49",
+          "total_ttc": "14.99"
+        },
+        {
+          "description": "4982790188631",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "5.4167",
+          "quantity": 1,
+          "total_ht": "5.42",
+          "total_ttc": "6.5"
+        },
+        {
+          "description": "8806109107136",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "14.7917",
+          "quantity": 1,
+          "total_ht": "14.79",
+          "total_ttc": "17.75"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25570",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32122&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Rice 70 Glow Collagen Mask",
+          "product_reference": "PRDX1522",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.5833",
+          "quantity": 2,
+          "total_ht": "9.17",
+          "total_ttc": "11"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25569",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32121&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Deep Vita C Capsule Cream",
+          "product_reference": "PRDX1135",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.0833",
+          "quantity": 1,
+          "total_ht": "22.08",
+          "total_ttc": "26.5"
+        },
+        {
+          "description": "8809700320812 retinal celimax",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.75",
+          "quantity": 1,
+          "total_ht": "15.75",
+          "total_ttc": "18.9"
+        },
+        {
+          "description": "8806121401076 rejuran",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "26.1667",
+          "quantity": 1,
+          "total_ht": "26.17",
+          "total_ttc": "31.4"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25568",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32120&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "DIVE-IN Low Molecular Hyaluronic Acid Mask Pack",
+          "product_reference": "PRD00224",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 5,
+          "total_ht": "14.58",
+          "total_ttc": "17.5"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        },
+        {
+          "description": "Matte Sun Stick Mugwort + Camelia SPF50 PA++++",
+          "product_reference": "PRD00005",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "12.9167",
+          "quantity": 1,
+          "total_ht": "12.92",
+          "total_ttc": "15.5"
+        },
+        {
+          "description": "8809447257020",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.5833",
+          "quantity": 1,
+          "total_ht": "19.58",
+          "total_ttc": "23.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25567",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32119&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Milk Skin Toner",
+          "product_reference": "PRD00291",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 1,
+          "total_ht": "19.99",
+          "total_ttc": "23.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25566",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32118&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "No.9 Nad+ Bio Lifting-sil Full Face Mask",
+          "product_reference": "PRDX1582",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Deep Peptide Radiance Mask",
+          "product_reference": "PRDX1167",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 1,
+          "total_ht": "3.33",
+          "total_ttc": "3.99"
+        },
+        {
+          "description": "Poremizing Clarifying Mask",
+          "product_reference": "PRDX0838",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 3,
+          "total_ht": "7.48",
+          "total_ttc": "8.97"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        },
+        {
+          "description": "8809700320812",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.75",
+          "quantity": 1,
+          "total_ht": "15.75",
+          "total_ttc": "18.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25565",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32117&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809891184606",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "8800311120679",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.6667",
+          "quantity": 1,
+          "total_ht": "15.67",
+          "total_ttc": "18.8"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25564",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32115&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8806109191258",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 2,
+          "total_ht": "5.83",
+          "total_ttc": "7"
+        },
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 3,
+          "total_ht": "14.75",
+          "total_ttc": "17.7"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        },
+        {
+          "description": "Rejuran 5ml",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "6.25",
+          "quantity": 1,
+          "total_ht": "6.25",
+          "total_ttc": "7.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25563",
+      "date": "17/05/2026",
+      "raw_date": "17/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32114&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Deep Collagen Niacin-Vita C Brightening Mask",
+          "product_reference": "PRDX1493",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24584",
+      "date": "22/04/2026",
+      "raw_date": "22/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30947&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Celimax serum",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 1,
+          "total_ht": "0",
+          "total_ttc": "0"
+        },
+        {
+          "description": "Biodance collagen",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 1,
+          "total_ht": "0",
+          "total_ttc": "0"
+        },
+        {
+          "description": "Mask Fit Red Cushion 29C",
+          "product_reference": "PRDX1060",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 1,
+          "total_ht": "21.25",
+          "total_ttc": "25.5"
+        },
+        {
+          "description": "Abib",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        },
+        {
+          "description": "Oil control spf",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.125",
+          "quantity": 1,
+          "total_ht": "15.13",
+          "total_ttc": "18.15"
+        },
+        {
+          "description": "Mask",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "11.4583",
+          "quantity": 1,
+          "total_ht": "11.46",
+          "total_ttc": "13.75"
+        },
+        {
+          "description": "Dalba shampoo",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "26.25",
+          "quantity": 1,
+          "total_ht": "26.25",
+          "total_ttc": "31.5"
+        },
+        {
+          "description": "Centella milk cleansing",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.75",
+          "quantity": 1,
+          "total_ht": "15.75",
+          "total_ttc": "18.9"
+        },
+        {
+          "description": "Etude",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "12.5833",
+          "quantity": 1,
+          "total_ht": "12.58",
+          "total_ttc": "15.1"
+        },
+        {
+          "description": "Correcteur",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "13.0417",
+          "quantity": 1,
+          "total_ht": "13.04",
+          "total_ttc": "15.65"
+        },
+        {
+          "description": "Romand juicy tint",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.75",
+          "quantity": 1,
+          "total_ht": "3.75",
+          "total_ttc": "4.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24583",
+      "date": "22/04/2026",
+      "raw_date": "22/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30946&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Dr althea spf",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.6583",
+          "quantity": 1,
+          "total_ht": "16.66",
+          "total_ttc": "19.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24582",
+      "date": "22/04/2026",
+      "raw_date": "22/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30945&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Boj serum",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.0833",
+          "quantity": 1,
+          "total_ht": "20.08",
+          "total_ttc": "24.1"
+        },
+        {
+          "description": "Relief Sun Rice + Probiotics SPF 50+ PA ++++",
+          "product_reference": "PRD00004",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7083",
+          "quantity": 1,
+          "total_ht": "15.71",
+          "total_ttc": "18.85"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24581",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30943&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "DIVE IN Soothing Cream",
+          "product_reference": "PRDX0140",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.9167",
+          "quantity": 1,
+          "total_ht": "22.92",
+          "total_ttc": "27.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24580",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30942&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "d'Alba Piedmont White Truffle Serum Royal",
+          "product_reference": "PRDX0320",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "23.1833",
+          "quantity": 1,
+          "total_ht": "23.18",
+          "total_ttc": "27.82"
+        },
+        {
+          "description": "Vt pdrn",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.4167",
+          "quantity": 1,
+          "total_ht": "20.42",
+          "total_ttc": "24.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24579",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30941&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Ginseng Cleansing Oil",
+          "product_reference": "PRD00002",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "16.5833",
+          "quantity": 1,
+          "total_ht": "16.58",
+          "total_ttc": "19.9"
+        },
+        {
+          "description": "Relief Sun Rice + Probiotics SPF 50+ PA ++++",
+          "product_reference": "PRD00004",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7083",
+          "quantity": 1,
+          "total_ht": "15.71",
+          "total_ttc": "18.85"
+        },
+        {
+          "description": "Niacinamide 10% TXA 4% Serum",
+          "product_reference": "PRDX0184",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 1,
+          "total_ht": "19.99",
+          "total_ttc": "23.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24578",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30938&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Abib pdrn",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.4167",
+          "quantity": 1,
+          "total_ht": "20.42",
+          "total_ttc": "24.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24577",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30937&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Skin1004",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 1,
+          "total_ht": "2.49",
+          "total_ttc": "2.99"
+        },
+        {
+          "description": "Abib",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 1,
+          "total_ht": "3.33",
+          "total_ttc": "3.99"
+        },
+        {
+          "description": "Abib",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.1583",
+          "quantity": 1,
+          "total_ht": "19.16",
+          "total_ttc": "22.99"
+        },
+        {
+          "description": "Celimax",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.75",
+          "quantity": 1,
+          "total_ht": "15.75",
+          "total_ttc": "18.9"
+        },
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24576",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30936&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Relief Sun Rice + Probiotics SPF 50+ PA ++++",
+          "product_reference": "PRD00004",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7083",
+          "quantity": 2,
+          "total_ht": "31.42",
+          "total_ttc": "37.7"
+        },
+        {
+          "description": "Tone Brightening Glow Mask",
+          "product_reference": "PRDX0839",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 2,
+          "total_ht": "4.98",
+          "total_ttc": "5.98"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24575",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30934&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Toning Toner",
+          "product_reference": "PRD00116",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.2917",
+          "quantity": 1,
+          "total_ht": "17.29",
+          "total_ttc": "20.75"
+        },
+        {
+          "description": "Mugwort Calming Cream",
+          "product_reference": "PRDX0002",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "27.0833",
+          "quantity": 1,
+          "total_ht": "27.08",
+          "total_ttc": "32.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24574",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30933&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Relief Sun Rice + Probiotics SPF 50+ PA ++++",
+          "product_reference": "PRD00004",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7083",
+          "quantity": 1,
+          "total_ht": "15.71",
+          "total_ttc": "18.85"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24573",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30932&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Probio-Cica Enrich Cream",
+          "product_reference": "PRD00217",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 1,
+          "total_ht": "21.25",
+          "total_ttc": "25.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24572",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30931&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Hyaluronic Acid Watery Sun Gel SPF 50+ PA++++",
+          "product_reference": "PRDX0052",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.3333",
+          "quantity": 1,
+          "total_ht": "15.33",
+          "total_ttc": "18.4"
+        },
+        {
+          "description": "Cellmazing Low Molecular Collagen Firming Gel Mask",
+          "product_reference": "PRDX1469",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Necksphalt ECM Neck Barrier Cream 50ml",
+          "product_reference": "PRDX1542",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "25.75",
+          "quantity": 1,
+          "total_ht": "25.75",
+          "total_ttc": "30.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24571",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30930&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Ahc solution",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "0",
+          "unit_price_ht": "24.99",
+          "quantity": 1,
+          "total_ht": "24.99",
+          "total_ttc": "24.99"
+        },
+        {
+          "description": "Peptide 9 toner",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "18.25",
+          "quantity": 1,
+          "total_ht": "18.25",
+          "total_ttc": "21.9"
+        },
+        {
+          "description": "Toning Toner",
+          "product_reference": "PRD00116",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "16.6583",
+          "quantity": 1,
+          "total_ht": "16.66",
+          "total_ttc": "19.99"
+        },
+        {
+          "description": "Ahc ampoule",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 1,
+          "total_ht": "21.25",
+          "total_ttc": "25.5"
+        },
+        {
+          "description": "Dr g",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        },
+        {
+          "description": "Zero Pore Pad 2.0",
+          "product_reference": "PRDX0017",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        },
+        {
+          "description": "Black Snail Cream",
+          "product_reference": "PRDX0738",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "23.75",
+          "quantity": 1,
+          "total_ht": "23.75",
+          "total_ttc": "28.5"
+        },
+        {
+          "description": "Centlla clay stick",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.6583",
+          "quantity": 1,
+          "total_ht": "16.66",
+          "total_ttc": "19.99"
+        },
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        },
+        {
+          "description": "Collagen Eye Patch",
+          "product_reference": "PRDX0116",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        },
+        {
+          "description": "Ampoule Foam",
+          "product_reference": "PRD00186",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.1583",
+          "quantity": 1,
+          "total_ht": "14.16",
+          "total_ttc": "16.99"
+        },
+        {
+          "description": "Birch Juice Hand Cream",
+          "product_reference": "PRDX0768",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "6.25",
+          "quantity": 1,
+          "total_ht": "6.25",
+          "total_ttc": "7.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24570",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30929&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Rice Cream",
+          "product_reference": "PRDX0547",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.0833",
+          "quantity": 1,
+          "total_ht": "22.08",
+          "total_ttc": "26.5"
+        },
+        {
+          "description": "PRDX1004-pPRD00441 - PDRN Pink Collagen Gel Mask",
+          "product_reference": null,
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24569",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30928&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Dr athena pdrn",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "21.4167",
+          "quantity": 1,
+          "total_ht": "21.42",
+          "total_ttc": "25.7"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24568",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30927&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Centella Asiatica Calming Mask",
+          "product_reference": "PRD00016",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 1,
+          "total_ht": "2.49",
+          "total_ttc": "2.99"
+        },
+        {
+          "description": "Tone Brightening Glow Mask",
+          "product_reference": "PRDX0839",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 1,
+          "total_ht": "2.49",
+          "total_ttc": "2.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24567",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30926&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Madagascar Centella Tea-Trica Soothing Sun Milk",
+          "product_reference": "PRDX1023",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.4917",
+          "quantity": 1,
+          "total_ht": "17.49",
+          "total_ttc": "20.99"
+        },
+        {
+          "description": "Vtc",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.1583",
+          "quantity": 1,
+          "total_ht": "19.16",
+          "total_ttc": "22.99"
+        },
+        {
+          "description": "Zero Pore Pad 2.0",
+          "product_reference": "PRDX0017",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.0833",
+          "quantity": 1,
+          "total_ht": "22.08",
+          "total_ttc": "26.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24566",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30925&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24565",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30924&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Deep Vita C Capsule Cream",
+          "product_reference": "PRDX1135",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.0833",
+          "quantity": 1,
+          "total_ht": "22.08",
+          "total_ttc": "26.5"
+        },
+        {
+          "description": "Reedle Shot 300",
+          "product_reference": "PRDX0202",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "33.325",
+          "quantity": 1,
+          "total_ht": "33.33",
+          "total_ttc": "39.99"
+        },
+        {
+          "description": "Celimax",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.125",
+          "quantity": 1,
+          "total_ht": "15.13",
+          "total_ttc": "18.15"
+        },
+        {
+          "description": "Vt pdrn",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.4167",
+          "quantity": 1,
+          "total_ht": "20.42",
+          "total_ttc": "24.5"
+        },
+        {
+          "description": "Anua",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        },
+        {
+          "description": "Gentle Vitamin C Serum",
+          "product_reference": "PRDX0601",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "18.325",
+          "quantity": 1,
+          "total_ht": "18.33",
+          "total_ttc": "21.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24564",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30923&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Dynasty Cream [Tube]",
+          "product_reference": "PRDX0702",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "24.9167",
+          "quantity": 1,
+          "total_ht": "24.92",
+          "total_ttc": "29.9"
+        },
+        {
+          "description": "Glow Deep Serum: Rice + Alpha Arbutin",
+          "product_reference": "PRD00008",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.9917",
+          "quantity": 1,
+          "total_ht": "14.99",
+          "total_ttc": "17.99"
+        },
+        {
+          "description": "Relief Sun Aqua Fresh Rice + B5",
+          "product_reference": "PRDX0826",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7917",
+          "quantity": 1,
+          "total_ht": "15.79",
+          "total_ttc": "18.95"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24563",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30922&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "No.6 Deep Sleep Mask Serum",
+          "product_reference": "PRDX0039",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 1,
+          "total_ht": "19.99",
+          "total_ttc": "23.99"
+        },
+        {
+          "description": "Black Rice Probiotics Barrier Essence a.k.a Makgeolli",
+          "product_reference": "PRDX0872",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.4167",
+          "quantity": 1,
+          "total_ht": "17.42",
+          "total_ttc": "20.9"
+        },
+        {
+          "description": "147 Barrier Cream",
+          "product_reference": "PRDX1164",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "20.4167",
+          "quantity": 1,
+          "total_ht": "20.42",
+          "total_ttc": "24.5"
+        },
+        {
+          "description": "Abib glow",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 1,
+          "total_ht": "3.33",
+          "total_ttc": "3.99"
+        },
+        {
+          "description": "Tone Brightening Glow Mask",
+          "product_reference": "PRDX0839",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 1,
+          "total_ht": "2.49",
+          "total_ttc": "2.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25562",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32113&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Fino Premium Touch Hair Mask [230g]",
+          "product_reference": "PRDX1057",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.4167",
+          "quantity": 1,
+          "total_ht": "15.42",
+          "total_ttc": "18.5"
+        },
+        {
+          "description": "Black Rice Hyaluronic Toner - 150ml",
+          "product_reference": "PRD00185",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0583",
+          "quantity": 1,
+          "total_ht": "17.06",
+          "total_ttc": "20.47"
+        },
+        {
+          "description": "Centella Phyto 5 Peptide Concentrate Cream",
+          "product_reference": "PRDX0122",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        },
+        {
+          "description": "Black Rice Hyaluronic Anti-Wrinkle Serum",
+          "product_reference": "PRDX0959",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.8333",
+          "quantity": 1,
+          "total_ht": "17.83",
+          "total_ttc": "21.4"
+        },
+        {
+          "description": "Iunik barrier cream",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        },
+        {
+          "description": "Cen24 serum",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "22.3333",
+          "quantity": 1,
+          "total_ht": "22.33",
+          "total_ttc": "26.8"
+        },
+        {
+          "description": "Refreshing Sea Kelp Real Deep Mask",
+          "product_reference": "PRDX1414",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Deep Peptide Radiance Mask",
+          "product_reference": "PRDX1167",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 1,
+          "total_ht": "3.33",
+          "total_ttc": "3.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25560",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32112&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Advanced Snail 92 All in one Cream",
+          "product_reference": "PRD00034",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.4917",
+          "quantity": 1,
+          "total_ht": "17.49",
+          "total_ttc": "20.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25561",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32111&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8806109107136",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "14.7917",
+          "quantity": 1,
+          "total_ht": "14.79",
+          "total_ttc": "17.75"
+        },
+        {
+          "description": "Collagen Remodeling Cream",
+          "product_reference": "PRDX1613",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "31.5833",
+          "quantity": 1,
+          "total_ht": "31.58",
+          "total_ttc": "37.9"
+        },
+        {
+          "description": "8809700320812",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.75",
+          "quantity": 1,
+          "total_ht": "15.75",
+          "total_ttc": "18.9"
+        },
+        {
+          "description": "Green Tomato Pore Lifting Ampoule+",
+          "product_reference": "PRDX0330",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.6583",
+          "quantity": 1,
+          "total_ht": "21.66",
+          "total_ttc": "25.99"
+        },
+        {
+          "description": "Bio Watery Suncream SPF 50+ PA++++",
+          "product_reference": "PRD00163",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.1583",
+          "quantity": 1,
+          "total_ht": "19.16",
+          "total_ttc": "22.99"
+        },
+        {
+          "description": "Tranexamic Acid+Glutathione Eye Cream",
+          "product_reference": "PRDX0048",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "12.9167",
+          "quantity": 1,
+          "total_ht": "12.92",
+          "total_ttc": "15.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25559",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32110&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Dive In Low Mocular Hyaluronic Acid Serum",
+          "product_reference": "PRD00126",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 1,
+          "total_ht": "19.99",
+          "total_ttc": "23.99"
+        },
+        {
+          "description": "8809504741660",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.5833",
+          "quantity": 1,
+          "total_ht": "20.58",
+          "total_ttc": "24.7"
+        },
+        {
+          "description": "Hydro Cera-Nol Real Deep Mask",
+          "product_reference": "PRDX0283",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25558",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32109&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Mask",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 3,
+          "total_ht": "8.75",
+          "total_ttc": "10.5"
+        },
+        {
+          "description": "DIVE-IN Low Molecular Hyaluronic Acid Mask Pack",
+          "product_reference": "PRD00224",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 2,
+          "total_ht": "5.83",
+          "total_ttc": "7"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        },
+        {
+          "description": "Muzigae lip",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "13.75",
+          "quantity": 1,
+          "total_ht": "13.75",
+          "total_ttc": "16.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25557",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32108&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Milk Skin Toner",
+          "product_reference": "PRD00291",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 1,
+          "total_ht": "19.99",
+          "total_ttc": "23.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25556",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32107&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "DIVE-IN Low Molecular Hyaluronic Acid Mask Pack",
+          "product_reference": "PRD00224",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 3,
+          "total_ht": "8.75",
+          "total_ttc": "10.5"
+        },
+        {
+          "description": "Mask",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 1,
+          "total_ht": "3.33",
+          "total_ttc": "3.99"
+        },
+        {
+          "description": "Mask",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 1,
+          "total_ht": "2.49",
+          "total_ttc": "2.99"
+        },
+        {
+          "description": "Mask offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25555",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32106&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Frudia hand cream",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 2,
+          "total_ht": "9.83",
+          "total_ttc": "11.8"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25554",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32105&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Dive In Low Mocular Hyaluronic Acid Serum",
+          "product_reference": "PRD00126",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 1,
+          "total_ht": "19.99",
+          "total_ttc": "23.99"
+        },
+        {
+          "description": "DIVE IN Soothing Cream",
+          "product_reference": "PRDX0140",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.9167",
+          "quantity": 1,
+          "total_ht": "22.92",
+          "total_ttc": "27.5"
+        },
+        {
+          "description": "Medicube pdrn eye cream",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        },
+        {
+          "description": "BOJ eye patch",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "17.4167",
+          "quantity": 1,
+          "total_ht": "17.42",
+          "total_ttc": "20.9"
+        },
+        {
+          "description": "PDRN 100",
+          "product_reference": "PRDX0606",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "28.825",
+          "quantity": 1,
+          "total_ht": "28.83",
+          "total_ttc": "34.59"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25553",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32104&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Triple Collagen Toner",
+          "product_reference": "PRDX0707",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        },
+        {
+          "description": "Triple Collagen Serum",
+          "product_reference": "PRDX0248",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.9167",
+          "quantity": 1,
+          "total_ht": "17.92",
+          "total_ttc": "21.5"
+        },
+        {
+          "description": "Boj serum",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.0833",
+          "quantity": 1,
+          "total_ht": "20.08",
+          "total_ttc": "24.1"
+        },
+        {
+          "description": "147 Barrier Cream",
+          "product_reference": "PRDX1164",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "20.4167",
+          "quantity": 1,
+          "total_ht": "20.42",
+          "total_ttc": "24.5"
+        },
+        {
+          "description": "Centella Mild Cleansing Foam",
+          "product_reference": "PRD00025",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.5833",
+          "quantity": 1,
+          "total_ht": "14.58",
+          "total_ttc": "17.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25552",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32103&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "White Truffle First Spray Serum",
+          "product_reference": "PRDX0578",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4167",
+          "quantity": 1,
+          "total_ht": "22.42",
+          "total_ttc": "26.9"
+        },
+        {
+          "description": "Madagascar Centella Soothing Cream",
+          "product_reference": "PRDX0595",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.0833",
+          "quantity": 1,
+          "total_ht": "19.08",
+          "total_ttc": "22.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25551",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32102&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Mask Fit Red Cushion 23N",
+          "product_reference": "PRDX0349",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 1,
+          "total_ht": "21.25",
+          "total_ttc": "25.5"
+        },
+        {
+          "description": "Radiant Vita Niacinamide Real Deep Mask",
+          "product_reference": "PRDX1415",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Hydro Cera-Nol Real Deep Mask",
+          "product_reference": "PRDX0283",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "PRDX1004-pPRD00441 - PDRN Pink Collagen Gel Mask",
+          "product_reference": null,
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Kojic Acid Turmeric Brightening Gel Mask",
+          "product_reference": "PRDX1607",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Heartleaf 70 Soothing Collagen Mask",
+          "product_reference": "PRDX1521",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.5833",
+          "quantity": 1,
+          "total_ht": "4.58",
+          "total_ttc": "5.5"
+        },
+        {
+          "description": "Mask offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25550",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32101&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 5,
+          "total_ht": "24.58",
+          "total_ttc": "29.5"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25549",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32100&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "TX Retinalsome Double Effect Eyecream 40g",
+          "product_reference": "PRDX1534",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.9167",
+          "quantity": 1,
+          "total_ht": "22.92",
+          "total_ttc": "27.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25548",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32099&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Madeca cream",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.75",
+          "quantity": 1,
+          "total_ht": "20.75",
+          "total_ttc": "24.9"
+        },
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25547",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32098&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Cen24 madeca peeling gel",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "14.7917",
+          "quantity": 1,
+          "total_ht": "14.79",
+          "total_ttc": "17.75"
+        },
+        {
+          "description": "Probio-cica Glow Sun Ampoule SPF50+ PA++++",
+          "product_reference": "PRDX0533",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.825",
+          "quantity": 1,
+          "total_ht": "15.83",
+          "total_ttc": "18.99"
+        },
+        {
+          "description": "Relief Sun Rice + Probiotics SPF 50+ PA ++++",
+          "product_reference": "PRD00004",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7083",
+          "quantity": 1,
+          "total_ht": "15.71",
+          "total_ttc": "18.85"
+        },
+        {
+          "description": "Glutathiosome Dark Spot Serum Vita Drop",
+          "product_reference": "PRDX1605",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.1583",
+          "quantity": 1,
+          "total_ht": "19.16",
+          "total_ttc": "22.99"
+        },
+        {
+          "description": "Purito serum",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.5833",
+          "quantity": 1,
+          "total_ht": "16.58",
+          "total_ttc": "19.9"
+        },
+        {
+          "description": "Tx-Cream (Tranexamic Acid+Niacinamide)",
+          "product_reference": "PRDX1025",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.9167",
+          "quantity": 1,
+          "total_ht": "22.92",
+          "total_ttc": "27.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25546",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32097&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        },
+        {
+          "description": "Heartleaf Pore Control Cleansing Oil - 200ml",
+          "product_reference": "PRD00179",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "16.6583",
+          "quantity": 1,
+          "total_ht": "16.66",
+          "total_ttc": "19.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25545",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32096&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809782559063",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.4167",
+          "quantity": 1,
+          "total_ht": "15.42",
+          "total_ttc": "18.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25544",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32094&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Dr althea cleansing balm",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.5833",
+          "quantity": 1,
+          "total_ht": "16.58",
+          "total_ttc": "19.9"
+        },
+        {
+          "description": "Vegan Collagen Eye Serum",
+          "product_reference": "PRDX0023",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "16.5417",
+          "quantity": 1,
+          "total_ht": "16.54",
+          "total_ttc": "19.85"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25543",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32093&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Hydro Cera-Nol Real Deep Mask",
+          "product_reference": "PRDX0283",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25542",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32092&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Zero Pore Pad 2.0",
+          "product_reference": "PRDX0017",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        },
+        {
+          "description": "Revive Eye Serum : Ginseng + Retinal",
+          "product_reference": "PRD00010",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.9917",
+          "quantity": 1,
+          "total_ht": "14.99",
+          "total_ttc": "17.99"
+        },
+        {
+          "description": "Mask Fit Red Cushion 15C Fair Procelain",
+          "product_reference": "PRDX0925",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 1,
+          "total_ht": "21.25",
+          "total_ttc": "25.5"
+        },
+        {
+          "description": "Mask Fit Red Cushion 23N",
+          "product_reference": "PRDX0349",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 2,
+          "total_ht": "42.5",
+          "total_ttc": "51"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25541",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32091&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Ceramide Ato Lotion",
+          "product_reference": "PRDX0885",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.5833",
+          "quantity": 1,
+          "total_ht": "21.58",
+          "total_ttc": "25.9"
+        },
+        {
+          "description": "Illyoon cream mini",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "12.1667",
+          "quantity": 1,
+          "total_ht": "12.17",
+          "total_ttc": "14.6"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25540",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32090&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Black Rice Moisture 5.5 Soft Cleansing Gel",
+          "product_reference": "PRD00334",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "13.9167",
+          "quantity": 2,
+          "total_ht": "27.83",
+          "total_ttc": "33.4"
+        },
+        {
+          "description": "Light Cleansing Oil",
+          "product_reference": "PRD00110",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.9167",
+          "quantity": 1,
+          "total_ht": "17.92",
+          "total_ttc": "21.5"
+        },
+        {
+          "description": "Galactomy Enzyme Peeling Gel",
+          "product_reference": "PRDX0448",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.1583",
+          "quantity": 1,
+          "total_ht": "14.16",
+          "total_ttc": "16.99"
+        },
+        {
+          "description": "Heve blue eye cream",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "9.5833",
+          "quantity": 1,
+          "total_ht": "9.58",
+          "total_ttc": "11.5"
+        },
+        {
+          "description": "Ahc cream",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.625",
+          "quantity": 1,
+          "total_ht": "20.63",
+          "total_ttc": "24.75"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25539",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32089&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Black Rice Moisture 5.5 Soft Cleansing Gel",
+          "product_reference": "PRD00334",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "13.9167",
+          "quantity": 1,
+          "total_ht": "13.92",
+          "total_ttc": "16.7"
+        },
+        {
+          "description": "8809891184316",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 1,
+          "total_ht": "21.25",
+          "total_ttc": "25.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25538",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32088&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "8809891184606",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25537",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32087&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8800289461071",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "24.1583",
+          "quantity": 1,
+          "total_ht": "24.16",
+          "total_ttc": "28.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25536",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32086&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25535",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32085&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Heartleaf Pore Control Cleansing Oil - 200ml",
+          "product_reference": "PRD00179",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "16.6583",
+          "quantity": 1,
+          "total_ht": "16.66",
+          "total_ttc": "19.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25534",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32084&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8806109105668",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 1,
+          "total_ht": "2.92",
+          "total_ttc": "3.5"
+        },
+        {
+          "description": "No.5 Vitamin Spotlight Sheet Mask",
+          "product_reference": "PRDX0778",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 1,
+          "total_ht": "2.92",
+          "total_ttc": "3.5"
+        },
+        {
+          "description": "Balanceful Mask",
+          "product_reference": "PRDX1470",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 1,
+          "total_ht": "2.92",
+          "total_ttc": "3.5"
+        },
+        {
+          "description": "Aura Quartz Hydrogel Face Mask [Crystal Rose]",
+          "product_reference": "PRDX0279",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "3.75",
+          "quantity": 1,
+          "total_ht": "3.75",
+          "total_ttc": "4.5"
+        },
+        {
+          "description": "Collagen Essentiel Mask Tightening",
+          "product_reference": "PRDX1006",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 1,
+          "total_ht": "2.92",
+          "total_ttc": "3.5"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        },
+        {
+          "description": "8809695240621",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "17.9167",
+          "quantity": 1,
+          "total_ht": "17.92",
+          "total_ttc": "21.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25533",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32083&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "d'Alba Piedmont White Truffle Serum Royal",
+          "product_reference": "PRDX0320",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "23.1833",
+          "quantity": 1,
+          "total_ht": "23.18",
+          "total_ttc": "27.82"
+        },
+        {
+          "description": "Fino Premium Touch Hair Oil",
+          "product_reference": "PRDX1502",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        },
+        {
+          "description": "Vitamin Illuminating Serum",
+          "product_reference": "PRDX1585",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 1,
+          "total_ht": "19.99",
+          "total_ttc": "23.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25532",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32081&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Hydro Cera-Nol Real Deep Mask",
+          "product_reference": "PRDX0283",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 3,
+          "total_ht": "14.75",
+          "total_ttc": "17.7"
+        },
+        {
+          "description": "Radiant Vita Niacinamide Real Deep Mask",
+          "product_reference": "PRDX1415",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Refreshing Sea Kelp Real Deep Mask",
+          "product_reference": "PRDX1414",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25531",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32080&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Quercetinol Pore Deep Cleansing Foam",
+          "product_reference": "PRD00356",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "13.25",
+          "quantity": 1,
+          "total_ht": "13.25",
+          "total_ttc": "15.9"
+        },
+        {
+          "description": "Deep Vita C Capsule Cream",
+          "product_reference": "PRDX1135",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.0833",
+          "quantity": 1,
+          "total_ht": "22.08",
+          "total_ttc": "26.5"
+        },
+        {
+          "description": "Collagen gel mask Sedum jelly",
+          "product_reference": "PRDX0648",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 1,
+          "total_ht": "3.33",
+          "total_ttc": "3.99"
+        },
+        {
+          "description": "Kojic Acid Turmeric Brightening Gel Mask",
+          "product_reference": "PRDX1607",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 2,
+          "total_ht": "9.83",
+          "total_ttc": "11.8"
+        },
+        {
+          "description": "PRDX1004-pPRD00441 - PDRN Pink Collagen Gel Mask",
+          "product_reference": null,
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 2,
+          "total_ht": "9.83",
+          "total_ttc": "11.8"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25530",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32079&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8800280692283",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25529",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32078&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Relief Sun Rice + Probiotics SPF 50+ PA ++++",
+          "product_reference": "PRD00004",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7083",
+          "quantity": 1,
+          "total_ht": "15.71",
+          "total_ttc": "18.85"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25528",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32077&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "The Niacinamide 15",
+          "product_reference": "PRD00282",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "18.325",
+          "quantity": 1,
+          "total_ht": "18.33",
+          "total_ttc": "21.99"
+        },
+        {
+          "description": "8809598455726",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "4.1667",
+          "quantity": 1,
+          "total_ht": "4.17",
+          "total_ttc": "5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25527",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32076&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "1025 Dokdo Cleanser",
+          "product_reference": "PRD00275",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.5833",
+          "quantity": 1,
+          "total_ht": "14.58",
+          "total_ttc": "17.5"
+        },
+        {
+          "description": "1025 Dokdo Light Cream",
+          "product_reference": "PRD00281",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.9167",
+          "quantity": 1,
+          "total_ht": "22.92",
+          "total_ttc": "27.5"
+        },
+        {
+          "description": "Green Tomato Pore Lifting Ampoule+",
+          "product_reference": "PRDX0330",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.6583",
+          "quantity": 1,
+          "total_ht": "21.66",
+          "total_ttc": "25.99"
+        },
+        {
+          "description": "Kojic Acid Turmeric Brightening Gel Mask",
+          "product_reference": "PRDX1607",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 3,
+          "total_ht": "14.75",
+          "total_ttc": "17.7"
+        },
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 2,
+          "total_ht": "9.83",
+          "total_ttc": "11.8"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25526",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32075&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "DIVE-IN Low Molecular Hyaluronic Acid Mask Pack",
+          "product_reference": "PRD00224",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 2,
+          "total_ht": "5.83",
+          "total_ttc": "7"
+        },
+        {
+          "description": "8806109105668",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 1,
+          "total_ht": "2.92",
+          "total_ttc": "3.5"
+        },
+        {
+          "description": "8809032672863",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.6667",
+          "quantity": 2,
+          "total_ht": "5.33",
+          "total_ttc": "6.4"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "0",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25525",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32074&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Gentle Vitamin C Serum",
+          "product_reference": "PRDX0601",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "18.325",
+          "quantity": 1,
+          "total_ht": "18.33",
+          "total_ttc": "21.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25524",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32071&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Weightless Sun Fluid",
+          "product_reference": "PRDX1082",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25523",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32070&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Birch Juice SunScreen High Protection SPF 50",
+          "product_reference": "PRD00138",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.4167",
+          "quantity": 1,
+          "total_ht": "17.42",
+          "total_ttc": "20.9"
+        },
+        {
+          "description": "Dynasty Cream",
+          "product_reference": "PRD00001",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.9167",
+          "quantity": 1,
+          "total_ht": "17.92",
+          "total_ttc": "21.5"
+        },
+        {
+          "description": "Quercetinol Pore Deep Cleansing Foam",
+          "product_reference": "PRD00356",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "13.25",
+          "quantity": 1,
+          "total_ht": "13.25",
+          "total_ttc": "15.9"
+        },
+        {
+          "description": "Madagascar Centella Tone Brightening Capsule Ampoule",
+          "product_reference": "PRD00321",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.0833",
+          "quantity": 1,
+          "total_ht": "19.08",
+          "total_ttc": "22.9"
+        },
+        {
+          "description": "Zero Pore Pad 2.0",
+          "product_reference": "PRDX0017",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25522",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32069&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809784600978",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        },
+        {
+          "description": "8809784600985",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "20.4167",
+          "quantity": 1,
+          "total_ht": "20.42",
+          "total_ttc": "24.5"
+        },
+        {
+          "description": "Hyaluronic Acid Intensive Cream",
+          "product_reference": "PRDX0545",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.4167",
+          "quantity": 1,
+          "total_ht": "17.42",
+          "total_ttc": "20.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25521",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32068&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Fino Premium Touch Hair Mask [230g]",
+          "product_reference": "PRDX1057",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.4167",
+          "quantity": 1,
+          "total_ht": "15.42",
+          "total_ttc": "18.5"
+        },
+        {
+          "description": "Rice 70 Glow Collagen Mask",
+          "product_reference": "PRDX1522",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.5833",
+          "quantity": 1,
+          "total_ht": "4.58",
+          "total_ttc": "5.5"
+        },
+        {
+          "description": "Deep Peptide Radiance Mask",
+          "product_reference": "PRDX1167",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 3,
+          "total_ht": "9.98",
+          "total_ttc": "11.97"
+        },
+        {
+          "description": "DIVE-IN Low Molecular Hyaluronic Acid Mask Pack",
+          "product_reference": "PRD00224",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 1,
+          "total_ht": "2.92",
+          "total_ttc": "3.5"
+        },
+        {
+          "description": "Mask offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        },
+        {
+          "description": "Star spot patch",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.5",
+          "quantity": 1,
+          "total_ht": "2.5",
+          "total_ttc": "3"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25520",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32067&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Nutritive Cream",
+          "product_reference": "PRDX1363",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "30.8333",
+          "quantity": 1,
+          "total_ht": "30.83",
+          "total_ttc": "37"
+        },
+        {
+          "description": "Rejuran serum",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "35.8333",
+          "quantity": 1,
+          "total_ht": "35.83",
+          "total_ttc": "43"
+        },
+        {
+          "description": "Mask",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "6.25",
+          "quantity": 1,
+          "total_ht": "6.25",
+          "total_ttc": "7.5"
+        },
+        {
+          "description": "PRDX1004-pPRD00441 - PDRN Pink Collagen Gel Mask",
+          "product_reference": null,
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "No.9 Nad+ Bio Lifting-sil Full Face Mask",
+          "product_reference": "PRDX1582",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Mask",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 2,
+          "total_ht": "6.65",
+          "total_ttc": "7.98"
+        },
+        {
+          "description": "Eye patch",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.6667",
+          "quantity": 2,
+          "total_ht": "5.33",
+          "total_ttc": "6.4"
+        },
+        {
+          "description": "Eye mask",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.5",
+          "quantity": 1,
+          "total_ht": "3.5",
+          "total_ttc": "4.2"
+        },
+        {
+          "description": "Lip mask",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3",
+          "quantity": 1,
+          "total_ht": "3",
+          "total_ttc": "3.6"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25519",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32066&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 4,
+          "total_ht": "19.67",
+          "total_ttc": "23.6"
+        },
+        {
+          "description": "Radiant Vita Niacinamide Real Deep Mask",
+          "product_reference": "PRDX1415",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25517",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32065&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809525932771",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.6667",
+          "quantity": 1,
+          "total_ht": "2.67",
+          "total_ttc": "3.2"
+        },
+        {
+          "description": "Rice 70 Glow Collagen Mask",
+          "product_reference": "PRDX1522",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.5833",
+          "quantity": 1,
+          "total_ht": "4.58",
+          "total_ttc": "5.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25518",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32064&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809913833093",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 2,
+          "total_ht": "4.98",
+          "total_ttc": "5.98"
+        },
+        {
+          "description": "8806109105668",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 1,
+          "total_ht": "2.92",
+          "total_ttc": "3.5"
+        },
+        {
+          "description": "Hydro Cera-Nol Real Deep Mask",
+          "product_reference": "PRDX0283",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "8809886481680",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 1,
+          "total_ht": "2.49",
+          "total_ttc": "2.99"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "0",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25516",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32063&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        },
+        {
+          "description": "8809640738135",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "10",
+          "unit_price_ht": "25.9091",
+          "quantity": 1,
+          "total_ht": "25.91",
+          "total_ttc": "28.5"
+        },
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25515",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32062&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8800289461071",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "24.1583",
+          "quantity": 1,
+          "total_ht": "24.16",
+          "total_ttc": "28.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25514",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32058&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Pure Cleansing Oil",
+          "product_reference": "PRDX0452",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4167",
+          "quantity": 1,
+          "total_ht": "22.42",
+          "total_ttc": "26.9"
+        },
+        {
+          "description": "8809936743195",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "11.25",
+          "quantity": 1,
+          "total_ht": "11.25",
+          "total_ttc": "13.5"
+        },
+        {
+          "description": "8809891184583",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 5,
+          "total_ht": "24.58",
+          "total_ttc": "29.5"
+        },
+        {
+          "description": "Masque offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25513",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32057&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 5,
+          "total_ht": "24.58",
+          "total_ttc": "29.5"
+        },
+        {
+          "description": "Mask offert",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25512",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32056&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Zero Pore Pad 2.0",
+          "product_reference": "PRDX0017",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        },
+        {
+          "description": "Niacinamide 10% TXA 4% Serum",
+          "product_reference": "PRDX0184",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 1,
+          "total_ht": "19.99",
+          "total_ttc": "23.99"
+        },
+        {
+          "description": "Rice 70 Glow Milky Toner",
+          "product_reference": "PRDX0864",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "18.325",
+          "quantity": 1,
+          "total_ht": "18.33",
+          "total_ttc": "21.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25511",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32055&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Hyaluronic Acid Watery Sun Gel SPF 50+ PA++++",
+          "product_reference": "PRDX0052",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.3333",
+          "quantity": 1,
+          "total_ht": "15.33",
+          "total_ttc": "18.4"
+        },
+        {
+          "description": "Niacinamide 10% TXA 4% Serum",
+          "product_reference": "PRDX0184",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 1,
+          "total_ht": "19.99",
+          "total_ttc": "23.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25510",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32053&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        },
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25509",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32052&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Menokin",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "17.9167",
+          "quantity": 1,
+          "total_ht": "17.92",
+          "total_ttc": "21.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25508",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32051&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Vita Collagen Mask",
+          "product_reference": "PRDX1385",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.5833",
+          "quantity": 2,
+          "total_ht": "9.17",
+          "total_ttc": "11"
+        },
+        {
+          "description": "Anua toner pad",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 1,
+          "total_ht": "19.99",
+          "total_ttc": "23.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25507",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32050&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Zero Pore Pad 2.0",
+          "product_reference": "PRDX0017",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        },
+        {
+          "description": "Retinal shot",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.75",
+          "quantity": 1,
+          "total_ht": "15.75",
+          "total_ttc": "18.9"
+        },
+        {
+          "description": "Dr G snail set",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        },
+        {
+          "description": "Noni Ampoule Calming + Radiance",
+          "product_reference": "PRDX0769",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24562",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30921&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24561",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30919&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Cemenrete Calcium Volume Eye Patch",
+          "product_reference": "PRDX1528",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24560",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30918&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Vt",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "11.6583",
+          "quantity": 1,
+          "total_ht": "11.66",
+          "total_ttc": "13.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24559",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30917&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Anua Heartleaf Succinic Moisture Cleansing Foam",
+          "product_reference": "PRDX0033",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "16.0417",
+          "quantity": 1,
+          "total_ht": "16.04",
+          "total_ttc": "19.25"
+        },
+        {
+          "description": "Vitamin C Boosting Serum [63%]",
+          "product_reference": "PRDX1320",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.4917",
+          "quantity": 1,
+          "total_ht": "17.49",
+          "total_ttc": "20.99"
+        },
+        {
+          "description": "Radiance Cleansing Balm",
+          "product_reference": "PRD00003",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.825",
+          "quantity": 1,
+          "total_ht": "15.83",
+          "total_ttc": "18.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24558",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30914&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Azelaic Acid 10 Hyaluron Redness Soothing Serum",
+          "product_reference": "PRDX1418",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "20.75",
+          "quantity": 1,
+          "total_ht": "20.75",
+          "total_ttc": "24.9"
+        },
+        {
+          "description": "Aestura",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "26.6583",
+          "quantity": 1,
+          "total_ht": "26.66",
+          "total_ttc": "31.99"
+        },
+        {
+          "description": "1025 Dokdo Cleanser",
+          "product_reference": "PRD00275",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "11.25",
+          "quantity": 1,
+          "total_ht": "11.25",
+          "total_ttc": "13.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24557",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30913&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Rejuran cream",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "24.9167",
+          "quantity": 1,
+          "total_ht": "24.92",
+          "total_ttc": "29.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24556",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30910&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Centella",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.5",
+          "quantity": 1,
+          "total_ht": "15.5",
+          "total_ttc": "18.6"
+        },
+        {
+          "description": "Abib",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 1,
+          "total_ht": "3.33",
+          "total_ttc": "3.99"
+        },
+        {
+          "description": "Centella Asiatica Calming Mask",
+          "product_reference": "PRD00016",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 2,
+          "total_ht": "4.98",
+          "total_ttc": "5.98"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24555",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30908&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Deep Lifting Peptide Eye Cream For Face",
+          "product_reference": "PRDX1246",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.0833",
+          "quantity": 1,
+          "total_ht": "22.08",
+          "total_ttc": "26.5"
+        },
+        {
+          "description": "Collagen Eye Patch",
+          "product_reference": "PRDX0116",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        },
+        {
+          "description": "Refreshing Sea Kelp Real Deep Mask",
+          "product_reference": "PRDX1414",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 2,
+          "total_ht": "9.83",
+          "total_ttc": "11.8"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24554",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30907&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Black Rice Probiotics Barrier Essence a.k.a Makgeolli",
+          "product_reference": "PRDX0872",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.4167",
+          "quantity": 1,
+          "total_ht": "17.42",
+          "total_ttc": "20.9"
+        },
+        {
+          "description": "Bipdance pdrn",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24553",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30906&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "AGE-R Glutathione Glow Capsule Cream",
+          "product_reference": "PRDX0616",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "29.5",
+          "quantity": 1,
+          "total_ht": "29.5",
+          "total_ttc": "35.4"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24552",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30905&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Medicube - Triple Collagen Cream 4.0",
+          "product_reference": "PRDX0074",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.6583",
+          "quantity": 1,
+          "total_ht": "21.66",
+          "total_ttc": "25.99"
+        },
+        {
+          "description": "Biodance pdrn",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 4,
+          "total_ht": "19.67",
+          "total_ttc": "23.6"
+        },
+        {
+          "description": "Deep Collagen Hyalu-B5 Hydrating Mask",
+          "product_reference": "PRDX1519",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24551",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30901&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Centella pore",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.6583",
+          "quantity": 1,
+          "total_ht": "16.66",
+          "total_ttc": "19.99"
+        },
+        {
+          "description": "Collagen Night Wrapping Mask",
+          "product_reference": "PRDX0075",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.1583",
+          "quantity": 1,
+          "total_ht": "19.16",
+          "total_ttc": "22.99"
+        },
+        {
+          "description": "Medicube serum",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "17.4167",
+          "quantity": 1,
+          "total_ht": "17.42",
+          "total_ttc": "20.9"
+        },
+        {
+          "description": "Rose pdrn",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 2,
+          "total_ht": "5.83",
+          "total_ttc": "7"
+        },
+        {
+          "description": "Pince",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.75",
+          "quantity": 1,
+          "total_ht": "3.75",
+          "total_ttc": "4.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24550",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30900&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Fino Premium Touch Shampoo",
+          "product_reference": "PRDX1020",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 1,
+          "total_ht": "21.25",
+          "total_ttc": "25.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24549",
+      "date": "21/04/2026",
+      "raw_date": "21/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30899&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Foam menokin",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "17.4167",
+          "quantity": 1,
+          "total_ht": "17.42",
+          "total_ttc": "20.9"
+        },
+        {
+          "description": "Fino Premium Touch Shampoo",
+          "product_reference": "PRDX1020",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 1,
+          "total_ht": "21.25",
+          "total_ttc": "25.5"
+        },
+        {
+          "description": "Fino Premium Touch Conditioner",
+          "product_reference": "PRDX1334",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "20",
+          "quantity": 1,
+          "total_ht": "20",
+          "total_ttc": "24"
+        },
+        {
+          "description": "Zero Pore Cooling Mask",
+          "product_reference": "PRDX1169",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 1,
+          "total_ht": "2.92",
+          "total_ttc": "3.5"
+        },
+        {
+          "description": "Yuja Niacin Blemish Care Serum Mask",
+          "product_reference": "PRDX1384",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 1,
+          "total_ht": "2.92",
+          "total_ttc": "3.5"
+        },
+        {
+          "description": "Retinol Intense Reactivating Mask",
+          "product_reference": "PRDX1631",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "3.75",
+          "quantity": 3,
+          "total_ht": "11.25",
+          "total_ttc": "13.5"
+        },
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24548",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30898&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24546",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30897&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Zero Pore Pad 2.0",
+          "product_reference": "PRDX0017",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24547",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30896&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809506311199",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.5",
+          "quantity": 1,
+          "total_ht": "3.5",
+          "total_ttc": "4.2"
+        },
+        {
+          "description": "PRDX1004-pPRD00441 - PDRN Pink Collagen Gel Mask",
+          "product_reference": null,
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Collagen Lifting Mask",
+          "product_reference": "PRDX1168",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 1,
+          "total_ht": "2.92",
+          "total_ttc": "3.5"
+        },
+        {
+          "description": "Retinol Intense Reactivating Mask",
+          "product_reference": "PRDX1631",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "3.75",
+          "quantity": 1,
+          "total_ht": "3.75",
+          "total_ttc": "4.5"
+        },
+        {
+          "description": "8809886482595",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "26.25",
+          "quantity": 1,
+          "total_ht": "26.25",
+          "total_ttc": "31.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24545",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30895&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Ceramide Ato Concentrate Cream",
+          "product_reference": "PRDX1092",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "23.25",
+          "quantity": 1,
+          "total_ht": "23.25",
+          "total_ttc": "27.9"
+        },
+        {
+          "description": "Code:PMM05",
+          "product_reference": null,
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "-1.1667",
+          "quantity": 1,
+          "total_ht": "-1.17",
+          "total_ttc": "-1.4"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24544",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30894&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24543",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30893&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8800256114399",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "18.8333",
+          "quantity": 1,
+          "total_ht": "18.83",
+          "total_ttc": "22.6"
+        },
+        {
+          "description": "Zero Pore Pad 2.0",
+          "product_reference": "PRDX0017",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.4917",
+          "quantity": 1,
+          "total_ht": "22.49",
+          "total_ttc": "26.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24542",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30892&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Nutritive Cream",
+          "product_reference": "PRDX1363",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "29.5833",
+          "quantity": 1,
+          "total_ht": "29.58",
+          "total_ttc": "35.5"
+        },
+        {
+          "description": "White Collagen Cleansing Foam",
+          "product_reference": "PRDX0236",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.5833",
+          "quantity": 1,
+          "total_ht": "14.58",
+          "total_ttc": "17.5"
+        },
+        {
+          "description": "Collagen Remodeling Cream",
+          "product_reference": "PRDX1613",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "28.0833",
+          "quantity": 1,
+          "total_ht": "28.08",
+          "total_ttc": "33.7"
+        },
+        {
+          "description": "8800256114399",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "18.8333",
+          "quantity": 1,
+          "total_ht": "18.83",
+          "total_ttc": "22.6"
+        },
+        {
+          "description": "8800256119042",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24541",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30891&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Collagen Remodeling Cream",
+          "product_reference": "PRDX1613",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "28.0833",
+          "quantity": 1,
+          "total_ht": "28.08",
+          "total_ttc": "33.7"
+        },
+        {
+          "description": "Deep Peptide Radiance Mask",
+          "product_reference": "PRDX1167",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 2,
+          "total_ht": "6.65",
+          "total_ttc": "7.98"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24540",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30890&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809759082327",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 1,
+          "total_ht": "21.25",
+          "total_ttc": "25.5"
+        },
+        {
+          "description": "Nutritive Cream",
+          "product_reference": "PRDX1363",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "29.5833",
+          "quantity": 1,
+          "total_ht": "29.58",
+          "total_ttc": "35.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24539",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30889&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809891184316",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 1,
+          "total_ht": "21.25",
+          "total_ttc": "25.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24538",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30888&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        },
+        {
+          "description": "Ultra-Thin Spot Cover Patch",
+          "product_reference": "PRDX1594",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.1583",
+          "quantity": 1,
+          "total_ht": "14.16",
+          "total_ttc": "16.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24537",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30885&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Relief Sun Aqua Fresh Rice + B5",
+          "product_reference": "PRDX0826",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7917",
+          "quantity": 1,
+          "total_ht": "15.79",
+          "total_ttc": "18.95"
+        },
+        {
+          "description": "Vegan Collagen Eye Serum",
+          "product_reference": "PRDX0023",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "16.5417",
+          "quantity": 1,
+          "total_ht": "16.54",
+          "total_ttc": "19.85"
+        },
+        {
+          "description": "8800280692283",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        },
+        {
+          "description": "8809891184606",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "8809864752313",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 1,
+          "total_ht": "3.33",
+          "total_ttc": "3.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24536",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30884&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Bio Collagen - Real Deep Mask",
+          "product_reference": "PRDX0289",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "8809913833154",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 2,
+          "total_ht": "4.98",
+          "total_ttc": "5.98"
+        },
+        {
+          "description": "8809936740330",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 2,
+          "total_ht": "4.98",
+          "total_ttc": "5.98"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24535",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30883&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "PDRN Hyaluronic Acid Capsule 100 Serum",
+          "product_reference": "PRDX1477",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "20.4167",
+          "quantity": 1,
+          "total_ht": "20.42",
+          "total_ttc": "24.5"
+        },
+        {
+          "description": "8809447256115",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.4167",
+          "quantity": 2,
+          "total_ht": "30.83",
+          "total_ttc": "37"
+        },
+        {
+          "description": "8800307371672",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        },
+        {
+          "description": "8809700320812",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.75",
+          "quantity": 2,
+          "total_ht": "31.5",
+          "total_ttc": "37.8"
+        },
+        {
+          "description": "Atobarrier 365 Cream",
+          "product_reference": "PRDX0887",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "26.6583",
+          "quantity": 1,
+          "total_ht": "26.66",
+          "total_ttc": "31.99"
+        },
+        {
+          "description": "Reedle Shot Lifting Eye Cream",
+          "product_reference": "PRDX0479",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "24.5833",
+          "quantity": 1,
+          "total_ht": "24.58",
+          "total_ttc": "29.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24534",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30882&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Collagen Remodeling Cream",
+          "product_reference": "PRDX1613",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "28.0833",
+          "quantity": 1,
+          "total_ht": "28.08",
+          "total_ttc": "33.7"
+        },
+        {
+          "description": "Centella Calming Gel Cream",
+          "product_reference": "PRD00020",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.9917",
+          "quantity": 1,
+          "total_ht": "14.99",
+          "total_ttc": "17.99"
+        },
+        {
+          "description": "8809527486463",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "22.3333",
+          "quantity": 1,
+          "total_ht": "22.33",
+          "total_ttc": "26.8"
+        },
+        {
+          "description": "Refreshing Sea Kelp Real Deep Mask",
+          "product_reference": "PRDX1414",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 2,
+          "total_ht": "9.83",
+          "total_ttc": "11.8"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24533",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30881&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "No.9 Nad+ Bio Lifting-sil Full Face Mask",
+          "product_reference": "PRDX1582",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "8809527486463",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "22.3333",
+          "quantity": 1,
+          "total_ht": "22.33",
+          "total_ttc": "26.8"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24532",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30880&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8800253025469",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "6.25",
+          "quantity": 4,
+          "total_ht": "25",
+          "total_ttc": "30"
+        },
+        {
+          "description": "Eyephalt Eyecream for Eyebags",
+          "product_reference": "PRDX1396",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "25.4167",
+          "quantity": 1,
+          "total_ht": "25.42",
+          "total_ttc": "30.5"
+        },
+        {
+          "description": "8800253022413",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "24.8333",
+          "quantity": 1,
+          "total_ht": "24.83",
+          "total_ttc": "29.8"
+        },
+        {
+          "description": "8809563103973",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.5833",
+          "quantity": 1,
+          "total_ht": "16.58",
+          "total_ttc": "19.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24531",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30879&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Birch Juice Moisturizing Sun Stick",
+          "product_reference": "PRDX0053",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.1583",
+          "quantity": 1,
+          "total_ht": "19.16",
+          "total_ttc": "22.99"
+        },
+        {
+          "description": "Black Rice Bakuchiol Eye Cream",
+          "product_reference": "PRD00227",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "13.9167",
+          "quantity": 1,
+          "total_ht": "13.92",
+          "total_ttc": "16.7"
+        },
+        {
+          "description": "Relief Sun Aqua Fresh Rice + B5",
+          "product_reference": "PRDX0826",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7917",
+          "quantity": 1,
+          "total_ht": "15.79",
+          "total_ttc": "18.95"
+        },
+        {
+          "description": "8809640737763",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 1,
+          "total_ht": "3.33",
+          "total_ttc": "3.99"
+        },
+        {
+          "description": "8809652588728",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 2,
+          "total_ht": "5.83",
+          "total_ttc": "7"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24530",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30877&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "4550516485830",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "14.5833",
+          "quantity": 1,
+          "total_ht": "14.58",
+          "total_ttc": "17.5"
+        },
+        {
+          "description": "4550516491190",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.1583",
+          "quantity": 1,
+          "total_ht": "19.16",
+          "total_ttc": "22.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24529",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30876&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Relief Sun Rice + Probiotics SPF 50+ PA ++++",
+          "product_reference": "PRD00004",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7083",
+          "quantity": 1,
+          "total_ht": "15.71",
+          "total_ttc": "18.85"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24528",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30875&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Ampoule Foam",
+          "product_reference": "PRD00186",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.1583",
+          "quantity": 1,
+          "total_ht": "14.16",
+          "total_ttc": "16.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24527",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30874&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Hydro Cera-Nol Real Deep Mask",
+          "product_reference": "PRDX0283",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24526",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30873&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Refreshing Sea Kelp Real Deep Mask",
+          "product_reference": "PRDX1414",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "8809913833154",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 1,
+          "total_ht": "2.49",
+          "total_ttc": "2.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24525",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30872&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Retinal Liposome 4% + Fermented Bean",
+          "product_reference": "PRDX1621",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24524",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30871&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Deep Vita C Capsule Cream",
+          "product_reference": "PRDX1135",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.0833",
+          "quantity": 1,
+          "total_ht": "22.08",
+          "total_ttc": "26.5"
+        },
+        {
+          "description": "Black Snail Cream",
+          "product_reference": "PRDX0738",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "23.75",
+          "quantity": 1,
+          "total_ht": "23.75",
+          "total_ttc": "28.5"
+        },
+        {
+          "description": "Relief Sun Aqua Fresh Rice + B5",
+          "product_reference": "PRDX0826",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7917",
+          "quantity": 1,
+          "total_ht": "15.79",
+          "total_ttc": "18.95"
+        },
+        {
+          "description": "8809891184606",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24523",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30870&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Deep Vita C Capsule Cream",
+          "product_reference": "PRDX1135",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.0833",
+          "quantity": 1,
+          "total_ht": "22.08",
+          "total_ttc": "26.5"
+        },
+        {
+          "description": "Rice Cream",
+          "product_reference": "PRDX0547",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.0833",
+          "quantity": 1,
+          "total_ht": "22.08",
+          "total_ttc": "26.5"
+        },
+        {
+          "description": "Relief Sun Rice + Probiotics SPF 50+ PA ++++",
+          "product_reference": "PRD00004",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7083",
+          "quantity": 1,
+          "total_ht": "15.71",
+          "total_ttc": "18.85"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24522",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30869&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 1,
+          "total_ht": "19.92",
+          "total_ttc": "23.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24521",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30868&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809864752313",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 2,
+          "total_ht": "6.65",
+          "total_ttc": "7.98"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24520",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30866&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Rice 70 Glow Collagen Mask",
+          "product_reference": "PRDX1522",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.5833",
+          "quantity": 1,
+          "total_ht": "4.58",
+          "total_ttc": "5.5"
+        },
+        {
+          "description": "No.9 Nad+ Bio Lifting-sil Full Face Mask",
+          "product_reference": "PRDX1582",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "Kojic Acid Turmeric Brightening Gel Mask",
+          "product_reference": "PRDX1607",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "PRDX1004-pPRD00441 - PDRN Pink Collagen Gel Mask",
+          "product_reference": null,
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 1,
+          "total_ht": "4.92",
+          "total_ttc": "5.9"
+        },
+        {
+          "description": "8809652588728",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.9167",
+          "quantity": 2,
+          "total_ht": "5.83",
+          "total_ttc": "7"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24519",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30865&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "TX Retinalsome Double Effect Eyecream 40g",
+          "product_reference": "PRDX1534",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.9167",
+          "quantity": 1,
+          "total_ht": "22.92",
+          "total_ttc": "27.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24518",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30864&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Rice 7 + Ceramide Serum",
+          "product_reference": "PRDX0800",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.5833",
+          "quantity": 1,
+          "total_ht": "19.58",
+          "total_ttc": "23.5"
+        },
+        {
+          "description": "Black Yuja Bean Lifting Eye Cream",
+          "product_reference": "PRDX1555",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "20.825",
+          "quantity": 1,
+          "total_ht": "20.83",
+          "total_ttc": "24.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24517",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30863&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Rice 7 + Ceramide Serum",
+          "product_reference": "PRDX0800",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.5833",
+          "quantity": 1,
+          "total_ht": "19.58",
+          "total_ttc": "23.5"
+        },
+        {
+          "description": "Relief Sun Rice + Probiotics SPF 50+ PA ++++",
+          "product_reference": "PRD00004",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7083",
+          "quantity": 1,
+          "total_ht": "15.71",
+          "total_ttc": "18.85"
+        },
+        {
+          "description": "Revive Eye Serum : Ginseng + Retinal",
+          "product_reference": "PRD00010",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.9917",
+          "quantity": 1,
+          "total_ht": "14.99",
+          "total_ttc": "17.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24516",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30862&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "No.1 Pure-full Calming Herb Toner",
+          "product_reference": "PRDX0060",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "18.325",
+          "quantity": 1,
+          "total_ht": "18.33",
+          "total_ttc": "21.99"
+        },
+        {
+          "description": "Noni Ampoule Calming + Radiance",
+          "product_reference": "PRDX0769",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "17.0833",
+          "quantity": 1,
+          "total_ht": "17.08",
+          "total_ttc": "20.5"
+        },
+        {
+          "description": "Cica Bha Acne Foam Cleansing",
+          "product_reference": "PRDX1616",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "11.9167",
+          "quantity": 1,
+          "total_ht": "11.92",
+          "total_ttc": "14.3"
+        },
+        {
+          "description": "8809615057063",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 2,
+          "total_ht": "4.98",
+          "total_ttc": "5.98"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24515",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30861&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809971489911",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.4167",
+          "quantity": 1,
+          "total_ht": "15.42",
+          "total_ttc": "18.5"
+        },
+        {
+          "description": "8803463017392",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "30.4167",
+          "quantity": 1,
+          "total_ht": "30.42",
+          "total_ttc": "36.5"
+        },
+        {
+          "description": "8809684561270",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "8.1667",
+          "quantity": 1,
+          "total_ht": "8.17",
+          "total_ttc": "9.8"
+        },
+        {
+          "description": "8809615056967",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 1,
+          "total_ht": "2.49",
+          "total_ttc": "2.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24514",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30860&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809640738470",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 1,
+          "total_ht": "19.99",
+          "total_ttc": "23.99"
+        },
+        {
+          "description": "8800253025469",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "6.25",
+          "quantity": 1,
+          "total_ht": "6.25",
+          "total_ttc": "7.5"
+        },
+        {
+          "description": "8809615057063",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "2.4917",
+          "quantity": 2,
+          "total_ht": "4.98",
+          "total_ttc": "5.98"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24513",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30859&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Collagen gel mask Jericho rose jelly",
+          "product_reference": "PRDX0649",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "3.325",
+          "quantity": 1,
+          "total_ht": "3.33",
+          "total_ttc": "3.99"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24512",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30858&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Niacinamide 10% TXA 4% Serum",
+          "product_reference": "PRDX0184",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 2,
+          "total_ht": "39.98",
+          "total_ttc": "47.98"
+        },
+        {
+          "description": "Ampoule - 100m",
+          "product_reference": "PRD00117",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.1583",
+          "quantity": 1,
+          "total_ht": "19.16",
+          "total_ttc": "22.99"
+        },
+        {
+          "description": "Mask Fit Red Cushion 21N",
+          "product_reference": "PRDX0350",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 2,
+          "total_ht": "42.5",
+          "total_ttc": "51"
+        },
+        {
+          "description": "Mask Fit Red Cushion 27N",
+          "product_reference": "PRDX0351",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "21.25",
+          "quantity": 1,
+          "total_ht": "21.25",
+          "total_ttc": "25.5"
+        },
+        {
+          "description": "Ampoule Foam",
+          "product_reference": "PRD00186",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "14.1583",
+          "quantity": 1,
+          "total_ht": "14.16",
+          "total_ttc": "16.99"
+        },
+        {
+          "description": "Acclean",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "21.5833",
+          "quantity": 1,
+          "total_ht": "21.58",
+          "total_ttc": "25.9"
+        },
+        {
+          "description": "4901111665026",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "4.1667",
+          "quantity": 1,
+          "total_ht": "4.17",
+          "total_ttc": "5"
+        },
+        {
+          "description": "8800312063159",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.5833",
+          "quantity": 1,
+          "total_ht": "16.58",
+          "total_ttc": "19.9"
+        },
+        {
+          "description": "345 Relief Cream",
+          "product_reference": "PRDX0258",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9167",
+          "quantity": 5,
+          "total_ht": "99.58",
+          "total_ttc": "119.5"
+        },
+        {
+          "description": "4550516485410",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.4167",
+          "quantity": 1,
+          "total_ht": "15.42",
+          "total_ttc": "18.5"
+        },
+        {
+          "description": "Premium Repair Mask",
+          "product_reference": "PRDX1618",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.0833",
+          "quantity": 1,
+          "total_ht": "19.08",
+          "total_ttc": "22.9"
+        },
+        {
+          "description": "Deep Vita C Capsule Cream",
+          "product_reference": "PRDX1135",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.0833",
+          "quantity": 1,
+          "total_ht": "22.08",
+          "total_ttc": "26.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24511",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30857&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Relief Sun Aqua Fresh Rice + B5",
+          "product_reference": "PRDX0826",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.7917",
+          "quantity": 2,
+          "total_ht": "31.58",
+          "total_ttc": "37.9"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24510",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30856&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Vitamin Glutathione Dark Spot Laser Cream 5+",
+          "product_reference": "PRDX1047",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "22.325",
+          "quantity": 1,
+          "total_ht": "22.33",
+          "total_ttc": "26.79"
+        },
+        {
+          "description": "No.5 Vitamin Concentrated Serum",
+          "product_reference": "PRD00244",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "18.75",
+          "quantity": 1,
+          "total_ht": "18.75",
+          "total_ttc": "22.5"
+        },
+        {
+          "description": "8809700320812",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "15.75",
+          "quantity": 1,
+          "total_ht": "15.75",
+          "total_ttc": "18.9"
+        },
+        {
+          "description": "8809562192770",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "16.25",
+          "quantity": 1,
+          "total_ht": "16.25",
+          "total_ttc": "19.5"
+        },
+        {
+          "description": "Nutritive Cream",
+          "product_reference": "PRDX1363",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "29.5833",
+          "quantity": 1,
+          "total_ht": "29.58",
+          "total_ttc": "35.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24509",
+      "date": "20/04/2026",
+      "raw_date": "20/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30855&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8809918991347",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "12.6667",
+          "quantity": 1,
+          "total_ht": "12.67",
+          "total_ttc": "15.2"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24508",
+      "date": "19/04/2026",
+      "raw_date": "19/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30854&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Niacinamide 10% TXA 4% Serum",
+          "product_reference": "PRDX0184",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.9917",
+          "quantity": 2,
+          "total_ht": "39.98",
+          "total_ttc": "47.98"
+        },
+        {
+          "description": "8809447256412",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "21.4167",
+          "quantity": 2,
+          "total_ht": "42.83",
+          "total_ttc": "51.4"
+        },
+        {
+          "description": "Necksphalt ECM Neck Barrier Cream 50ml",
+          "product_reference": "PRDX1542",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "25.75",
+          "quantity": 1,
+          "total_ht": "25.75",
+          "total_ttc": "30.9"
+        },
+        {
+          "description": "Black Snail Cream",
+          "product_reference": "PRDX0738",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "23.75",
+          "quantity": 1,
+          "total_ht": "23.75",
+          "total_ttc": "28.5"
+        },
+        {
+          "description": "Volume Bio Tox Ampoule",
+          "product_reference": "PRDX0714",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "26.6583",
+          "quantity": 2,
+          "total_ht": "53.32",
+          "total_ttc": "63.98"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24507",
+      "date": "19/04/2026",
+      "raw_date": "19/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30853&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "8803463017392",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "30.4167",
+          "quantity": 1,
+          "total_ht": "30.42",
+          "total_ttc": "36.5"
+        },
+        {
+          "description": "Hydro Cera-Nol Real Deep Mask",
+          "product_reference": "PRDX0283",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "4.9167",
+          "quantity": 5,
+          "total_ht": "24.58",
+          "total_ttc": "29.5"
+        },
+        {
+          "description": "Free gift",
+          "product_reference": null,
+          "kind": "service",
+          "vat_rate": "20",
+          "unit_price_ht": "0",
+          "quantity": 2,
+          "total_ht": "0",
+          "total_ttc": "0"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2605-25506",
+      "date": "16/05/2026",
+      "raw_date": "16/05/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=32049&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Tea-Trica Relief Ampoule",
+          "product_reference": "PRDX1048",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.1583",
+          "quantity": 1,
+          "total_ht": "19.16",
+          "total_ttc": "22.99"
+        },
+        {
+          "description": "Fino Premium Touch Hair Mask [230g]",
+          "product_reference": "PRDX1057",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "15.4167",
+          "quantity": 1,
+          "total_ht": "15.42",
+          "total_ttc": "18.5"
+        }
+      ]
+    },
+    {
+      "reference": "TC1-2604-24506",
+      "date": "19/04/2026",
+      "raw_date": "19/04/2026",
+      "detail_url": "https://kcodeon.koreancosmetics.fr/compta/facture/card.php?facid=30852&save_lastsearch_values=1",
+      "items": [
+        {
+          "description": "Premium Repair Mask",
+          "product_reference": "PRDX1618",
+          "kind": "product",
+          "vat_rate": "20",
+          "unit_price_ht": "19.0833",
+          "quantity": 1,
+          "total_ht": "19.08",
+          "total_ttc": "22.9"
+        }
+      ]
+    },
     {
       "reference": "TC1-2605-25504",
       "date": "15/05/2026",

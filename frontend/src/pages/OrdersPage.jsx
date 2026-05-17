@@ -45,6 +45,17 @@ export default function OrdersPage() {
   const [fetching, setFetching] = useState(false)
   const [fetchResult, setFetchResult] = useState(null) // {ok, newOrders, totalOrders, error}
 
+  // Aggregated counts/amounts by order status — fetched once on mount and
+  // refreshed after a successful Fetch-new-orders run so the numbers reflect
+  // the latest import.
+  const [summary, setSummary] = useState(null)
+  const loadSummary = () => {
+    api
+      .get('/orders-summary')
+      .then((res) => setSummary(res.data))
+      .catch(() => setSummary(null))
+  }
+
   // Fetch whenever page or pageSize changes. Filter is purely client-side over
   // the current page's rows (good enough for at most a few hundred orders);
   // if you ever want server-side search across all pages, switch this to a
@@ -60,6 +71,8 @@ export default function OrdersPage() {
       // Trigger a list reload so any new orders appear immediately.
       // Easiest way: bump `page` setter; React will re-run the effect below.
       setPage(1)
+      // Refresh the by-status summary so the new orders show in the totals.
+      loadSummary()
     } catch (err) {
       const detail =
         err?.response?.data?.error ||
@@ -100,6 +113,13 @@ export default function OrdersPage() {
     }
   }, [page, pageSize])
 
+  // Summary fetch runs once on mount (and again after Fetch-new-orders via
+  // loadSummary() in the click handler above).
+  useEffect(() => {
+    loadSummary()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   const visible = data.items.filter((o) => {
     if (!filter.trim()) return true
     const t = filter.toLowerCase()
@@ -137,6 +157,69 @@ export default function OrdersPage() {
           </button>
         </div>
       </header>
+
+      {/* Summary by status. Shows the global totals plus one chip per status
+          (count + summed € amount). Hidden until the summary has loaded so
+          we don't show a flash of zeros. */}
+      {summary && summary.totalOrders > 0 && (
+        <div className="mb-3 rounded-md border border-slate-200 bg-white px-3 py-2 text-sm">
+          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+            <strong>Orders summary</strong>
+            <span className="text-slate-600">
+              {summary.totalOrders} order{summary.totalOrders > 1 ? 's' : ''} ·{' '}
+              total {Number(summary.totalAmount).toLocaleString('fr-FR', {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+              })} €
+            </span>
+          </div>
+          <div className="mt-2 flex flex-wrap gap-2">
+            {summary.byStatus.map((s) => (
+              <div
+                key={s.status}
+                className="inline-flex items-baseline gap-2 rounded-md border border-slate-200 bg-slate-50 px-2 py-1 text-xs"
+                title={`${s.status} — ${s.count} order${s.count > 1 ? 's' : ''}`}
+              >
+                <span className="font-medium text-slate-700">{s.status}</span>
+                <span className="text-slate-500">
+                  {s.count} order{s.count > 1 ? 's' : ''}
+                </span>
+                {s.amount > 0 && (
+                  <span className="text-slate-700">
+                    {Number(s.amount).toLocaleString('fr-FR', {
+                      minimumFractionDigits: 2,
+                      maximumFractionDigits: 2,
+                    })} €
+                  </span>
+                )}
+              </div>
+            ))}
+          </div>
+
+          {/* Weekly + monthly breakdowns are collapsed by default to keep the
+              header compact; expand to see every period with its count + total. */}
+          {(summary.byWeek?.length > 0 || summary.byMonth?.length > 0) && (
+            <div className="mt-3 grid gap-2 md:grid-cols-2">
+              {summary.byMonth?.length > 0 && (
+                <details className="rounded border border-slate-200">
+                  <summary className="cursor-pointer px-2 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50">
+                    By month ({summary.byMonth.length})
+                  </summary>
+                  <PeriodTable rows={summary.byMonth} />
+                </details>
+              )}
+              {summary.byWeek?.length > 0 && (
+                <details className="rounded border border-slate-200">
+                  <summary className="cursor-pointer px-2 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50">
+                    By week ({summary.byWeek.length})
+                  </summary>
+                  <PeriodTable rows={summary.byWeek} />
+                </details>
+              )}
+            </div>
+          )}
+        </div>
+      )}
 
       {fetchResult && (
         <div
@@ -325,6 +408,38 @@ export default function OrdersPage() {
         </>
       )}
     </section>
+  )
+}
+
+/**
+ * Compact 3-column table used inside the "By month" / "By week" disclosures
+ * of the orders summary panel.
+ */
+function PeriodTable({ rows }) {
+  return (
+    <table className="w-full text-xs">
+      <thead className="text-slate-500">
+        <tr>
+          <th className="text-left px-2 py-1">Period</th>
+          <th className="text-right px-2 py-1">Orders</th>
+          <th className="text-right px-2 py-1">Total €</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r) => (
+          <tr key={r.period} className="border-t border-slate-100">
+            <td className="px-2 py-1 text-slate-700">{r.label || r.period}</td>
+            <td className="px-2 py-1 text-right">{r.count}</td>
+            <td className="px-2 py-1 text-right">
+              {Number(r.amount).toLocaleString('fr-FR', {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+              })}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
   )
 }
 

@@ -73,6 +73,10 @@ final class FetchNewOrdersController extends AbstractController
             //   "Malformed UTF-8 characters, possibly incorrectly encoded".
             'PYTHONIOENCODING' => 'utf-8',
             'PYTHONUTF8' => '1',
+            // Shared Chromium cache so both web-triggered (www-data) and
+            // cron-triggered (ubuntu) runs locate the same browser binary.
+            'PLAYWRIGHT_BROWSERS_PATH' => $parentEnv['PLAYWRIGHT_BROWSERS_PATH']
+                ?? (is_dir('/opt/ms-playwright') ? '/opt/ms-playwright' : ''),
         ]);
 
         // ---- 1. Run the scraper in CREATE_ONLY mode ----

@@ -195,7 +195,16 @@ def collect_sale_rows(
     *,
     known_refs: Optional[set[str]] = None,
     stop_after_known: int = 0,
-) -> List[Sale]:
+) -> tuple[List[Sale], bool]:
+    """
+    Returns (sales_on_this_page, early_stop_triggered).
+
+    early_stop_triggered is True when the listing walk was cut short because
+    we hit `stop_after_known` consecutive references that the caller already
+    knows about. The caller can use this signal to break the outer page
+    loop (because Dolibarr's list is newest-first → past the known refs,
+    everything else is also known).
+    """
     """
     Extract one Sale per row from the invoice list table. The table the user
     pointed at is <table class="tagtable liste listwithfilterbefore">. We
@@ -215,6 +224,7 @@ def collect_sale_rows(
     sales: List[Sale] = []
     consecutive_known = 0
     skipped_known = 0
+    early_stop = False
     for row in rows:
         cells = row.query_selector_all("th, td")
         if len(cells) < 1:
@@ -239,16 +249,18 @@ def collect_sale_rows(
             continue
 
         # Incremental mode: skip references already in the previous sales.json.
-        # Once stop_after_known consecutive known refs are seen, break early —
-        # Dolibarr's list is newest-first so past that point everything's known.
+        # Once stop_after_known consecutive known refs are seen, break early
+        # AND signal the caller to stop paginating — Dolibarr's list is
+        # newest-first, so past that point everything is also known.
         if known_refs is not None and ref in known_refs:
             skipped_known += 1
             consecutive_known += 1
             if stop_after_known > 0 and consecutive_known >= stop_after_known:
                 print(
-                    f"   create-only: hit {consecutive_known} consecutive known refs, "
-                    "stopping listing walk early"
+                    f"   create-only: hit {consecutive_known} consecutive known ref(s) "
+                    "({ref}), stopping listing walk early".replace("{ref}", ref)
                 )
+                early_stop = True
                 break
             continue
         else:
@@ -289,7 +301,7 @@ def collect_sale_rows(
     if known_refs is not None:
         print(f"   skipped {skipped_known} already-known sale(s)")
     print(f"   {len(sales)} sale(s) with a usable reference + detail link")
-    return sales
+    return sales, early_stop
 
 
 # A product reference is "any non-empty token that looks like a code": uppercase
@@ -492,23 +504,43 @@ def main() -> int:
         seen_refs: set[str] = set()
         early_stop = False
 
-        # Dolibarr uses ?limit=N&page=K (page is 0-indexed). Setting the
-        # dropdown to PAGE_SIZE only works for the current view, so we pass
-        # both params in the URL on every iteration. If the URL params are
-        # silently ignored on some installs, set_page_size() is the fallback.
-        for page_num in range(pages_to_scrape):
-            url = f"{LIST_URL}?limit={PAGE_SIZE}&page={page_num}"
-            print(f"\n-> page {page_num + 1}/{pages_to_scrape}: {url}")
+        # Two paginating strategies:
+        #
+        # 1. Full crawl (CREATE_ONLY=0): set page size to 1000, walk
+        #    SALES_PAGES pages → fetches the most recent ~SALES_MAX sales.
+        #    This is the first-time bulk import path.
+        #
+        # 2. Incremental (CREATE_ONLY=1): leave Dolibarr's default page size
+        #    alone, walk pages one after the other, and STOP as soon as we
+        #    see the first reference that's already in sales.json. We loop
+        #    up to MAX_INCREMENTAL_PAGES as a safety net; the typical run
+        #    only hits 1-2 pages because new sales are very recent.
+        if create_only:
+            page_limit = 200      # safety cap; we expect to stop way before this
+            stop_after_n = 1      # stop at the FIRST known reference
+            apply_page_size = False
+        else:
+            page_limit = pages_to_scrape
+            stop_after_n = stop_after_known
+            apply_page_size = True
+
+        for page_num in range(page_limit):
+            if apply_page_size:
+                url = f"{LIST_URL}?limit={PAGE_SIZE}&page={page_num}"
+            else:
+                # Don't force a limit — let Dolibarr's session default apply.
+                url = f"{LIST_URL}?page={page_num}"
+            print(f"\n-> page {page_num + 1}: {url}")
             page.goto(url, wait_until="domcontentloaded")
-            if page_num == 0:
+            if apply_page_size and page_num == 0:
                 # Belt-and-braces: also drive the dropdown the first time so
-                # Dolibarr remembers the preference in its session.
+                # Dolibarr remembers the 1000-per-page preference in its session.
                 set_page_size(page, PAGE_SIZE)
 
-            page_sales = collect_sale_rows(
+            page_sales, early_stop = collect_sale_rows(
                 page,
                 known_refs=known_refs,
-                stop_after_known=stop_after_known if create_only else 0,
+                stop_after_known=stop_after_n if create_only else 0,
             )
 
             # Filter by reference pattern (default: TC-prefixed)
@@ -529,8 +561,13 @@ def main() -> int:
                 new_on_page += 1
             print(f"   page {page_num + 1}: {new_on_page} new unique reference(s)")
 
-            # If a page returned no rows at all, the user has fewer pages of
-            # sales than `pages_to_scrape` — break early.
+            # Stop conditions for the outer loop:
+            #   (a) the inner loop hit a known reference and signaled early stop
+            #   (b) the page was empty (we walked past the end of the data)
+            if early_stop:
+                print(f"   page {page_num + 1}: known reference encountered, "
+                      "ending pagination here")
+                break
             if not page_sales:
                 print(f"   page {page_num + 1} had no rows; ending pagination")
                 break

@@ -54,6 +54,11 @@ final class FetchNewSalesController extends AbstractController
             'SALES_CREATE_ONLY' => '1',
             'PYTHONIOENCODING' => 'utf-8',
             'PYTHONUTF8' => '1',
+            // If /opt/ms-playwright is the shared browser cache (see deploy
+            // README), forward that to the child so both web-triggered and
+            // cron-triggered scrapes find Chromium in the same place.
+            'PLAYWRIGHT_BROWSERS_PATH' => $parentEnv['PLAYWRIGHT_BROWSERS_PATH']
+                ?? (is_dir('/opt/ms-playwright') ? '/opt/ms-playwright' : ''),
         ]);
 
         $scrapeProcess = new Process(

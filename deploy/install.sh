@@ -33,15 +33,40 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y \
     certbot python3-certbot-nginx \
     fail2ban ufw
 
-echo "==> Installing PHP 8.3 via ondrej PPA"
-if ! command -v php8.3 >/dev/null 2>&1; then
-    add-apt-repository -y ppa:ondrej/php
-    apt-get update -y
-fi
+echo "==> Installing PHP"
+# Pick a PHP series based on the Ubuntu release. The Ondrej PPA is
+# the standard source for Ubuntu LTS releases (it pins PHP 8.3 reliably),
+# but it doesn't publish for non-LTS codenames — on those we fall back to
+# whatever PHP the distro ships in main.
+UBUNTU_CODENAME=$(. /etc/os-release; echo "$VERSION_CODENAME")
+case "$UBUNTU_CODENAME" in
+    noble|jammy)           # 24.04 LTS, 22.04 LTS — Ondrej supports both
+        PHP_SERIES=8.3
+        if ! grep -rq "ondrej/php" /etc/apt/sources.list.d/ 2>/dev/null; then
+            add-apt-repository -y ppa:ondrej/php
+            apt-get update -y
+        fi
+        ;;
+    *)                     # 25.10 resolute, 25.04 plucky, etc. — use distro PHP
+        # Ubuntu 25.10 ships PHP 8.4; 25.04 ships PHP 8.3. Pick whichever
+        # `apt-cache` reports as available so the user doesn't have to think.
+        if apt-cache show php8.4 >/dev/null 2>&1; then
+            PHP_SERIES=8.4
+        elif apt-cache show php8.3 >/dev/null 2>&1; then
+            PHP_SERIES=8.3
+        else
+            echo "No php8.3 or php8.4 package available for '$UBUNTU_CODENAME'."
+            echo "Either relaunch the instance on Ubuntu 24.04 LTS, or install PHP manually."
+            exit 1
+        fi
+        ;;
+esac
+
+echo "==> Installing PHP $PHP_SERIES"
 DEBIAN_FRONTEND=noninteractive apt-get install -y \
-    php8.3 php8.3-fpm php8.3-cli \
-    php8.3-mysql php8.3-mbstring php8.3-xml php8.3-intl \
-    php8.3-curl php8.3-zip php8.3-bcmath php8.3-opcache
+    "php$PHP_SERIES" "php$PHP_SERIES-fpm" "php$PHP_SERIES-cli" \
+    "php$PHP_SERIES-mysql" "php$PHP_SERIES-mbstring" "php$PHP_SERIES-xml" "php$PHP_SERIES-intl" \
+    "php$PHP_SERIES-curl" "php$PHP_SERIES-zip" "php$PHP_SERIES-bcmath" "php$PHP_SERIES-opcache"
 
 echo "==> Installing Composer"
 if ! command -v composer >/dev/null 2>&1; then
@@ -82,7 +107,7 @@ if [ -d "${APP_DIR}/scraper" ]; then
 fi
 
 echo "==> Enabling + starting services"
-systemctl enable --now nginx php8.3-fpm
+systemctl enable --now nginx "php$PHP_SERIES-fpm"
 
 echo "==> Basic firewall (allow ssh / http / https)"
 ufw allow OpenSSH || true
@@ -91,7 +116,11 @@ ufw --force enable
 
 echo
 echo "================================================================"
-echo "  Install complete."
+echo "  Install complete. PHP $PHP_SERIES is installed."
+echo
+echo "  IMPORTANT: the nginx config in deploy/nginx/aashop.conf references"
+echo "  php8.3-fpm.sock by default. If you installed a different PHP series,"
+echo "  edit that file to point at /var/run/php/php$PHP_SERIES-fpm.sock."
 echo
 echo "  Next steps (see deploy/README.md for full instructions):"
 echo "    1. Configure ${APP_DIR}/backend/.env.local"

@@ -56,6 +56,20 @@ export default function OrdersPage() {
       .catch(() => setSummary(null))
   }
 
+  // Period breakdowns (by week / by month) are fetched lazily — only when the
+  // user expands one of the disclosure sections. `periods` is null until then.
+  const [periods, setPeriods] = useState(null)
+  const [periodsLoading, setPeriodsLoading] = useState(false)
+  const loadPeriods = () => {
+    if (periods || periodsLoading) return // fetch once
+    setPeriodsLoading(true)
+    api
+      .get('/orders-summary', { params: { periods: 1 } })
+      .then((res) => setPeriods({ byWeek: res.data.byWeek || [], byMonth: res.data.byMonth || [] }))
+      .catch(() => setPeriods({ byWeek: [], byMonth: [] }))
+      .finally(() => setPeriodsLoading(false))
+  }
+
   // Fetch whenever page or pageSize changes. Filter is purely client-side over
   // the current page's rows (good enough for at most a few hundred orders);
   // if you ever want server-side search across all pages, switch this to a
@@ -73,6 +87,8 @@ export default function OrdersPage() {
       setPage(1)
       // Refresh the by-status summary so the new orders show in the totals.
       loadSummary()
+      // Drop the cached period breakdown so it's recomputed on next expand.
+      setPeriods(null)
     } catch (err) {
       const detail =
         err?.response?.data?.error ||
@@ -196,28 +212,46 @@ export default function OrdersPage() {
             ))}
           </div>
 
-          {/* Weekly + monthly breakdowns are collapsed by default to keep the
-              header compact; expand to see every period with its count + total. */}
-          {(summary.byWeek?.length > 0 || summary.byMonth?.length > 0) && (
-            <div className="mt-3 grid gap-2 md:grid-cols-2">
-              {summary.byMonth?.length > 0 && (
-                <details className="rounded border border-slate-200">
-                  <summary className="cursor-pointer px-2 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50">
-                    By month ({summary.byMonth.length})
-                  </summary>
-                  <PeriodTable rows={summary.byMonth} />
-                </details>
-              )}
-              {summary.byWeek?.length > 0 && (
-                <details className="rounded border border-slate-200">
-                  <summary className="cursor-pointer px-2 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50">
-                    By week ({summary.byWeek.length})
-                  </summary>
-                  <PeriodTable rows={summary.byWeek} />
-                </details>
-              )}
-            </div>
-          )}
+          {/* Weekly + monthly breakdowns are computed on demand. Expanding
+              either disclosure triggers a single fetch to
+              /api/orders-summary?periods=1 — the page load itself stays cheap. */}
+          <div className="mt-3 grid gap-2 md:grid-cols-2">
+            <details
+              className="rounded border border-slate-200"
+              onToggle={(e) => {
+                if (e.target.open) loadPeriods()
+              }}
+            >
+              <summary className="cursor-pointer px-2 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50">
+                By month {periods?.byMonth ? `(${periods.byMonth.length})` : ''}
+              </summary>
+              {periodsLoading && !periods ? (
+                <div className="px-2 py-2 text-xs text-slate-500">Computing…</div>
+              ) : periods?.byMonth?.length ? (
+                <PeriodTable rows={periods.byMonth} />
+              ) : periods ? (
+                <div className="px-2 py-2 text-xs text-slate-500">No dated orders.</div>
+              ) : null}
+            </details>
+
+            <details
+              className="rounded border border-slate-200"
+              onToggle={(e) => {
+                if (e.target.open) loadPeriods()
+              }}
+            >
+              <summary className="cursor-pointer px-2 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50">
+                By week {periods?.byWeek ? `(${periods.byWeek.length})` : ''}
+              </summary>
+              {periodsLoading && !periods ? (
+                <div className="px-2 py-2 text-xs text-slate-500">Computing…</div>
+              ) : periods?.byWeek?.length ? (
+                <PeriodTable rows={periods.byWeek} />
+              ) : periods ? (
+                <div className="px-2 py-2 text-xs text-slate-500">No dated orders.</div>
+              ) : null}
+            </details>
+          </div>
         </div>
       )}
 

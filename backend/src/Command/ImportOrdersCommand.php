@@ -117,6 +117,7 @@ final class ImportOrdersCommand extends Command
 
                 $order->setStatus((string) ($r['status'] ?? ''));
                 $order->setTotal($r['total'] ?? null);
+                $order->setTotalNumeric(self::parsePriceToDecimal($r['total'] ?? null));
                 $order->setPayment($r['payment'] ?? null);
                 $order->setDetailUrl($r['detail_url'] ?? null);
                 $order->setRawDate($r['raw_date'] ?? null);

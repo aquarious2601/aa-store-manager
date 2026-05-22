@@ -1,6 +1,6 @@
 {
-  "count": 1675,
-  "missing_count": 145,
+  "count": 1717,
+  "missing_count": 142,
   "missing": [
     "PRD00247",
     "PRD00335",
@@ -34,7 +34,6 @@
     "PRDX1343",
     "PRDX1373",
     "PRDX1456",
-    "PRDX1481",
     "PRDX1484",
     "PRDX1501",
     "PRDX1562",
@@ -78,7 +77,6 @@
     "PRDX2122",
     "PRDX2124",
     "PRDX2127",
-    "PRDX2130",
     "PRDX2132",
     "PRDX2135",
     "PRDX2137",
@@ -101,7 +99,6 @@
     "PRDX2174",
     "PRDX2182",
     "PRDX2187",
-    "PRDX2188",
     "PRDX2189",
     "PRDX2190",
     "PRDX2192",
@@ -281,13 +278,6 @@
       "barcode": "8809728080316",
       "selling_price": "21.45",
       "selling_price_raw": "21,45 TTC"
-    },
-    {
-      "reference": "PRD00023",
-      "name": "Propolis Vitamin Synergy Serum",
-      "barcode": "8809728080392",
-      "selling_price": "24.99",
-      "selling_price_raw": "24,99 TTC"
     },
     {
       "reference": "PRD00024",
@@ -806,6 +796,13 @@
       "barcode": "8809655950898",
       "selling_price": "26.5",
       "selling_price_raw": "26,50 TTC"
+    },
+    {
+      "reference": "PRD00185",
+      "name": "Black Rice Hyaluronic Toner - 150ml",
+      "barcode": "8809532220953",
+      "selling_price": "20.47",
+      "selling_price_raw": "20,47 TTC"
     },
     {
       "reference": "PRD00186",
@@ -2029,8 +2026,8 @@
       "reference": "PRDX0152",
       "name": "Clean it Zero Cleansing Balm Nourishing",
       "barcode": "8809560226491",
-      "selling_price": "23.99",
-      "selling_price_raw": "23,99 TTC"
+      "selling_price": "19.99",
+      "selling_price_raw": "19,99 TTC"
     },
     {
       "reference": "PRDX0153",
@@ -2194,13 +2191,6 @@
       "selling_price_raw": "30,50 TTC"
     },
     {
-      "reference": "PRDX0214",
-      "name": "Blackberry Complex Glow Wash Off Pack",
-      "barcode": "8809670682095",
-      "selling_price": "9.9",
-      "selling_price_raw": "9,90 TTC"
-    },
-    {
       "reference": "PRDX0217",
       "name": "Artichoke Intensive Skin Barrier Ampoule",
       "barcode": "8809115027917",
@@ -2234,13 +2224,6 @@
       "barcode": "8809566991904",
       "selling_price": "23",
       "selling_price_raw": "23,00 TTC"
-    },
-    {
-      "reference": "PRDX0229",
-      "name": "Lemon Niacinamide Glow Wash Off Pack",
-      "barcode": "8809670681876",
-      "selling_price": "9.35",
-      "selling_price_raw": "9,35 TTC"
     },
     {
       "reference": "PRDX0230",
@@ -2325,13 +2308,6 @@
       "barcode": "8800256114351",
       "selling_price": "21.5",
       "selling_price_raw": "21,50 TTC"
-    },
-    {
-      "reference": "PRDX0255",
-      "name": "Lemon Sparkling Peeling Gel",
-      "barcode": "8809305999796",
-      "selling_price": "18.89",
-      "selling_price_raw": "18,89 TTC"
     },
     {
       "reference": "PRDX0257",
@@ -2582,8 +2558,8 @@
       "reference": "PRDX0334",
       "name": "Gummy Sheet Mask Heartleaf Sticker",
       "barcode": "8809750463729",
-      "selling_price": "2.94",
-      "selling_price_raw": "2,94 TTC"
+      "selling_price": "3.5",
+      "selling_price_raw": "3,50 TTC"
     },
     {
       "reference": "PRDX0335",
@@ -3328,13 +3304,6 @@
       "selling_price_raw": "11,99 TTC"
     },
     {
-      "reference": "PRDX0565",
-      "name": "All Clean Balm Mandarin 50ml",
-      "barcode": "8809481762016",
-      "selling_price": "15.74",
-      "selling_price_raw": "15,74 TTC"
-    },
-    {
       "reference": "PRDX0573",
       "name": "Luv Beam Cheek Balm [02 Pure Beam]",
       "barcode": "8809393727561",
@@ -3559,20 +3528,6 @@
       "selling_price_raw": "15,65 TTC"
     },
     {
-      "reference": "PRDX0626",
-      "name": "Moist Ampoule Blusher 01 Nude Beige",
-      "barcode": "8809864755413",
-      "selling_price": "15.65",
-      "selling_price_raw": "15,65 TTC"
-    },
-    {
-      "reference": "PRDX0627",
-      "name": "Moist Ampoule Blusher 03 Rose Brown",
-      "barcode": "8809864755437",
-      "selling_price": "15.65",
-      "selling_price_raw": "15,65 TTC"
-    },
-    {
       "reference": "PRDX0628",
       "name": "Moist Ampoule Blusher 02 Deep Plum",
       "barcode": "8809864755420",
@@ -3683,13 +3638,6 @@
       "barcode": "8809800940620",
       "selling_price": "32.03",
       "selling_price_raw": "32,03 TTC"
-    },
-    {
-      "reference": "PRDX0660",
-      "name": "Moist Ampoule Blusher 04 Lavender Flush",
-      "barcode": "",
-      "selling_price": "15.65",
-      "selling_price_raw": "15,65 TTC"
     },
     {
       "reference": "PRDX0661",
@@ -4602,6 +4550,13 @@
       "selling_price_raw": "21,48 TTC"
     },
     {
+      "reference": "PRDX0894",
+      "name": "Yam Root Vegan Milk Cleanser",
+      "barcode": "8809800940125",
+      "selling_price": "19.9",
+      "selling_price_raw": "19,90 TTC"
+    },
+    {
       "reference": "PRDX0895",
       "name": "Aqua Essence Lifting Ampoule",
       "barcode": "8809409341347",
@@ -5484,6 +5439,13 @@
       "selling_price_raw": "11,50 TTC"
     },
     {
+      "reference": "PRDX1082",
+      "name": "Weightless Sun Fluid",
+      "barcode": "8809864754188",
+      "selling_price": "20.5",
+      "selling_price_raw": "20,50 TTC"
+    },
+    {
       "reference": "PRDX1087",
       "name": "Curl Fix Mascara [02 Brown]",
       "barcode": "8809820695050",
@@ -6061,8 +6023,8 @@
       "reference": "PRDX1236",
       "name": "Reedle Shot Lifting Serum [30ml]",
       "barcode": "8809695679520",
-      "selling_price": "33",
-      "selling_price_raw": "33,00 TTC"
+      "selling_price": "24.99",
+      "selling_price_raw": "24,99 TTC"
     },
     {
       "reference": "PRDX1237",
@@ -6084,6 +6046,13 @@
       "barcode": "8809928133270",
       "selling_price": "18.5",
       "selling_price_raw": "18,50 TTC"
+    },
+    {
+      "reference": "PRDX1243",
+      "name": "PDRN Cream 100",
+      "barcode": "8803463006655",
+      "selling_price": "39.5",
+      "selling_price_raw": "39,50 TTC"
     },
     {
       "reference": "PRDX1245",
@@ -6854,13 +6823,6 @@
       "barcode": "8809784601241",
       "selling_price": "3.5",
       "selling_price_raw": "3,50 TTC"
-    },
-    {
-      "reference": "PRDX1474",
-      "name": "Dewyful Water Tint [04 Chili Up]",
-      "barcode": "8809625244170",
-      "selling_price": "13.99",
-      "selling_price_raw": "13,99 TTC"
     },
     {
       "reference": "PRDX1476",
@@ -8207,25 +8169,11 @@
       "selling_price_raw": "32,55 TTC"
     },
     {
-      "reference": "PRDX1954",
-      "name": "Blueberry Rebalancing 5.5 Cleanser",
-      "barcode": "8809843690186",
-      "selling_price": "10.99",
-      "selling_price_raw": "10,99 TTC"
-    },
-    {
       "reference": "PRDX1955",
       "name": "Heartleaf Calming Trial Kit",
       "barcode": "8800280690005",
       "selling_price": "17.9",
       "selling_price_raw": "17,90 TTC"
-    },
-    {
-      "reference": "PRDX1958",
-      "name": "Active Bird's Nest Moisture Mask Prime",
-      "barcode": "8809505547650",
-      "selling_price": "2.8",
-      "selling_price_raw": "2,80 TTC"
     },
     {
       "reference": "PRDX1961",
@@ -8487,25 +8435,18 @@
       "selling_price_raw": "13,99 TTC"
     },
     {
+      "reference": "PRDX2283",
+      "name": "The JUicy Lasting Tint 06 Peeling Angdoo",
+      "barcode": "8800258080104",
+      "selling_price": "14.5",
+      "selling_price_raw": "14,50 TTC"
+    },
+    {
       "reference": "PRDX2287",
       "name": "Ecrit Et Parfum - Coffret Parfum",
       "barcode": "8809813680155",
       "selling_price": "21.38",
       "selling_price_raw": "21,38 TTC"
-    },
-    {
-      "reference": "PRDX2288",
-      "name": "Glutathione Peel Mask",
-      "barcode": "8800287270316",
-      "selling_price": "3.5",
-      "selling_price_raw": "3,50 TTC"
-    },
-    {
-      "reference": "PRDX2289",
-      "name": "Glutathione Face Film",
-      "barcode": "8809579275251",
-      "selling_price": "6.2",
-      "selling_price_raw": "6,20 TTC"
     },
     {
       "reference": "PRDX2290",
@@ -9670,6 +9611,13 @@
       "selling_price_raw": "0,00 TTC"
     },
     {
+      "reference": "PRDX2641",
+      "name": "No Sebum AC Powder",
+      "barcode": "8809843674094",
+      "selling_price": "10.5",
+      "selling_price_raw": "10,50 TTC"
+    },
+    {
       "reference": "PRDX2643",
       "name": "Gentle steam eye mask (foret)",
       "barcode": "4901301384799",
@@ -9789,11 +9737,39 @@
       "selling_price_raw": "15,25 TTC"
     },
     {
+      "reference": "PRDX2691",
+      "name": "The Juicy Lasting Tint 07 Cherry Bomb",
+      "barcode": "8800258080111",
+      "selling_price": "14.5",
+      "selling_price_raw": "14,50 TTC"
+    },
+    {
+      "reference": "PRDX2693",
+      "name": "The Juicy Lasting Tint 12 Apple Brown",
+      "barcode": "8800258080197",
+      "selling_price": "13.5",
+      "selling_price_raw": "13,50 TTC"
+    },
+    {
       "reference": "PRDX2694",
       "name": "The Juicy Lasting Tint 02 Nucadamia",
       "barcode": "8800258080050",
       "selling_price": "13.5",
       "selling_price_raw": "13,50 TTC"
+    },
+    {
+      "reference": "PRDX2696",
+      "name": "The Juicy Lasting Tint 22 Dotori Bomb",
+      "barcode": "8800258080685",
+      "selling_price": "14.5",
+      "selling_price_raw": "14,50 TTC"
+    },
+    {
+      "reference": "PRDX2698",
+      "name": "The Juicy Lasting Tint 21 Grape Bomb",
+      "barcode": "8800258080678",
+      "selling_price": "14.5",
+      "selling_price_raw": "14,50 TTC"
     },
     {
       "reference": "PRDX2700",
@@ -9871,6 +9847,13 @@
       "barcode": "8809968130871",
       "selling_price": "21.9",
       "selling_price_raw": "21,90 TTC"
+    },
+    {
+      "reference": "PRDX2739",
+      "name": "Fruity Glass Tint [1004 pink gloss]",
+      "barcode": "8809506708029",
+      "selling_price": "13.2",
+      "selling_price_raw": "13,20 TTC"
     },
     {
       "reference": "PRDX2748",
@@ -10013,6 +9996,20 @@
       "selling_price_raw": "18,50 TTC"
     },
     {
+      "reference": "PRDX2837",
+      "name": "Azelaic Acid 3 Cica Skin Clarifying Toner",
+      "barcode": "8800307370743",
+      "selling_price": "23.9",
+      "selling_price_raw": "23,90 TTC"
+    },
+    {
+      "reference": "PRDX2838",
+      "name": "PDRN 100 Hyaluronic Acid Booster Toner",
+      "barcode": "8800307371672",
+      "selling_price": "23.9",
+      "selling_price_raw": "23,90 TTC"
+    },
+    {
       "reference": "PRDX2839",
       "name": "The Real Cica Soothing Cream",
       "barcode": "8809782557861",
@@ -10025,6 +10022,13 @@
       "barcode": "8809783321225",
       "selling_price": "23.5",
       "selling_price_raw": "23,50 TTC"
+    },
+    {
+      "reference": "PRDX2841",
+      "name": "Oil Control Moisturizing Cream",
+      "barcode": "8809743546880",
+      "selling_price": "16.5",
+      "selling_price_raw": "16,50 TTC"
     },
     {
       "reference": "PRDX2842",
@@ -10412,6 +10416,27 @@
       "selling_price_raw": "96,00 TTC"
     },
     {
+      "reference": "PRDX2966",
+      "name": "And Honey Body Wash 500ml",
+      "barcode": "4589546895715",
+      "selling_price": "20.9",
+      "selling_price_raw": "20,90 TTC"
+    },
+    {
+      "reference": "PRDX2968",
+      "name": "RX Retinol Bakuchiol Hydrogel Eye Patch",
+      "barcode": "8809481762665",
+      "selling_price": "17.9",
+      "selling_price_raw": "17,90 TTC"
+    },
+    {
+      "reference": "PRDX2974",
+      "name": "Beta-Glucan 3X Barrier Cream 50ml",
+      "barcode": "8809728080927",
+      "selling_price": "17.9",
+      "selling_price_raw": "17,90 TTC"
+    },
+    {
       "reference": "PRDX2975",
       "name": "Kiss Me Heroine Make Speedy Mascara Remover",
       "barcode": "4901433081474",
@@ -10765,8 +10790,8 @@
       "reference": "PRDX3120",
       "name": "Balanceful Cica Serum 50ml",
       "barcode": "8809784600978",
-      "selling_price": "22.9",
-      "selling_price_raw": "22,90 TTC"
+      "selling_price": "23.9",
+      "selling_price_raw": "23,90 TTC"
     },
     {
       "reference": "PRDX3130",
@@ -10844,6 +10869,20 @@
       "barcode": "8809670682255",
       "selling_price": "18.5",
       "selling_price_raw": "18,50 TTC"
+    },
+    {
+      "reference": "PRDX3182",
+      "name": "Lipsleek Blur 09 Proud",
+      "barcode": "8800261380420",
+      "selling_price": "15.2",
+      "selling_price_raw": "15,20 TTC"
+    },
+    {
+      "reference": "PRDX3186",
+      "name": "Lipsleek Blur 01 Keen",
+      "barcode": "8800261380345",
+      "selling_price": "14.5",
+      "selling_price_raw": "14,50 TTC"
     },
     {
       "reference": "PRDX3199",
@@ -10937,6 +10976,27 @@
       "selling_price_raw": "4,90 TTC"
     },
     {
+      "reference": "PRDX3269",
+      "name": "Dermatical Hair-Loss Shampoo For Normal To Dry Hair 530ml",
+      "barcode": "8809353531924",
+      "selling_price": "19.9",
+      "selling_price_raw": "19,90 TTC"
+    },
+    {
+      "reference": "PRDX3270",
+      "name": "Perfumed Hair Shampoo Osmanthus 530ml",
+      "barcode": "8809982981718",
+      "selling_price": "19.5",
+      "selling_price_raw": "19,50 TTC"
+    },
+    {
+      "reference": "PRDX3272",
+      "name": "Perfumed Hair Shampoo Hinoki 530ml",
+      "barcode": "8809982981695",
+      "selling_price": "19.5",
+      "selling_price_raw": "19,50 TTC"
+    },
+    {
       "reference": "PRDX3281",
       "name": "Perfumed Hair Oil Hinoki 80ml",
       "barcode": "8809789633162",
@@ -11021,6 +11081,13 @@
       "selling_price_raw": "19,50 TTC"
     },
     {
+      "reference": "PRDX3330",
+      "name": "Vitamin C Booster Shot 30ml",
+      "barcode": "8809562192763",
+      "selling_price": "17.5",
+      "selling_price_raw": "17,50 TTC"
+    },
+    {
       "reference": "PRDX3346",
       "name": "Head Spa Scalp Care Scalp Tonic 100ml",
       "barcode": "8809693251612",
@@ -11098,6 +11165,13 @@
       "selling_price_raw": "3,50 TTC"
     },
     {
+      "reference": "PRDX3382",
+      "name": "Waterfull Hyaluronic Acid Serum 50ml",
+      "barcode": "8809655950317",
+      "selling_price": "17.5",
+      "selling_price_raw": "17,50 TTC"
+    },
+    {
       "reference": "PRDX3384",
       "name": "Perfume De Nature Body Lotion Evening Lavender 345ml",
       "barcode": "8806173457519",
@@ -11124,6 +11198,13 @@
       "barcode": "",
       "selling_price": "25.5",
       "selling_price_raw": "25,50 TTC"
+    },
+    {
+      "reference": "PRDX3399",
+      "name": "White Truffle Serum 50ml",
+      "barcode": "8809676157368",
+      "selling_price": "18.5",
+      "selling_price_raw": "18,50 TTC"
     },
     {
       "reference": "PRDX3400",
@@ -11292,6 +11373,13 @@
       "barcode": "8809562192244",
       "selling_price": "3.6",
       "selling_price_raw": "3,60 TTC"
+    },
+    {
+      "reference": "PRDX3484",
+      "name": "The Mini Glow Set",
+      "barcode": "8809634610058",
+      "selling_price": "9.5",
+      "selling_price_raw": "9,50 TTC"
     },
     {
       "reference": "PRDX3485",
@@ -11511,6 +11599,13 @@
       "selling_price_raw": "18,50 TTC"
     },
     {
+      "reference": "PRDX3586",
+      "name": "Purple PDRN Pore Minimizing Serum 30ml",
+      "barcode": "8809875456026",
+      "selling_price": "23.9",
+      "selling_price_raw": "23,90 TTC"
+    },
+    {
       "reference": "PRDX3587",
       "name": "Vita Niacinamide Gel Toner Pads",
       "barcode": "8809891185283",
@@ -11523,6 +11618,13 @@
       "barcode": "8806265018215",
       "selling_price": "14.5",
       "selling_price_raw": "14,50 TTC"
+    },
+    {
+      "reference": "PRDX3605",
+      "name": "Juicy Drop Tint 07 Cool Peach",
+      "barcode": "8800276313079",
+      "selling_price": "13.2",
+      "selling_price_raw": "13,20 TTC"
     },
     {
       "reference": "PRDX3616",
@@ -11544,6 +11646,27 @@
       "barcode": "8800289466588",
       "selling_price": "192",
       "selling_price_raw": "192,00 TTC"
+    },
+    {
+      "reference": "PRDX3625",
+      "name": "Damage Therapy Multi Silk Balm Mini 01 Due Rose",
+      "barcode": "",
+      "selling_price": "13.5",
+      "selling_price_raw": "13,50 TTC"
+    },
+    {
+      "reference": "PRDX3626",
+      "name": "Damage Therapy Multi Silk Balm Mini 02 True Me",
+      "barcode": "",
+      "selling_price": "13.5",
+      "selling_price_raw": "13,50 TTC"
+    },
+    {
+      "reference": "PRDX3627",
+      "name": "Damage Therapy Shampoo Ex 50ml",
+      "barcode": "8809704094979",
+      "selling_price": "4.9",
+      "selling_price_raw": "4,90 TTC"
     },
     {
       "reference": "PRDX3629",
@@ -11686,6 +11809,13 @@
       "selling_price_raw": "16,50 TTC"
     },
     {
+      "reference": "PRDX3676",
+      "name": "Glow Lock Jelly Tint 101 Chou",
+      "barcode": "8809337726346",
+      "selling_price": "12.5",
+      "selling_price_raw": "12,50 TTC"
+    },
+    {
       "reference": "PRDX3687",
       "name": "Expert Madeca Cream Active Renew PDRN",
       "barcode": "8806109106733",
@@ -11763,6 +11893,13 @@
       "selling_price_raw": "16,90 TTC"
     },
     {
+      "reference": "PRDX3711",
+      "name": "8 Hyaluronic Acid Moisturizing Gentle Gel Cleanser",
+      "barcode": "",
+      "selling_price": "16.8",
+      "selling_price_raw": "16,80 TTC"
+    },
+    {
       "reference": "PRDX3713",
       "name": "Green Tomato Nmn Pore Lifting Ampoule Mask",
       "barcode": "8800253025759",
@@ -11833,6 +11970,13 @@
       "selling_price_raw": "29,80 TTC"
     },
     {
+      "reference": "PRDX3757",
+      "name": "Propolis Lipcecin Spicy 15ml",
+      "barcode": "8809949506886",
+      "selling_price": "15.95",
+      "selling_price_raw": "15,95 TTC"
+    },
+    {
       "reference": "PRDX3758",
       "name": "The Real Noni Energy Ampoule Mask",
       "barcode": "8809849807410",
@@ -11854,6 +11998,34 @@
       "selling_price_raw": "17,90 TTC"
     },
     {
+      "reference": "PRDX3773",
+      "name": "Bifida Biome Ampoule Mask",
+      "barcode": "8809730950553",
+      "selling_price": "3.5",
+      "selling_price_raw": "3,50 TTC"
+    },
+    {
+      "reference": "PRDX3774",
+      "name": "Galac Niacin Essence Mask",
+      "barcode": "8809730950546",
+      "selling_price": "3.5",
+      "selling_price_raw": "3,50 TTC"
+    },
+    {
+      "reference": "PRDX3776",
+      "name": "Pure Cleansing Oil 100ml",
+      "barcode": "8809730953677",
+      "selling_price": "14.5",
+      "selling_price_raw": "14,50 TTC"
+    },
+    {
+      "reference": "PRDX3777",
+      "name": "Peptide 9 Aqua Essence Lifting Eye Cream 40ml",
+      "barcode": "8809409341422",
+      "selling_price": "19.5",
+      "selling_price_raw": "19,50 TTC"
+    },
+    {
       "reference": "PRDX3778",
       "name": "Solid In Ceramide Lip Essence Triple set + Keyring",
       "barcode": "8809784605737",
@@ -11866,6 +12038,125 @@
       "barcode": "8803463017392",
       "selling_price": "29.9",
       "selling_price_raw": "29,90 TTC"
+    },
+    {
+      "reference": "PRDX3780",
+      "name": "Ceramide Ato Concentrate Cream 75ml",
+      "barcode": "8809925134911",
+      "selling_price": "14.6",
+      "selling_price_raw": "14,60 TTC"
+    },
+    {
+      "reference": "PRDX3782",
+      "name": "Tea Tree Purifying Shampoo 180ml",
+      "barcode": "8809151133764",
+      "selling_price": "15.5",
+      "selling_price_raw": "15,50 TTC"
+    },
+    {
+      "reference": "PRDX3791",
+      "name": "Retinal Boosting Eye Mask 84g",
+      "barcode": "8809562192725",
+      "selling_price": "18.9",
+      "selling_price_raw": "18,90 TTC"
+    },
+    {
+      "reference": "PRDX3792",
+      "name": "PDRN Booster Shot 30ml",
+      "barcode": "8809562193173",
+      "selling_price": "19.5",
+      "selling_price_raw": "19,50 TTC"
+    },
+    {
+      "reference": "PRDX3793",
+      "name": "360 Shot PDRN Lifting Eye Cream 30ml",
+      "barcode": "8806109107358",
+      "selling_price": "17.5",
+      "selling_price_raw": "17,50 TTC"
+    },
+    {
+      "reference": "PRDX3794",
+      "name": "Abc Glow Whipped Serum 100ml",
+      "barcode": "8809447256238",
+      "selling_price": "22.6",
+      "selling_price_raw": "22,60 TTC"
+    },
+    {
+      "reference": "PRDX3796",
+      "name": "Lifting Peptide Eye Cream 15ml",
+      "barcode": "8806109186773",
+      "selling_price": "18.9",
+      "selling_price_raw": "18,90 TTC"
+    },
+    {
+      "reference": "PRDX3801",
+      "name": "Madeca Lab Hyal Waterfull Glow Gel Mask",
+      "barcode": "8806109105668",
+      "selling_price": "3.7",
+      "selling_price_raw": "3,70 TTC"
+    },
+    {
+      "reference": "PRDX3802",
+      "name": "30 Seconds Bubble Cleanser Bright 150ml",
+      "barcode": "8809739130499",
+      "selling_price": "20.9",
+      "selling_price_raw": "20,90 TTC"
+    },
+    {
+      "reference": "PRDX3803",
+      "name": "30 Seconds Bubble Cleanser Comfort 150ml",
+      "barcode": "8809739130444",
+      "selling_price": "20.9",
+      "selling_price_raw": "20,90 TTC"
+    },
+    {
+      "reference": "PRDX3807",
+      "name": "Revive Firming Moisturizer Ginseng Retinol Firming Cream 60ml",
+      "barcode": "809968133193",
+      "selling_price": "0",
+      "selling_price_raw": "0,00 TTC"
+    },
+    {
+      "reference": "PRDX3817",
+      "name": "Atobarrier 365 Cream Pack",
+      "barcode": "8800283665161",
+      "selling_price": "41.22",
+      "selling_price_raw": "41,22 TTC"
+    },
+    {
+      "reference": "PRDX3818",
+      "name": "Black Snail Retinol Ampoule + Black Snail Cream + Black Snail Glutathione Tone Up",
+      "barcode": "8809963503021",
+      "selling_price": "26.99",
+      "selling_price_raw": "26,99 TTC"
+    },
+    {
+      "reference": "PRDX3899",
+      "name": "PDRN Hyaluron Lip Serum 10ml",
+      "barcode": "8800307374499",
+      "selling_price": "14.2",
+      "selling_price_raw": "14,20 TTC"
+    },
+    {
+      "reference": "PRDX3900",
+      "name": "PDRN Hyaluronic Acid Moisturizing Cleansing Foam 150ml",
+      "barcode": "8800307372983",
+      "selling_price": "17.5",
+      "selling_price_raw": "17,50 TTC"
+    },
+    {
+      "reference": "PRDX3901",
+      "name": "PDRN Collagen Melting Patch For Neck 4ea",
+      "barcode": "8800307373386",
+      "selling_price": "19.9",
+      "selling_price_raw": "19,90 TTC"
+    },
+    {
+      "reference": "PRDX3902",
+      "name": "PDRN Collagen Metling Patch For Glass Skin 4ea",
+      "barcode": "8800307373379",
+      "selling_price": "19.9",
+      "selling_price_raw": "19,90 TTC"
     },
     {
       "reference": "SV000002",

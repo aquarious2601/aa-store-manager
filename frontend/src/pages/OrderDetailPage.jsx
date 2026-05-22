@@ -3,6 +3,55 @@ import { Link, useParams } from 'react-router-dom'
 import { api } from '../api/client'
 import { computeMargin, marginColorClass, parsePrice } from '../utils/margin'
 
+/**
+ * Export the order's items whose gross margin is below `threshold` to a CSV
+ * that Excel opens cleanly (UTF-8 BOM, semicolon delimiter, CRLF). Columns:
+ * Order ref, Product, Reference, Qty, Unit price (HT), Selling price (TTC),
+ * Margin %. Items without a computable margin are excluded (they don't
+ * qualify as "below threshold").
+ */
+function exportItemsUnderMargin(order, allItems, threshold) {
+  const rows = [
+    ['Order', 'Product', 'Reference', 'Qty', 'Unit HT', 'Selling TTC', 'Margin %'],
+  ]
+
+  for (const it of allItems || []) {
+    const m = computeMargin(it.unitPrice, it.product?.sellingPrice)
+    if (m === null || m >= threshold) continue
+    rows.push([
+      order.reference || '',
+      it.product?.name || '',
+      it.product?.reference || '',
+      String(it.quantity ?? ''),
+      it.unitPrice || '',
+      it.product?.sellingPrice ? Number(it.product.sellingPrice).toFixed(2) : '',
+      (m * 100).toFixed(1),
+    ])
+  }
+
+  const pct = (threshold * 100).toFixed(0)
+  if (rows.length === 1) {
+    alert(`No items with margin below ${pct}% in this order.`)
+    return
+  }
+
+  const esc = (v) => {
+    const s = String(v ?? '')
+    return /[";\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s
+  }
+  const csv = rows.map((r) => r.map(esc).join(';')).join('\r\n')
+  const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' })
+  const url = URL.createObjectURL(blob)
+
+  const a = document.createElement('a')
+  a.href = url
+  a.download = `order_${order.reference || 'export'}_margin_below_${pct}.csv`
+  document.body.appendChild(a)
+  a.click()
+  a.remove()
+  setTimeout(() => URL.revokeObjectURL(url), 500)
+}
+
 export default function OrderDetailPage() {
   const { id } = useParams()
   const [data, setData] = useState({ loading: true, order: null, error: null })
@@ -101,6 +150,17 @@ export default function OrderDetailPage() {
             </span>
           </>
         )}
+
+        {/* Exports the items below the selected threshold (defaults to 30%
+            when no filter is active) */}
+        <button
+          type="button"
+          onClick={() => exportItemsUnderMargin(o, allItems, marginMax ?? 0.30)}
+          className="ml-auto rounded border border-slate-300 px-2 py-1 hover:bg-slate-100"
+          title="Download the items below the selected margin threshold as a CSV (opens in Excel)"
+        >
+          Export &lt; {((marginMax ?? 0.30) * 100).toFixed(0)}% to Excel
+        </button>
       </div>
 
       <div className="overflow-x-auto bg-white border border-slate-200 rounded-lg">

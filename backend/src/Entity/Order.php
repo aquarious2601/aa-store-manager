@@ -14,6 +14,7 @@ use Symfony\Component\Serializer\Attribute\Groups;
 #[ORM\Entity(repositoryClass: OrderRepository::class)]
 #[ORM\Table(name: '`orders`')]
 #[ORM\Index(name: 'idx_order_reference', columns: ['reference'])]
+#[ORM\Index(name: 'idx_order_date', columns: ['date'])]
 #[ApiResource(
     normalizationContext: ['groups' => ['order:read']],
     operations: [
@@ -52,6 +53,15 @@ class Order
     #[Groups(['order:read'])]
     private ?string $total = null;
 
+    /**
+     * Numeric parse of $total, populated at import. Lets the summary endpoint
+     * SUM/GROUP BY in pure SQL instead of fetching every row into PHP just to
+     * parse "459,16 €" strings.
+     */
+    #[ORM\Column(type: 'decimal', precision: 12, scale: 4, nullable: true)]
+    #[Groups(['order:read'])]
+    private ?string $totalNumeric = null;
+
     #[ORM\Column(length: 128, nullable: true)]
     #[Groups(['order:read'])]
     private ?string $payment = null;
@@ -86,6 +96,9 @@ class Order
 
     public function getTotal(): ?string { return $this->total; }
     public function setTotal(?string $total): static { $this->total = $total; return $this; }
+
+    public function getTotalNumeric(): ?string { return $this->totalNumeric; }
+    public function setTotalNumeric(?string $v): static { $this->totalNumeric = $v; return $this; }
 
     public function getPayment(): ?string { return $this->payment; }
     public function setPayment(?string $payment): static { $this->payment = $payment; return $this; }

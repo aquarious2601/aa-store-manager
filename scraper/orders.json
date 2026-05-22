@@ -1,6 +1,3962 @@
 {
-  "count": 349,
+  "count": 361,
   "orders": [
+    {
+      "reference": "URRZMVCFE",
+      "date": "12/05/2026",
+      "raw_date": "12/05/2026",
+      "status": "Paiement à distance accepté",
+      "total": "459,16 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10723",
+      "products": [
+        {
+          "name": "AGE-R Booster Pro Black",
+          "reference": "PRDX1409",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "114,79 €",
+          "total_price": "459,16 €"
+        }
+      ]
+    },
+    {
+      "reference": "UTLNBOPXN",
+      "date": "11/05/2026",
+      "raw_date": "11/05/2026",
+      "status": "Paiement à distance accepté",
+      "total": "3 728,12 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10706",
+      "products": [
+        {
+          "name": "Heartleaf Pore Control Cleansing Oil 200ml",
+          "reference": "PRD00179",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,37 €",
+          "total_price": "20,74 €"
+        },
+        {
+          "name": "Peach 70 Niacin Brightening Collagen Mask",
+          "reference": "PRDX1520",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "2,82 €",
+          "total_price": "56,40 €"
+        },
+        {
+          "name": "PDRN Hyaluronic Acid Capsule 100 Serum 30ml",
+          "reference": "PRDX1477",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "13,12 €",
+          "total_price": "104,93 €"
+        },
+        {
+          "name": "Niacinamide 10% TXA 4% Serum 30ml",
+          "reference": "PRDX0184",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "14,03 €",
+          "total_price": "112,27 €"
+        },
+        {
+          "name": "PDRN 100 Hyaluronic Acid Glow Pad",
+          "reference": "PRDX2501",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "12,22 €",
+          "total_price": "24,43 €"
+        },
+        {
+          "name": "Heartleaf 70 Soothing Collagen Mask",
+          "reference": "PRDX1521",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "2,82 €",
+          "total_price": "56,40 €"
+        },
+        {
+          "name": "Rice 70 Glow Collagen Mask",
+          "reference": "PRDX1522",
+          "barcode": "",
+          "quantity": 24,
+          "unit_price": "2,82 €",
+          "total_price": "67,60 €"
+        },
+        {
+          "name": "Retinal Booster Shot 30ml",
+          "reference": "PRDX3644",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "10,65 €",
+          "total_price": "63,90 €"
+        },
+        {
+          "name": "ROSEMARY Root Enhancer",
+          "reference": "PRDX0458",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "7,08 €",
+          "total_price": "14,16 €"
+        },
+        {
+          "name": "Vegan Collagen Eye Serum 10ml",
+          "reference": "PRDX0023",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "9,70 €",
+          "total_price": "38,80 €"
+        },
+        {
+          "name": "Calming Serum Green Tea Panthenol 30ml",
+          "reference": "PRD00015",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "8,65 €",
+          "total_price": "17,30 €"
+        },
+        {
+          "name": "Revive Under Eye Patch : Ginseng + Retinal 93g",
+          "reference": "PRDX3148",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "9,70 €",
+          "total_price": "77,60 €"
+        },
+        {
+          "name": "Ginseng Cleansing Oil 210ml",
+          "reference": "PRD00002",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "8,76 €",
+          "total_price": "17,52 €"
+        },
+        {
+          "name": "Rejuvenating PDRN Real Deep Mask",
+          "reference": "PRDX3536",
+          "barcode": "",
+          "quantity": 36,
+          "unit_price": "2,87 €",
+          "total_price": "103,32 €"
+        },
+        {
+          "name": "Collagen Gel Toner Pads",
+          "reference": "PRDX0871",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "11,97 €",
+          "total_price": "23,94 €"
+        },
+        {
+          "name": "Bio-Collagen Real Deep Mask",
+          "reference": "PRDX0289",
+          "barcode": "",
+          "quantity": 36,
+          "unit_price": "2,50 €",
+          "total_price": "90,00 €"
+        },
+        {
+          "name": "Hydro Cera-Nol Real Deep Mask",
+          "reference": "PRDX0283",
+          "barcode": "",
+          "quantity": 24,
+          "unit_price": "2,50 €",
+          "total_price": "60,00 €"
+        },
+        {
+          "name": "Pore Perfecting Collagen Peptide Cream 50ml",
+          "reference": "PRDX3657",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "8,86 €",
+          "total_price": "17,72 €"
+        },
+        {
+          "name": "Pore Perfecting Collagen Peptide Serum 30ml",
+          "reference": "PRDX3661",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "8,86 €",
+          "total_price": "35,44 €"
+        },
+        {
+          "name": "The Peptide Collagen Hydrogel Eye Patch",
+          "reference": "PRDX3476",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "10,06 €",
+          "total_price": "150,90 €"
+        },
+        {
+          "name": "Hyaluronic Acid Intensive Cream 100g",
+          "reference": "PRDX0545",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "9,70 €",
+          "total_price": "19,40 €"
+        },
+        {
+          "name": "Noni Toner",
+          "reference": "PRDX1617",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,14 €",
+          "total_price": "20,28 €"
+        },
+        {
+          "name": "Retinal Shot Tightening Booster 15ml",
+          "reference": "PRDX1641",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "8,53 €",
+          "total_price": "170,60 €"
+        },
+        {
+          "name": "Derma Nature Fresh Blackhead Jojoba Cleansing Oil",
+          "reference": "PRDX0471",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,49 €",
+          "total_price": "42,45 €"
+        },
+        {
+          "name": "360° Shot PDRN Active Serum 50ml",
+          "reference": "PRDX3747",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "12,69 €",
+          "total_price": "126,90 €"
+        },
+        {
+          "name": "PDRN Firming Boosting Ampoule 30ml",
+          "reference": "PRDX3690",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "9,10 €",
+          "total_price": "36,40 €"
+        },
+        {
+          "name": "PDRN Reju 5000 Cream 20g",
+          "reference": "PRDX3721",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "13,05 €",
+          "total_price": "78,30 €"
+        },
+        {
+          "name": "345 Relief Cream Mist 60ml",
+          "reference": "PRDX3422",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "6,11 €",
+          "total_price": "24,44 €"
+        },
+        {
+          "name": "147 Barrier Cream",
+          "reference": "PRDX1164",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "12,33 €",
+          "total_price": "73,98 €"
+        },
+        {
+          "name": "Black Snail Cream 50ml",
+          "reference": "PRDX0738",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "10,89 €",
+          "total_price": "65,34 €"
+        },
+        {
+          "name": "Eyephalt Retinol Eyebag Cream 10g",
+          "reference": "PRDX3541",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "13,29 €",
+          "total_price": "79,74 €"
+        },
+        {
+          "name": "ASTAXANTHIN EXTRA WHITENING AMPOULE 30ml",
+          "reference": "PRDX2351",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "10,30 €",
+          "total_price": "30,90 €"
+        },
+        {
+          "name": "Hyaltoin Flooding Serum 30ml",
+          "reference": "PRDX3380",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "12,09 €",
+          "total_price": "24,18 €"
+        },
+        {
+          "name": "PDRN Rejuvenating Toner 300ml",
+          "reference": "PRDX3071",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,54 €",
+          "total_price": "21,08 €"
+        },
+        {
+          "name": "Salmon Caring Centella Light Cleansing Oil",
+          "reference": "PRDX1569",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "11,29 €",
+          "total_price": "45,16 €"
+        },
+        {
+          "name": "Black Rice Moisture Cleansing Oil 150ml",
+          "reference": "PRD00219",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "8,60 €",
+          "total_price": "25,80 €"
+        },
+        {
+          "name": "[23 Light Medium] Moringa Ceramide BB Cream Spf30 PA++",
+          "reference": "PRDX0055",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "8,99 €",
+          "total_price": "26,97 €"
+        },
+        {
+          "name": "Perfumed Hair Shampoo Osmanthus 530ml",
+          "reference": "PRDX3270",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "10,21 €",
+          "total_price": "10,21 €"
+        },
+        {
+          "name": "Perfumed Hair Shampoo Hinoki 530ml",
+          "reference": "PRDX3272",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "10,21 €",
+          "total_price": "10,21 €"
+        },
+        {
+          "name": "Dermatical Hair-Loss Shampoo For Normal To Dry Hair 530ml",
+          "reference": "PRDX3269",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "9,42 €",
+          "total_price": "18,84 €"
+        },
+        {
+          "name": "Collagen Peptide Vital Mask",
+          "reference": "PRDX0652",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "9,10 €",
+          "total_price": "18,20 €"
+        },
+        {
+          "name": "Hyaluronic Panthenol Hydra Mask",
+          "reference": "PRDX0813",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "9,10 €",
+          "total_price": "9,10 €"
+        },
+        {
+          "name": "Tranexamic Acid+Glutathione Eye Cream Special Set",
+          "reference": "PRDX3162",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "7,90 €",
+          "total_price": "31,60 €"
+        },
+        {
+          "name": "Extra Super 9 Plus Glow Lifting Wrapping Mask",
+          "reference": "PRDX2827",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "9,70 €",
+          "total_price": "19,40 €"
+        },
+        {
+          "name": "Zero Pore One Day Cream",
+          "reference": "PRDX2187",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "12,81 €",
+          "total_price": "25,62 €"
+        },
+        {
+          "name": "Deep Lifting Peptide Eye Cream",
+          "reference": "PRDX1246",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "10,59 €",
+          "total_price": "42,36 €"
+        },
+        {
+          "name": "Zero Pore Cream 2.0 50ml",
+          "reference": "PRDX1234",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "11,19 €",
+          "total_price": "33,57 €"
+        },
+        {
+          "name": "One Day Exosome Shot Pore Ampoule 2000",
+          "reference": "PRDX1103",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "11,73 €",
+          "total_price": "23,46 €"
+        },
+        {
+          "name": "Zero Pore Pad Mild",
+          "reference": "PRDX1171",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "10,88 €",
+          "total_price": "43,52 €"
+        },
+        {
+          "name": "Triple Collagen Serum",
+          "reference": "PRDX0248",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "8,98 €",
+          "total_price": "35,92 €"
+        },
+        {
+          "name": "PDRN Pink Collagen Capsule Cream 55g",
+          "reference": "PRDX1916",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "11,37 €",
+          "total_price": "68,22 €"
+        },
+        {
+          "name": "Deep Peptide Radiance Mask",
+          "reference": "PRDX1167",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "1,44 €",
+          "total_price": "28,80 €"
+        },
+        {
+          "name": "Glutathione Glow Serum",
+          "reference": "PRDX1250",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "8,53 €",
+          "total_price": "51,18 €"
+        },
+        {
+          "name": "PDRN Pink Cica Soothing Toner",
+          "reference": "PRDX1144",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "7,17 €",
+          "total_price": "14,34 €"
+        },
+        {
+          "name": "Red Succinic Acid Peeling Pad",
+          "reference": "PRDX0814",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "12,80 €",
+          "total_price": "25,60 €"
+        },
+        {
+          "name": "Deep Vita C Capsule Cream 55g",
+          "reference": "PRDX1135",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "12,41 €",
+          "total_price": "124,10 €"
+        },
+        {
+          "name": "PDRN Pink Peptide Serum",
+          "reference": "PRDX1143",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "9,82 €",
+          "total_price": "58,92 €"
+        },
+        {
+          "name": "AGE-R Glutathione Glow Capsule Cream 50ml",
+          "reference": "PRDX0616",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "12,09 €",
+          "total_price": "60,46 €"
+        },
+        {
+          "name": "Toner Pad - MadeCassoside Blemish Pad",
+          "reference": "PRDX0208",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "12,69 €",
+          "total_price": "25,38 €"
+        },
+        {
+          "name": "Dermaplus Cica Mask",
+          "reference": "PRDX2334",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,09 €",
+          "total_price": "10,90 €"
+        },
+        {
+          "name": "Dermaplus Heartleaf Mask",
+          "reference": "PRDX2333",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,09 €",
+          "total_price": "10,90 €"
+        },
+        {
+          "name": "Teatree Essential Mask",
+          "reference": "PRDX1009",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,26 €",
+          "total_price": "12,60 €"
+        },
+        {
+          "name": "Toner Pad - Collagen Ampoule Pad",
+          "reference": "PRDX0557",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "12,69 €",
+          "total_price": "25,38 €"
+        },
+        {
+          "name": "Toner Pad - Watermide Moisture Pad",
+          "reference": "PRDX0555",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "12,69 €",
+          "total_price": "25,38 €"
+        },
+        {
+          "name": "Real Nature Mask Sheet [Royal Jelly]",
+          "reference": "PRDX0494",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "0,85 €",
+          "total_price": "8,50 €"
+        },
+        {
+          "name": "Perfume De Nature Body Lotion Sunshine Berry 345ml",
+          "reference": "PRDX3385",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "6,91 €",
+          "total_price": "20,73 €"
+        },
+        {
+          "name": "No.1 Dewy Glow Spa Sheet Mask",
+          "reference": "PRDX0777",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,31 €",
+          "total_price": "13,10 €"
+        },
+        {
+          "name": "Wonder Releaf Centella Spot Patch",
+          "reference": "PRDX1106",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "5,49 €",
+          "total_price": "27,45 €"
+        },
+        {
+          "name": "Hyalu-cica Hydrating Mask",
+          "reference": "PRDX2872",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "1,32 €",
+          "total_price": "19,80 €"
+        },
+        {
+          "name": "Poremizing Clarifying Mask",
+          "reference": "PRDX0838",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "1,32 €",
+          "total_price": "19,80 €"
+        },
+        {
+          "name": "Tone Brightening Glow Mask",
+          "reference": "PRDX0839",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "1,32 €",
+          "total_price": "19,80 €"
+        },
+        {
+          "name": "Probio-Cica Nourishing Mask",
+          "reference": "PRDX2497",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "1,32 €",
+          "total_price": "19,80 €"
+        },
+        {
+          "name": "Madagascar Centella Tea-Trica Relaxing Mask",
+          "reference": "PRDX2791",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "1,32 €",
+          "total_price": "19,80 €"
+        },
+        {
+          "name": "Madagascar Centella Hyalu-Cica Blue Serum 50ml",
+          "reference": "PRDX0532",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "8,68 €",
+          "total_price": "69,44 €"
+        },
+        {
+          "name": "Madagascar Centella Watergel Sheet Ampoule Mask",
+          "reference": "PRD00225",
+          "barcode": "",
+          "quantity": 18,
+          "unit_price": "1,32 €",
+          "total_price": "23,76 €"
+        },
+        {
+          "name": "Madagascar Centella Probio-Cica Bakuchiol Eye Cream 20ml",
+          "reference": "PRD00333",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "7,69 €",
+          "total_price": "38,45 €"
+        },
+        {
+          "name": "Madagascar Centella Quick Calming Pad",
+          "reference": "PRD00350",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "8,55 €",
+          "total_price": "17,10 €"
+        },
+        {
+          "name": "Madagascar Centella Probio-Cica Enrich Cream 50ml",
+          "reference": "PRD00217",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,06 €",
+          "total_price": "20,12 €"
+        },
+        {
+          "name": "Madagascar Centella Ampoule 55ml",
+          "reference": "PRD00206",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "7,62 €",
+          "total_price": "15,24 €"
+        },
+        {
+          "name": "Retinol Intense Daily Mask",
+          "reference": "PRDX0103",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "24,85 €",
+          "total_price": "49,70 €"
+        },
+        {
+          "name": "Deep Collagen Cica Teatree Soothing Mask",
+          "reference": "PRDX1566",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "2,88 €",
+          "total_price": "57,60 €"
+        },
+        {
+          "name": "Deep Collagen Hyalu-B5 Hydrating Mask",
+          "reference": "PRDX1519",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "2,88 €",
+          "total_price": "57,60 €"
+        },
+        {
+          "name": "Green Tomato Pore Lifting Ampoule+ 30ml",
+          "reference": "PRDX0330",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "8,38 €",
+          "total_price": "25,14 €"
+        },
+        {
+          "name": "Collagen Lifting Eye Cream 15ml",
+          "reference": "PRDX0128",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,43 €",
+          "total_price": "57,15 €"
+        },
+        {
+          "name": "Real Nature Aloe Face Mask",
+          "reference": "PRDX2180",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "0,85 €",
+          "total_price": "8,50 €"
+        },
+        {
+          "name": "Bio Watery Sun Cream SPF 50+ PA++++",
+          "reference": "PRD00163",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "8,81 €",
+          "total_price": "52,86 €"
+        },
+        {
+          "name": "Reedle Shot Lifting Cream 50ml",
+          "reference": "PRDX3639",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "13,64 €",
+          "total_price": "54,56 €"
+        },
+        {
+          "name": "PDRN Reedle Shot Hair Ampoule 100DL",
+          "reference": "PRDX3760",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "13,47 €",
+          "total_price": "26,94 €"
+        },
+        {
+          "name": "Pure Cleansing Oil 200ml",
+          "reference": "PRDX0452",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "13,93 €",
+          "total_price": "55,72 €"
+        }
+      ]
+    },
+    {
+      "reference": "JLBRCFGAA",
+      "date": "11/05/2026",
+      "raw_date": "11/05/2026",
+      "status": "Paiement à distance accepté",
+      "total": "1 554,55 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10705",
+      "products": [
+        {
+          "name": "Azelaic Acid 3 Cica Skin Clarifying Toner 250ml",
+          "reference": "PRDX2837",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "10,89 €",
+          "total_price": "87,12 €"
+        },
+        {
+          "name": "PDRN 100 Hyaluronic Acid Booster Toner 250ml",
+          "reference": "PRDX2838",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "10,77 €",
+          "total_price": "86,16 €"
+        },
+        {
+          "name": "8 Hyaluronic Acid Moisturizing Gentle Gel Cleanser",
+          "reference": "PRDX3711",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "8,02 €",
+          "total_price": "64,16 €"
+        },
+        {
+          "name": "PDRN Hyaluron Lip Serum 10ml",
+          "reference": "PRDX3899",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "5,21 €",
+          "total_price": "78,15 €"
+        },
+        {
+          "name": "PDRN Hyaluronic Acid Moisturizing Cleansing Foam 150ml",
+          "reference": "PRDX3900",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,59 €",
+          "total_price": "42,96 €"
+        },
+        {
+          "name": "PDRN Collagen Melting Patch For Neck 4ea",
+          "reference": "PRDX3901",
+          "barcode": "",
+          "quantity": 45,
+          "unit_price": "11,50 €",
+          "total_price": "517,50 €"
+        },
+        {
+          "name": "PDRN Collagen Metling Patch For Glass Skin 4ea",
+          "reference": "PRDX3902",
+          "barcode": "",
+          "quantity": 59,
+          "unit_price": "11,50 €",
+          "total_price": "678,50 €"
+        }
+      ]
+    },
+    {
+      "reference": "BXQVPZCHZ",
+      "date": "11/05/2026",
+      "raw_date": "11/05/2026",
+      "status": "Paiement à distance accepté",
+      "total": "3 324,62 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10704",
+      "products": [
+        {
+          "name": "PDRN Collagen Overnight Mask Firming Jelly 80ml",
+          "reference": "PRDX2294",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "9,64 €",
+          "total_price": "38,56 €"
+        },
+        {
+          "name": "Glutathiosome Dark Spot Serum Vita Drop 50ml",
+          "reference": "PRDX1605",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,36 €",
+          "total_price": "56,80 €"
+        },
+        {
+          "name": "Heartleaf 70 Soothing Collagen Mask",
+          "reference": "PRDX1521",
+          "barcode": "",
+          "quantity": 36,
+          "unit_price": "2,82 €",
+          "total_price": "101,52 €"
+        },
+        {
+          "name": "Heartleaf 77 Soothing Toner 250ml",
+          "reference": "PRD00178",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "11,19 €",
+          "total_price": "22,38 €"
+        },
+        {
+          "name": "PDRN 100 Hyaluronic Acid Glow Pad",
+          "reference": "PRDX2501",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "12,27 €",
+          "total_price": "36,80 €"
+        },
+        {
+          "name": "PDRN Hyaluronic Acid Capsule 100 Serum 30ml",
+          "reference": "PRDX1477",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "13,12 €",
+          "total_price": "131,17 €"
+        },
+        {
+          "name": "Rice 70 Glow Milky Toner 250ml",
+          "reference": "PRDX0864",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,62 €",
+          "total_price": "58,08 €"
+        },
+        {
+          "name": "Niacinamide 10% TXA 4% Serum 30ml",
+          "reference": "PRDX0184",
+          "barcode": "",
+          "quantity": 12,
+          "unit_price": "14,04 €",
+          "total_price": "168,50 €"
+        },
+        {
+          "name": "Rice Enzyme Brightening Cleansing Powder",
+          "reference": "PRDX0810",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "10,81 €",
+          "total_price": "32,43 €"
+        },
+        {
+          "name": "Rice Ceramide Hydrating Barrier Serum",
+          "reference": "PRDX0800",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "12,64 €",
+          "total_price": "37,92 €"
+        },
+        {
+          "name": "Green Plum Refreshing Cleanser 100ml",
+          "reference": "PRD00013",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "6,64 €",
+          "total_price": "13,28 €"
+        },
+        {
+          "name": "Dynasty Cream 50ml",
+          "reference": "PRD00001",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "10,50 €",
+          "total_price": "52,50 €"
+        },
+        {
+          "name": "Dynasty Cream 100ml [Tube]",
+          "reference": "PRDX0702",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "13,70 €",
+          "total_price": "68,50 €"
+        },
+        {
+          "name": "Apricot Blossom Peeling Gel",
+          "reference": "PRD00014",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "6,64 €",
+          "total_price": "19,92 €"
+        },
+        {
+          "name": "Rejuvenating PDRN Real Deep Mask",
+          "reference": "PRDX3536",
+          "barcode": "",
+          "quantity": 40,
+          "unit_price": "2,87 €",
+          "total_price": "114,80 €"
+        },
+        {
+          "name": "Hydro Cera-Nol Real Deep Mask",
+          "reference": "PRDX0283",
+          "barcode": "",
+          "quantity": 40,
+          "unit_price": "2,50 €",
+          "total_price": "100,00 €"
+        },
+        {
+          "name": "Bio-Collagen Real Deep Mask",
+          "reference": "PRDX0289",
+          "barcode": "",
+          "quantity": 40,
+          "unit_price": "2,50 €",
+          "total_price": "100,00 €"
+        },
+        {
+          "name": "The Niacinamide 15 Serum 20ml",
+          "reference": "PRD00282",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,30 €",
+          "total_price": "20,60 €"
+        },
+        {
+          "name": "Pore + Dark Spot Brightening Serum 30ml",
+          "reference": "PRDX1643",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "13,05 €",
+          "total_price": "65,25 €"
+        },
+        {
+          "name": "Derma Nature Fresh Blackhead Jojoba Cleansing Oil",
+          "reference": "PRDX0471",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "8,49 €",
+          "total_price": "25,47 €"
+        },
+        {
+          "name": "Oil Control Light Sunscreen",
+          "reference": "PRDX2727",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,86 €",
+          "total_price": "44,30 €"
+        },
+        {
+          "name": "Noni Acne Cleanser 155ml",
+          "reference": "PRDX1642",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "7,37 €",
+          "total_price": "22,11 €"
+        },
+        {
+          "name": "360° Shot PDRN Active Serum 50ml",
+          "reference": "PRDX3747",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "12,69 €",
+          "total_price": "126,90 €"
+        },
+        {
+          "name": "345 Relief Cream Mist 60ml",
+          "reference": "PRDX3422",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "6,11 €",
+          "total_price": "18,33 €"
+        },
+        {
+          "name": "PDRN Rejuvenating Toner 300ml",
+          "reference": "PRDX3071",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,54 €",
+          "total_price": "21,08 €"
+        },
+        {
+          "name": "Salmon Caring Centella Cream 100ml",
+          "reference": "PRDX1553",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "9,10 €",
+          "total_price": "27,30 €"
+        },
+        {
+          "name": "Weightless Sun Fluid",
+          "reference": "PRDX1082",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "10,75 €",
+          "total_price": "32,25 €"
+        },
+        {
+          "name": "Black Rice 5 Ceramide Barrier Moisturizing Cream 50ml",
+          "reference": "PRDX2158",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,10 €",
+          "total_price": "45,50 €"
+        },
+        {
+          "name": "Black Rice Moisture 5.5 Soft Cleansing Gel 100ml",
+          "reference": "PRD00334",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "5,69 €",
+          "total_price": "28,45 €"
+        },
+        {
+          "name": "Hyaluronic Acid Aqua Gel Cream 100ml",
+          "reference": "PRDX0134",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "8,53 €",
+          "total_price": "8,53 €"
+        },
+        {
+          "name": "Hyaluronic Acid Moist Cream 100ml",
+          "reference": "PRDX0135",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "8,49 €",
+          "total_price": "16,98 €"
+        },
+        {
+          "name": "Niacinamide 20 Serum 40ml",
+          "reference": "PRDX3262",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "9,22 €",
+          "total_price": "36,88 €"
+        },
+        {
+          "name": "Seoul 1988 Serum Retinal Liposome 2% + Black Ginseng 30ml",
+          "reference": "PRDX0995",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "11,43 €",
+          "total_price": "45,72 €"
+        },
+        {
+          "name": "Vegan Peptide Bakuchiol Sun Stick",
+          "reference": "PRDX0799",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "10,34 €",
+          "total_price": "41,36 €"
+        },
+        {
+          "name": "AGE-R Glutathione Glow Capsule Cream 50ml",
+          "reference": "PRDX0616",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "12,09 €",
+          "total_price": "24,18 €"
+        },
+        {
+          "name": "Deep Lifting Peptide Eye Cream",
+          "reference": "PRDX1246",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "10,59 €",
+          "total_price": "52,95 €"
+        },
+        {
+          "name": "Deep Peptide Radiance Mask",
+          "reference": "PRDX1167",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,44 €",
+          "total_price": "14,40 €"
+        },
+        {
+          "name": "Triple Collagen Serum",
+          "reference": "PRDX0248",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "8,98 €",
+          "total_price": "53,88 €"
+        },
+        {
+          "name": "Zero Pore Cream 2.0 50ml",
+          "reference": "PRDX1234",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "11,19 €",
+          "total_price": "22,38 €"
+        },
+        {
+          "name": "Triple Collagen Toner",
+          "reference": "PRDX0707",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "8,62 €",
+          "total_price": "34,48 €"
+        },
+        {
+          "name": "Zero Pore Pad Mild",
+          "reference": "PRDX1171",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "10,88 €",
+          "total_price": "32,64 €"
+        },
+        {
+          "name": "Collagen Jelly Cream 110ml",
+          "reference": "PRDX0247",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "12,09 €",
+          "total_price": "48,36 €"
+        },
+        {
+          "name": "Age-R Vita C Pro Ampoule",
+          "reference": "PRDX1480",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,97 €",
+          "total_price": "59,85 €"
+        },
+        {
+          "name": "Madecassoside Essential Mask",
+          "reference": "PRDX2718",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,21 €",
+          "total_price": "12,10 €"
+        },
+        {
+          "name": "Vitamin C Brightening Serum",
+          "reference": "PRDX2293",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,70 €",
+          "total_price": "48,50 €"
+        },
+        {
+          "name": "N.M.F Alpha Arbutin Glow Ampoule Mask",
+          "reference": "PRDX2617",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,44 €",
+          "total_price": "14,40 €"
+        },
+        {
+          "name": "Retinol Collagen Ampoule Lifting Mask",
+          "reference": "PRDX2614",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,68 €",
+          "total_price": "16,80 €"
+        },
+        {
+          "name": "Teatree Essential Mask",
+          "reference": "PRDX1009",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,26 €",
+          "total_price": "12,60 €"
+        },
+        {
+          "name": "Dermaplus Aloe Mask",
+          "reference": "PRDX2401",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,09 €",
+          "total_price": "10,90 €"
+        },
+        {
+          "name": "Real Nature Sheet Mask Rose",
+          "reference": "PRDX3655",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "0,91 €",
+          "total_price": "9,10 €"
+        },
+        {
+          "name": "No.5 Glutathione Vitamin Concentrated Toner 200ml",
+          "reference": "PRDX0139",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,64 €",
+          "total_price": "48,20 €"
+        },
+        {
+          "name": "No.1 Pure-full Calming Herb Toner",
+          "reference": "PRDX0060",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,84 €",
+          "total_price": "49,20 €"
+        },
+        {
+          "name": "1025 Dokdo Cleanser 150ml",
+          "reference": "PRD00275",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "6,11 €",
+          "total_price": "30,55 €"
+        },
+        {
+          "name": "Madagascar Centella Probio-cica Glow Sun Ampoule SPF50+ PA++++",
+          "reference": "PRDX0533",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "10,89 €",
+          "total_price": "87,12 €"
+        },
+        {
+          "name": "Probio-Cica Nourishing Mask",
+          "reference": "PRDX2497",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,32 €",
+          "total_price": "13,20 €"
+        },
+        {
+          "name": "Hyalu-cica Hydrating Mask",
+          "reference": "PRDX2872",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,32 €",
+          "total_price": "13,20 €"
+        },
+        {
+          "name": "Madagascar Centella Probio-Cica Enrich Cream 50ml",
+          "reference": "PRD00217",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "10,06 €",
+          "total_price": "40,24 €"
+        },
+        {
+          "name": "Ceramic Cream Refreshing Skin",
+          "reference": "PRDX0345",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "14,20 €",
+          "total_price": "42,60 €"
+        },
+        {
+          "name": "Collagen Lifting Eye Cream 15ml",
+          "reference": "PRDX0128",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,43 €",
+          "total_price": "57,15 €"
+        },
+        {
+          "name": "SOS Serum 50ml",
+          "reference": "PRDX0126",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "14,17 €",
+          "total_price": "70,85 €"
+        },
+        {
+          "name": "Ceramic Milk Ampoule 40ml",
+          "reference": "PRD00330",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "18,57 €",
+          "total_price": "92,85 €"
+        },
+        {
+          "name": "Milk Skin Toner",
+          "reference": "PRD00291",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "12,69 €",
+          "total_price": "63,45 €"
+        },
+        {
+          "name": "Cotton Soft Sun Stick",
+          "reference": "PRD00214",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,19 €",
+          "total_price": "40,95 €"
+        },
+        {
+          "name": "Bio Watery Sun Cream SPF 50+ PA++++",
+          "reference": "PRD00163",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,81 €",
+          "total_price": "44,05 €"
+        },
+        {
+          "name": "PDRN Essence 100 30ml",
+          "reference": "PRDX0606",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "18,07 €",
+          "total_price": "72,28 €"
+        },
+        {
+          "name": "Reedle Shot 100 50ml",
+          "reference": "PRDX0154",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "14,47 €",
+          "total_price": "72,35 €"
+        },
+        {
+          "name": "Reedle Shot Lifting Eye Cream",
+          "reference": "PRDX0479",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "11,62 €",
+          "total_price": "92,93 €"
+        },
+        {
+          "name": "Vita-C Dark Spot Care Cream",
+          "reference": "PRDX0240",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "11,50 €",
+          "total_price": "23,00 €"
+        },
+        {
+          "name": "Centella Mild Cleansing Foam",
+          "reference": "PRD00025",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "5,93 €",
+          "total_price": "29,65 €"
+        },
+        {
+          "name": "Centella Bubble Cleansing Foam",
+          "reference": "PRD00021",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "6,41 €",
+          "total_price": "32,05 €"
+        }
+      ]
+    },
+    {
+      "reference": "IGWBCMERF",
+      "date": "11/05/2026",
+      "raw_date": "11/05/2026",
+      "status": "Paiement à distance accepté",
+      "total": "563,19 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10703",
+      "products": [
+        {
+          "name": "Madeca Matcha Toning Peeling Gel 150ml",
+          "reference": "PRDX3746",
+          "barcode": "",
+          "quantity": 30,
+          "unit_price": "6,95 €",
+          "total_price": "208,50 €"
+        },
+        {
+          "name": "One Day Exosome Shot Pore Ampoule 2000",
+          "reference": "PRDX1103",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "11,73 €",
+          "total_price": "117,30 €"
+        },
+        {
+          "name": "Deep Vita C Capsule Cream 55g",
+          "reference": "PRDX1135",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "12,41 €",
+          "total_price": "124,10 €"
+        },
+        {
+          "name": "Galactomy Enzyme Peeling Gel",
+          "reference": "PRDX0448",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "6,71 €",
+          "total_price": "100,65 €"
+        }
+      ]
+    },
+    {
+      "reference": "QGWGYAQQT",
+      "date": "04/05/2026",
+      "raw_date": "04/05/2026",
+      "status": "Paiement à distance accepté",
+      "total": "2 193,93 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10565",
+      "products": [
+        {
+          "name": "Heartleaf TECA Capsule Serum Calming Drop 50ml",
+          "reference": "PRDX2389",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,91 €",
+          "total_price": "21,82 €"
+        },
+        {
+          "name": "Glutathiosome Dark Spot Serum Vita Drop 50ml",
+          "reference": "PRDX1605",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,38 €",
+          "total_price": "56,90 €"
+        },
+        {
+          "name": "Collagen Eye Patch Jericho Rose Jelly",
+          "reference": "PRDX0116",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "9,46 €",
+          "total_price": "75,68 €"
+        },
+        {
+          "name": "PDRN Collagen Overnight Mask Firming Jelly 80ml",
+          "reference": "PRDX2294",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "9,66 €",
+          "total_price": "28,98 €"
+        },
+        {
+          "name": "PDRN Hyaluronic Acid Capsule 100 Serum Mask",
+          "reference": "PRDX2647",
+          "barcode": "",
+          "quantity": 30,
+          "unit_price": "2,30 €",
+          "total_price": "69,00 €"
+        },
+        {
+          "name": "Fresh Rosehip Rice Mochi Cleanser",
+          "reference": "PRDX1345",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "8,52 €",
+          "total_price": "25,56 €"
+        },
+        {
+          "name": "Glow Replenishing Rice Milk 150ml",
+          "reference": "PRDX0469",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "8,71 €",
+          "total_price": "17,42 €"
+        },
+        {
+          "name": "Dynasty Cream 100ml [Tube]",
+          "reference": "PRDX0702",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "13,70 €",
+          "total_price": "41,10 €"
+        },
+        {
+          "name": "Revive Eye Serum : Ginseng + Retinal",
+          "reference": "PRD00010",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "8,40 €",
+          "total_price": "25,20 €"
+        },
+        {
+          "name": "Dynasty Cream 50ml",
+          "reference": "PRD00001",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,52 €",
+          "total_price": "21,04 €"
+        },
+        {
+          "name": "Matte Sun Stick Mugwort + Camelia SPF50 PA++++",
+          "reference": "PRD00005",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "7,91 €",
+          "total_price": "79,10 €"
+        },
+        {
+          "name": "Bio-Collagen Real Deep Mask",
+          "reference": "PRDX0289",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "2,50 €",
+          "total_price": "50,00 €"
+        },
+        {
+          "name": "Pore Perfecting Collagen Peptide Cream 50ml",
+          "reference": "PRDX3657",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "8,88 €",
+          "total_price": "35,52 €"
+        },
+        {
+          "name": "Rejuvenating PDRN Real Deep Mask",
+          "reference": "PRDX3536",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "2,87 €",
+          "total_price": "57,40 €"
+        },
+        {
+          "name": "Oil Control Light Sunscreen",
+          "reference": "PRDX2727",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "8,88 €",
+          "total_price": "17,76 €"
+        },
+        {
+          "name": "Madeca Matcha Toning Peeling Gel 150ml",
+          "reference": "PRDX3746",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "6,96 €",
+          "total_price": "104,40 €"
+        },
+        {
+          "name": "TX-Cream",
+          "reference": "PRDX1025",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,51 €",
+          "total_price": "57,55 €"
+        },
+        {
+          "name": "Exosome Repair Mask",
+          "reference": "PRDX1595",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "1,22 €",
+          "total_price": "18,30 €"
+        },
+        {
+          "name": "Melting Cleanser",
+          "reference": "PRDX1488",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "8,52 €",
+          "total_price": "34,08 €"
+        },
+        {
+          "name": "BP PORE CLEAR MASK PACK 25g",
+          "reference": "PRDX2345",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "1,09 €",
+          "total_price": "21,80 €"
+        },
+        {
+          "name": "ASTAXANTHIN BRIGHTENING AMPOULE MASK PACK 25g",
+          "reference": "PRDX2352",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "1,09 €",
+          "total_price": "16,35 €"
+        },
+        {
+          "name": "Black Yuja Bean Lifting Auto Eye Cream 15ml",
+          "reference": "PRDX1555",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "11,99 €",
+          "total_price": "119,90 €"
+        },
+        {
+          "name": "Salmon Caring Centella Toner 200ml",
+          "reference": "PRDX1552",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,31 €",
+          "total_price": "20,62 €"
+        },
+        {
+          "name": "Salmon Caring Centella Cream 100ml",
+          "reference": "PRDX1553",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "9,12 €",
+          "total_price": "27,36 €"
+        },
+        {
+          "name": "Artless Glow Base SPF50+ PA++++",
+          "reference": "PRD00154",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "10,10 €",
+          "total_price": "60,60 €"
+        },
+        {
+          "name": "Hyaluronic Acid Watery Sun Gel 50ml",
+          "reference": "PRDX0052",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "9,98 €",
+          "total_price": "99,80 €"
+        },
+        {
+          "name": "Ultra-Low Molecular Hyaluronic Acid Toner 300ml",
+          "reference": "PRDX1113",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "8,92 €",
+          "total_price": "17,84 €"
+        },
+        {
+          "name": "Water Sleeping Mask_Ex 15ml",
+          "reference": "PRDX2101",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "2,88 €",
+          "total_price": "28,80 €"
+        },
+        {
+          "name": "Vegan Peptide Bakuchiol Sun Stick",
+          "reference": "PRDX0799",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "10,36 €",
+          "total_price": "62,16 €"
+        },
+        {
+          "name": "Deep Vita C Capsule Cream 55g",
+          "reference": "PRDX1135",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "12,43 €",
+          "total_price": "99,44 €"
+        },
+        {
+          "name": "Zero Pore Cooling Mask",
+          "reference": "PRDX1169",
+          "barcode": "",
+          "quantity": 12,
+          "unit_price": "1,42 €",
+          "total_price": "17,04 €"
+        },
+        {
+          "name": "PDRN Pink Hyaluronic Moisturizing Cream 50ml",
+          "reference": "PRDX1367",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "9,12 €",
+          "total_price": "18,24 €"
+        },
+        {
+          "name": "PDRN Pink Collagen Capsule Cream 55g",
+          "reference": "PRDX1916",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "11,39 €",
+          "total_price": "45,56 €"
+        },
+        {
+          "name": "Deep Peptide Radiance Mask",
+          "reference": "PRDX1167",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "1,45 €",
+          "total_price": "29,00 €"
+        },
+        {
+          "name": "Deep Vita C Ampoule 30g",
+          "reference": "PRDX0889",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "14,75 €",
+          "total_price": "44,25 €"
+        },
+        {
+          "name": "Collagen Night Wrapping Mask 75ml",
+          "reference": "PRDX0075",
+          "barcode": "",
+          "quantity": 7,
+          "unit_price": "12,11 €",
+          "total_price": "84,77 €"
+        },
+        {
+          "name": "AGE-R Booster Pro White",
+          "reference": "PRDX3624",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "115,01 €",
+          "total_price": "115,01 €"
+        },
+        {
+          "name": "Birch Juice Moisturizing Sun Stick",
+          "reference": "PRDX0053",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "11,64 €",
+          "total_price": "116,40 €"
+        },
+        {
+          "name": "Madagascar Centella Poremizing Quick Clay Stick Mask",
+          "reference": "PRD00349",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "8,76 €",
+          "total_price": "35,04 €"
+        },
+        {
+          "name": "Cotton Soft Sun Stick",
+          "reference": "PRD00214",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "8,21 €",
+          "total_price": "49,26 €"
+        },
+        {
+          "name": "Reedle Shot Lifting Eye Cream",
+          "reference": "PRDX0479",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "11,61 €",
+          "total_price": "174,12 €"
+        },
+        {
+          "name": "Galactomy Enzyme Peeling Gel",
+          "reference": "PRDX0448",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "6,72 €",
+          "total_price": "53,76 €"
+        }
+      ]
+    },
+    {
+      "reference": "LQKYTEEVR",
+      "date": "04/05/2026",
+      "raw_date": "04/05/2026",
+      "status": "Paiement à distance accepté",
+      "total": "2 264,79 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10550",
+      "products": [
+        {
+          "name": "Heartleaf TECA Capsule Serum Calming Drop 50ml",
+          "reference": "PRDX2389",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,91 €",
+          "total_price": "21,82 €"
+        },
+        {
+          "name": "Acne Foam Cleanser Heartleaf Foam 150ml",
+          "reference": "PRDX0112",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "5,15 €",
+          "total_price": "10,30 €"
+        },
+        {
+          "name": "Azelaic Acid 10 Hyaluron Redness Soothing Serum 30ml",
+          "reference": "PRDX1418",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "13,54 €",
+          "total_price": "108,32 €"
+        },
+        {
+          "name": "PDRN Hyaluronic Acid Capsule 100 Serum Mask",
+          "reference": "PRDX2647",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "2,30 €",
+          "total_price": "46,00 €"
+        },
+        {
+          "name": "Heartleaf 70 Soothing Collagen Mask",
+          "reference": "PRDX1521",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "2,83 €",
+          "total_price": "56,60 €"
+        },
+        {
+          "name": "Heartleaf Pore Control Cleansing Oil 200ml",
+          "reference": "PRD00179",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "10,39 €",
+          "total_price": "51,95 €"
+        },
+        {
+          "name": "Niacinamide 10% TXA 4% Serum 30ml",
+          "reference": "PRDX0184",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "14,03 €",
+          "total_price": "84,20 €"
+        },
+        {
+          "name": "Heartleaf 77 Soothing Toner 250ml",
+          "reference": "PRD00178",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "11,21 €",
+          "total_price": "22,42 €"
+        },
+        {
+          "name": "Dark Spot Correcting Glow Serum 50ml",
+          "reference": "PRD00233",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "9,12 €",
+          "total_price": "27,36 €"
+        },
+        {
+          "name": "Matte Sun Stick Mugwort + Camelia SPF50 PA++++",
+          "reference": "PRD00005",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "7,91 €",
+          "total_price": "23,73 €"
+        },
+        {
+          "name": "Revive Eye Serum : Ginseng + Retinal",
+          "reference": "PRD00010",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "8,40 €",
+          "total_price": "25,20 €"
+        },
+        {
+          "name": "Light On Serum Centella + Vita C 30ml",
+          "reference": "PRD00236",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "8,64 €",
+          "total_price": "25,92 €"
+        },
+        {
+          "name": "Red Bean Refreshing Pore Mask",
+          "reference": "PRD00189",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "10,16 €",
+          "total_price": "10,16 €"
+        },
+        {
+          "name": "Green Plum Refreshing Cleanser 100ml",
+          "reference": "PRD00013",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "6,65 €",
+          "total_price": "6,65 €"
+        },
+        {
+          "name": "Green Plum Refreshing Toner AHA + BHA",
+          "reference": "PRD00012",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "9,15 €",
+          "total_price": "9,15 €"
+        },
+        {
+          "name": "Ginseng Essence Water 150ml",
+          "reference": "PRD00009",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "9,15 €",
+          "total_price": "9,15 €"
+        },
+        {
+          "name": "Bio-Collagen Real Deep Mask",
+          "reference": "PRDX0289",
+          "barcode": "",
+          "quantity": 40,
+          "unit_price": "2,50 €",
+          "total_price": "100,00 €"
+        },
+        {
+          "name": "Rejuvenating PDRN Real Deep Mask",
+          "reference": "PRDX3536",
+          "barcode": "",
+          "quantity": 36,
+          "unit_price": "2,87 €",
+          "total_price": "103,32 €"
+        },
+        {
+          "name": "Pore Perfecting Collagen Peptide Serum 30ml",
+          "reference": "PRDX3661",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "8,88 €",
+          "total_price": "17,76 €"
+        },
+        {
+          "name": "Collagen Mask To Foam Cleanser 150ml",
+          "reference": "PRDX2137",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "9,48 €",
+          "total_price": "9,48 €"
+        },
+        {
+          "name": "The Peptide Collagen Hydrogel Eye Patch",
+          "reference": "PRDX3476",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "10,07 €",
+          "total_price": "60,42 €"
+        },
+        {
+          "name": "The 6 Peptide Skin Booster Serum",
+          "reference": "PRD00256",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "10,28 €",
+          "total_price": "10,28 €"
+        },
+        {
+          "name": "Advanced Snail 92 All in one Cream 100g (pôt)",
+          "reference": "PRD00034",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "10,17 €",
+          "total_price": "30,51 €"
+        },
+        {
+          "name": "Master Patch Original Fit",
+          "reference": "PRDX3637",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "1,66 €",
+          "total_price": "8,30 €"
+        },
+        {
+          "name": "Oil Control Light Sunscreen",
+          "reference": "PRDX2727",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "8,88 €",
+          "total_price": "26,64 €"
+        },
+        {
+          "name": "Pure Grinding Cleansing Balm 50ml",
+          "reference": "PRDX0977",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "9,16 €",
+          "total_price": "18,32 €"
+        },
+        {
+          "name": "147 Barrier Cream",
+          "reference": "PRDX1164",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "12,35 €",
+          "total_price": "98,80 €"
+        },
+        {
+          "name": "Black Snail Cream 50ml",
+          "reference": "PRDX0738",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,91 €",
+          "total_price": "21,82 €"
+        },
+        {
+          "name": "Eyephalt Retinol Eyebag Cream 10g",
+          "reference": "PRDX3541",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "13,31 €",
+          "total_price": "26,62 €"
+        },
+        {
+          "name": "Melting Cleanser",
+          "reference": "PRDX1488",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "8,52 €",
+          "total_price": "8,52 €"
+        },
+        {
+          "name": "Salmon Caring Centella Cream 100ml",
+          "reference": "PRDX1553",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "9,12 €",
+          "total_price": "9,12 €"
+        },
+        {
+          "name": "Black Yuja Bean Lifting Auto Eye Cream 15ml",
+          "reference": "PRDX1555",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,99 €",
+          "total_price": "59,95 €"
+        },
+        {
+          "name": "Salmon Caring Centella Toner 200ml",
+          "reference": "PRDX1552",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "10,31 €",
+          "total_price": "10,31 €"
+        },
+        {
+          "name": "Super Melting Sebum Softener + cotton pad",
+          "reference": "PRDX2958",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "12,35 €",
+          "total_price": "61,75 €"
+        },
+        {
+          "name": "Hyaluronic Acid Watery Sun Gel 50ml",
+          "reference": "PRDX0052",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,98 €",
+          "total_price": "49,90 €"
+        },
+        {
+          "name": "Niacinamide 20 Serum 40ml",
+          "reference": "PRDX3262",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "9,24 €",
+          "total_price": "18,48 €"
+        },
+        {
+          "name": "Tranexamic Acid+Glutathione Eye Cream",
+          "reference": "PRDX0048",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "6,28 €",
+          "total_price": "18,84 €"
+        },
+        {
+          "name": "White Collagen Cleansing Foam 150ml",
+          "reference": "PRDX0236",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "5,52 €",
+          "total_price": "11,04 €"
+        },
+        {
+          "name": "PDRN Pink Peptide Serum",
+          "reference": "PRDX1143",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "9,84 €",
+          "total_price": "78,72 €"
+        },
+        {
+          "name": "PDRN Pink Collagen Capsule Cream 55g",
+          "reference": "PRDX1916",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "11,39 €",
+          "total_price": "91,12 €"
+        },
+        {
+          "name": "Deep Peptide Radiance Mask",
+          "reference": "PRDX1167",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,45 €",
+          "total_price": "14,50 €"
+        },
+        {
+          "name": "Collagen Glow Booster Serum 15ml",
+          "reference": "PRDX0890",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "10,81 €",
+          "total_price": "32,43 €"
+        },
+        {
+          "name": "Collagen Night Wrapping Mask 75ml",
+          "reference": "PRDX0075",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "12,11 €",
+          "total_price": "48,44 €"
+        },
+        {
+          "name": "Vitamin C Brightening Serum",
+          "reference": "PRDX2293",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "9,72 €",
+          "total_price": "19,44 €"
+        },
+        {
+          "name": "A-Control 10% Azelaic Acid Serum 30ml",
+          "reference": "PRDX0976",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "8,89 €",
+          "total_price": "17,78 €"
+        },
+        {
+          "name": "A-Control Azelaic Acid Cream 50ml",
+          "reference": "PRDX0828",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "7,61 €",
+          "total_price": "7,61 €"
+        },
+        {
+          "name": "No.1 Pantothenic B5 Active Soothing Serum 50ml",
+          "reference": "PRDX0579",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "11,21 €",
+          "total_price": "33,63 €"
+        },
+        {
+          "name": "No.5 Vitamin Spotlight Sheet Mask",
+          "reference": "PRDX0778",
+          "barcode": "",
+          "quantity": 16,
+          "unit_price": "1,32 €",
+          "total_price": "21,12 €"
+        },
+        {
+          "name": "Wonder Releaf Centella Spot Patch",
+          "reference": "PRDX1106",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "5,50 €",
+          "total_price": "16,50 €"
+        },
+        {
+          "name": "Wonder Releaf Centella Cream Unscented 50ml",
+          "reference": "PRDX0818",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "11,33 €",
+          "total_price": "33,99 €"
+        },
+        {
+          "name": "Mighty Bamboo Panthenol Cream 100ml",
+          "reference": "PRDX0929",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "10,53 €",
+          "total_price": "52,65 €"
+        },
+        {
+          "name": "Mighty Bamboo Panthenol Serum",
+          "reference": "PRDX2146",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "11,75 €",
+          "total_price": "23,50 €"
+        },
+        {
+          "name": "Turnover Cream Enhanced 50ml",
+          "reference": "PRDX1386",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "12,71 €",
+          "total_price": "63,55 €"
+        },
+        {
+          "name": "Birch Juice Moisturizing Cream",
+          "reference": "PRD00337",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "14,77 €",
+          "total_price": "14,77 €"
+        },
+        {
+          "name": "Birch Juice Moisturizing Cleanser",
+          "reference": "PRD00323",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "7,32 €",
+          "total_price": "7,32 €"
+        },
+        {
+          "name": "1025 Dokdo Cleanser 150ml",
+          "reference": "PRD00275",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "6,12 €",
+          "total_price": "12,24 €"
+        },
+        {
+          "name": "Hyalu-cica Hydrating Mask",
+          "reference": "PRDX2872",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,33 €",
+          "total_price": "13,30 €"
+        },
+        {
+          "name": "Madagascar Centella Air-Fit Suncream Light",
+          "reference": "PRDX2719",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,96 €",
+          "total_price": "49,80 €"
+        },
+        {
+          "name": "Madagascar Centella Light Cleansing Oil 200ml",
+          "reference": "PRD00110",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "9,36 €",
+          "total_price": "28,08 €"
+        },
+        {
+          "name": "Madagascar Centella Probio-cica Glow Sun Ampoule SPF50+ PA++++",
+          "reference": "PRDX0533",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "10,91 €",
+          "total_price": "10,91 €"
+        },
+        {
+          "name": "Madagascar Centella Ampoule 55ml",
+          "reference": "PRD00206",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "7,63 €",
+          "total_price": "15,26 €"
+        },
+        {
+          "name": "Poremizing Clarifying Mask",
+          "reference": "PRDX0838",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,33 €",
+          "total_price": "13,30 €"
+        },
+        {
+          "name": "Retinol Intense Reactivating Mask",
+          "reference": "PRDX1631",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,29 €",
+          "total_price": "12,90 €"
+        },
+        {
+          "name": "Deep Collagen Hyalu-B5 Hydrating Mask",
+          "reference": "PRDX1519",
+          "barcode": "",
+          "quantity": 16,
+          "unit_price": "2,88 €",
+          "total_price": "46,08 €"
+        },
+        {
+          "name": "Spot Patch",
+          "reference": "PRDX0439",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "2,98 €",
+          "total_price": "14,90 €"
+        },
+        {
+          "name": "PDRN Essence 100 30ml",
+          "reference": "PRDX0606",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "18,10 €",
+          "total_price": "72,40 €"
+        },
+        {
+          "name": "Tea Tree Relief Serum",
+          "reference": "PRD00024",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,13 €",
+          "total_price": "20,26 €"
+        },
+        {
+          "name": "Centella Mild Cleansing Foam",
+          "reference": "PRD00025",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "5,94 €",
+          "total_price": "17,82 €"
+        },
+        {
+          "name": "Pure Cleansing Oil 200ml",
+          "reference": "PRDX0452",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "13,96 €",
+          "total_price": "27,92 €"
+        },
+        {
+          "name": "Galactomy Enzyme Peeling Gel",
+          "reference": "PRDX0448",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "6,72 €",
+          "total_price": "13,44 €"
+        }
+      ]
+    },
+    {
+      "reference": "BOQULHHYN",
+      "date": "04/05/2026",
+      "raw_date": "04/05/2026",
+      "status": "Paiement à distance accepté",
+      "total": "837,38 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10548",
+      "products": [
+        {
+          "name": "Atobarrier 365 Cream Pack",
+          "reference": "PRDX3817",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "28,00 €",
+          "total_price": "140,00 €"
+        },
+        {
+          "name": "Madeca Cream Time Reverse (Season7) 50ml",
+          "reference": "PRDX1650",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "7,44 €",
+          "total_price": "148,80 €"
+        },
+        {
+          "name": "Fino Premium Touch Hair Oil",
+          "reference": "PRDX1502",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "8,51 €",
+          "total_price": "170,20 €"
+        },
+        {
+          "name": "No.9+ NAD+Bio Lifting-sil Essence 50ml",
+          "reference": "PRDX1557",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "13,27 €",
+          "total_price": "199,05 €"
+        },
+        {
+          "name": "Triple Radiance Cream 50ml",
+          "reference": "PRDX3697",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "14,03 €",
+          "total_price": "140,33 €"
+        },
+        {
+          "name": "Calendula Balancing Foam Gel Cleanser 150ml",
+          "reference": "PRDX2471",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "7,80 €",
+          "total_price": "39,00 €"
+        }
+      ]
+    },
+    {
+      "reference": "VKUMOBPKF",
+      "date": "04/05/2026",
+      "raw_date": "04/05/2026",
+      "status": "Paiement à distance accepté",
+      "total": "4 052,78 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10545",
+      "products": [
+        {
+          "name": "Mild Acidic pH Sheet Mask Glutathiosome fit",
+          "reference": "PRDX2190",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,51 €",
+          "total_price": "15,10 €"
+        },
+        {
+          "name": "Gummy Sheet Mask Collagen Milk Sticker",
+          "reference": "PRDX2880",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,39 €",
+          "total_price": "13,90 €"
+        },
+        {
+          "name": "Gummy Sheet Mask Vita Sticker",
+          "reference": "PRDX2875",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,39 €",
+          "total_price": "13,90 €"
+        },
+        {
+          "name": "Heartleaf 70 Intense Calming Cream 50ml",
+          "reference": "PRD00190",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "13,55 €",
+          "total_price": "27,10 €"
+        },
+        {
+          "name": "Rice 70 Glow Milky Toner 250ml",
+          "reference": "PRDX0864",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "11,61 €",
+          "total_price": "23,22 €"
+        },
+        {
+          "name": "Azelaic 10 Hyaluron Redness Soothing Pad",
+          "reference": "PRDX2503",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "11,87 €",
+          "total_price": "35,61 €"
+        },
+        {
+          "name": "Niacinamide 5 Txa Brightening Pad",
+          "reference": "PRDX2502",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "11,87 €",
+          "total_price": "23,74 €"
+        },
+        {
+          "name": "Heartleaf Succinic Moisture Cleansing Foam 150ml",
+          "reference": "PRDX0033",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "6,37 €",
+          "total_price": "50,96 €"
+        },
+        {
+          "name": "Rice Enzyme Brightening Cleansing Powder",
+          "reference": "PRDX0810",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "10,83 €",
+          "total_price": "10,83 €"
+        },
+        {
+          "name": "Quercetinol Pore Deep Cleansing Foam 150ml",
+          "reference": "PRD00356",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "7,38 €",
+          "total_price": "73,83 €"
+        },
+        {
+          "name": "Nano Retinol 0.3% + Niacin Renewing Serum",
+          "reference": "PRD00252",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "14,48 €",
+          "total_price": "43,44 €"
+        },
+        {
+          "name": "PDRN Hyaluronic Acid Capsule 100 Serum Mask",
+          "reference": "PRDX2647",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "2,30 €",
+          "total_price": "46,00 €"
+        },
+        {
+          "name": "Azelaic Acid 10 Hyaluron Redness Soothing Serum 30ml",
+          "reference": "PRDX1418",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "13,54 €",
+          "total_price": "108,32 €"
+        },
+        {
+          "name": "Dark Spot Correcting Glow Cream",
+          "reference": "PRDX0834",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "9,12 €",
+          "total_price": "36,48 €"
+        },
+        {
+          "name": "Vegan Collagen Eye Serum 10ml",
+          "reference": "PRDX0023",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,72 €",
+          "total_price": "48,60 €"
+        },
+        {
+          "name": "Dark Spot Correcting Glow Toner",
+          "reference": "PRDX2570",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "9,72 €",
+          "total_price": "29,16 €"
+        },
+        {
+          "name": "Ginseng Essence Water 150ml",
+          "reference": "PRD00009",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "9,15 €",
+          "total_price": "18,30 €"
+        },
+        {
+          "name": "Radiance Cleansing Balm",
+          "reference": "PRD00003",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "8,34 €",
+          "total_price": "33,36 €"
+        },
+        {
+          "name": "Green Plum Refreshing Toner AHA + BHA",
+          "reference": "PRD00012",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "9,15 €",
+          "total_price": "18,30 €"
+        },
+        {
+          "name": "Revive Serum : Ginseng + Snail Mucin 30ml",
+          "reference": "PRD00007",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,66 €",
+          "total_price": "43,30 €"
+        },
+        {
+          "name": "Green Plum Refreshing Cleanser 100ml",
+          "reference": "PRD00013",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "6,65 €",
+          "total_price": "13,30 €"
+        },
+        {
+          "name": "Glow Replenishing Rice Milk 150ml",
+          "reference": "PRDX0469",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "8,71 €",
+          "total_price": "26,13 €"
+        },
+        {
+          "name": "Matte Sun Stick Mugwort + Camelia SPF50 PA++++",
+          "reference": "PRD00005",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "7,91 €",
+          "total_price": "39,55 €"
+        },
+        {
+          "name": "Dynasty Cream 50ml",
+          "reference": "PRD00001",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "10,52 €",
+          "total_price": "52,60 €"
+        },
+        {
+          "name": "Master Patch Original Fit",
+          "reference": "PRDX3637",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,66 €",
+          "total_price": "16,60 €"
+        },
+        {
+          "name": "Retinal Shot Tightening Booster 15ml",
+          "reference": "PRDX1641",
+          "barcode": "",
+          "quantity": 30,
+          "unit_price": "8,55 €",
+          "total_price": "256,50 €"
+        },
+        {
+          "name": "Derma Nature Fresh Blackhead Jojoba Cleansing Oil",
+          "reference": "PRDX0471",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "8,51 €",
+          "total_price": "17,02 €"
+        },
+        {
+          "name": "Oil Control Light Sunscreen",
+          "reference": "PRDX2727",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,88 €",
+          "total_price": "44,40 €"
+        },
+        {
+          "name": "Noni Ampoule Calming + Radiance [30ml]",
+          "reference": "PRDX0769",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "12,47 €",
+          "total_price": "99,76 €"
+        },
+        {
+          "name": "360° Shot PDRN Active Serum 50ml",
+          "reference": "PRDX3747",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "12,71 €",
+          "total_price": "63,55 €"
+        },
+        {
+          "name": "Pure Grinding Cleansing Balm 50ml",
+          "reference": "PRDX0977",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "9,16 €",
+          "total_price": "18,32 €"
+        },
+        {
+          "name": "147 Barrier Cream",
+          "reference": "PRDX1164",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "12,35 €",
+          "total_price": "61,75 €"
+        },
+        {
+          "name": "15% Niacinamide Purity Serum",
+          "reference": "PRDX1179",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "10,07 €",
+          "total_price": "20,14 €"
+        },
+        {
+          "name": "ASTAXANTHIN EXTRA WHITENING AMPOULE 30ml",
+          "reference": "PRDX2351",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "10,31 €",
+          "total_price": "51,55 €"
+        },
+        {
+          "name": "ASTAXANTHIN BRIGHTENING AMPOULE MASK PACK 25g",
+          "reference": "PRDX2352",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "1,09 €",
+          "total_price": "21,80 €"
+        },
+        {
+          "name": "BP PORE CLEAR MASK PACK 25g",
+          "reference": "PRDX2345",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,09 €",
+          "total_price": "10,90 €"
+        },
+        {
+          "name": "My Lash Serum 9g",
+          "reference": "PRDX0082",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "3,60 €",
+          "total_price": "7,20 €"
+        },
+        {
+          "name": "Salmon Caring Centella Toner 200ml",
+          "reference": "PRDX1552",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "10,31 €",
+          "total_price": "30,93 €"
+        },
+        {
+          "name": "Black Rice Moisture Airyfit Daily Sunscreen SPF50+ PA++++",
+          "reference": "PRDX0073",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,48 €",
+          "total_price": "42,40 €"
+        },
+        {
+          "name": "Centella Phyto & 5 Peptide Concentrate Cream 30ml",
+          "reference": "PRDX0122",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,16 €",
+          "total_price": "40,80 €"
+        },
+        {
+          "name": "Black Rice 5 Ceramide Barrier Moisturizing Cream 50ml",
+          "reference": "PRDX2158",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "9,12 €",
+          "total_price": "27,36 €"
+        },
+        {
+          "name": "Bulgarian Rose Water Hydrogel Eye Patch",
+          "reference": "PRD00059",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "6,94 €",
+          "total_price": "69,40 €"
+        },
+        {
+          "name": "Ceramide Ato Soothing Gel",
+          "reference": "PRDX0842",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,96 €",
+          "total_price": "49,80 €"
+        },
+        {
+          "name": "Ceramide Ato Lotion",
+          "reference": "PRDX0885",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,26 €",
+          "total_price": "56,30 €"
+        },
+        {
+          "name": "Super Melting Sebum Softener + cotton pad",
+          "reference": "PRDX2958",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "12,35 €",
+          "total_price": "74,10 €"
+        },
+        {
+          "name": "Hyaluronic Acid Watery Sun Gel 50ml",
+          "reference": "PRDX0052",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "9,98 €",
+          "total_price": "149,70 €"
+        },
+        {
+          "name": "Peptide 9 Volume Bio Tox Ampoule Pro",
+          "reference": "PRDX0714",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "10,31 €",
+          "total_price": "30,93 €"
+        },
+        {
+          "name": "Zero Pore Blackhead Mud Mask 100g",
+          "reference": "PRDX0888",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "9,16 €",
+          "total_price": "9,16 €"
+        },
+        {
+          "name": "Zero Pore Pad 2.0",
+          "reference": "PRDX0017",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "11,51 €",
+          "total_price": "115,10 €"
+        },
+        {
+          "name": "PDRN Pink Peptide Serum",
+          "reference": "PRDX1143",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "9,84 €",
+          "total_price": "98,40 €"
+        },
+        {
+          "name": "AGE-R Booster Pro White",
+          "reference": "PRDX3624",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "115,01 €",
+          "total_price": "345,03 €"
+        },
+        {
+          "name": "Deep Vita A Retinol Serum 30ml",
+          "reference": "PRDX2487",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "12,89 €",
+          "total_price": "38,67 €"
+        },
+        {
+          "name": "PDRN Pink Glutathione Serum Mist 100ml",
+          "reference": "PRDX2470",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "9,24 €",
+          "total_price": "36,96 €"
+        },
+        {
+          "name": "Teatree Essential Mask",
+          "reference": "PRDX1009",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "1,27 €",
+          "total_price": "12,70 €"
+        },
+        {
+          "name": "Toner Pad - Phyto-Enzyme Peeling Pad",
+          "reference": "PRDX0930",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "12,71 €",
+          "total_price": "25,42 €"
+        },
+        {
+          "name": "No.1 Pantothenic B5 Active Soothing Serum 50ml",
+          "reference": "PRDX0579",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "11,21 €",
+          "total_price": "67,26 €"
+        },
+        {
+          "name": "No.5 Vitamin Concentrated Serum",
+          "reference": "PRD00244",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "13,55 €",
+          "total_price": "40,65 €"
+        },
+        {
+          "name": "No.5 Vitamin Spotlight Sheet Mask",
+          "reference": "PRDX0778",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "1,32 €",
+          "total_price": "26,40 €"
+        },
+        {
+          "name": "Skin Barrier Calming Lotion 220ml",
+          "reference": "PRDX2061",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,73 €",
+          "total_price": "58,65 €"
+        },
+        {
+          "name": "Mighty Bamboo Panthenol Cream 100ml",
+          "reference": "PRDX0929",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "10,53 €",
+          "total_price": "63,18 €"
+        },
+        {
+          "name": "Birch Juice Moisturizing Cream",
+          "reference": "PRD00337",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "14,77 €",
+          "total_price": "44,31 €"
+        },
+        {
+          "name": "Birch Juice Sunscreen",
+          "reference": "PRD00138",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "9,12 €",
+          "total_price": "182,40 €"
+        },
+        {
+          "name": "Super AquaGel Oasis Ampule Mask",
+          "reference": "PRDX3400",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "1,51 €",
+          "total_price": "30,20 €"
+        },
+        {
+          "name": "Madagascar Centella Probio-Cica Enrich Cream 50ml",
+          "reference": "PRD00217",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "10,07 €",
+          "total_price": "30,21 €"
+        },
+        {
+          "name": "Madagascar Centella Ampoule 55ml",
+          "reference": "PRD00206",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "7,63 €",
+          "total_price": "61,04 €"
+        },
+        {
+          "name": "Madagascar Centella Light Cleansing Oil 200ml",
+          "reference": "PRD00110",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "9,36 €",
+          "total_price": "93,60 €"
+        },
+        {
+          "name": "Madagascar Centella Probio-Cica Essence Toner",
+          "reference": "PRD00317",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "11,63 €",
+          "total_price": "11,63 €"
+        },
+        {
+          "name": "Madagascar Centella Ampoule 100ml",
+          "reference": "PRD00117",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,24 €",
+          "total_price": "56,20 €"
+        },
+        {
+          "name": "Retinol Intense Advanced Triple Action Eye Cream",
+          "reference": "PRD00118",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,21 €",
+          "total_price": "56,05 €"
+        },
+        {
+          "name": "Mask Fit Red Cushion 29N",
+          "reference": "PRDX0346",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "14,39 €",
+          "total_price": "43,17 €"
+        },
+        {
+          "name": "Mask Fit Red Cushion 23N",
+          "reference": "PRDX0349",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "15,11 €",
+          "total_price": "90,66 €"
+        },
+        {
+          "name": "Mask Fit Red Cushion 24W Soft Beige",
+          "reference": "PRDX0347",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "14,39 €",
+          "total_price": "43,17 €"
+        },
+        {
+          "name": "Mask Fit Red Cushion 27N Camel",
+          "reference": "PRDX0351",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "14,39 €",
+          "total_price": "43,17 €"
+        },
+        {
+          "name": "Cotton Soft Sun Stick",
+          "reference": "PRD00214",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,21 €",
+          "total_price": "41,05 €"
+        },
+        {
+          "name": "Bio Watery Sun Cream SPF 50+ PA++++",
+          "reference": "PRD00163",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,83 €",
+          "total_price": "44,15 €"
+        },
+        {
+          "name": "Reedle Shot 100 2 Step Mask",
+          "reference": "PRDX0880",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "1,45 €",
+          "total_price": "29,00 €"
+        },
+        {
+          "name": "White Truffle Double Serum & Cream",
+          "reference": "PRDX1690",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "22,48 €",
+          "total_price": "44,96 €"
+        },
+        {
+          "name": "Tea Tree Relief Serum",
+          "reference": "PRD00024",
+          "barcode": "",
+          "quantity": 3,
+          "unit_price": "10,13 €",
+          "total_price": "30,39 €"
+        },
+        {
+          "name": "Galactomy Enzyme Peeling Gel",
+          "reference": "PRDX0448",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "6,72 €",
+          "total_price": "33,60 €"
+        }
+      ]
+    },
+    {
+      "reference": "FZJNGHXFX",
+      "date": "30/04/2026",
+      "raw_date": "30/04/2026",
+      "status": "Paiement à distance accepté",
+      "total": "2 232,80 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10482",
+      "products": [
+        {
+          "name": "Atobarrier 365 Cream Pack",
+          "reference": "PRDX3817",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "28,00 €",
+          "total_price": "280,00 €"
+        },
+        {
+          "name": "PDRN Booster Shot 30ml",
+          "reference": "PRDX3792",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "10,04 €",
+          "total_price": "150,62 €"
+        },
+        {
+          "name": "Black Tea And Yuzu Rice Mochi Cleanser",
+          "reference": "PRDX2531",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,29 €",
+          "total_price": "46,45 €"
+        },
+        {
+          "name": "Tea Tree Purifying Shampoo 180ml",
+          "reference": "PRDX3782",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "7,38 €",
+          "total_price": "44,30 €"
+        },
+        {
+          "name": "The Mini Glow Set",
+          "reference": "PRDX3484",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "4,23 €",
+          "total_price": "63,45 €"
+        },
+        {
+          "name": "Centella Asiatica Calming Mask",
+          "reference": "PRD00016",
+          "barcode": "",
+          "quantity": 60,
+          "unit_price": "1,20 €",
+          "total_price": "72,00 €"
+        },
+        {
+          "name": "Revive Firming Moisturizer Ginseng Retinol Firming Cream 60ml",
+          "reference": "PRDX3807",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "11,01 €",
+          "total_price": "110,08 €"
+        },
+        {
+          "name": "Oil Control Moisturizing Cream 80ml",
+          "reference": "PRDX2841",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "9,29 €",
+          "total_price": "55,74 €"
+        },
+        {
+          "name": "Madeca Lab Hyal Waterfull Glow Gel Mask",
+          "reference": "PRDX3801",
+          "barcode": "",
+          "quantity": 30,
+          "unit_price": "2,06 €",
+          "total_price": "61,75 €"
+        },
+        {
+          "name": "360 Shot PDRN Lifting Eye Cream 30ml",
+          "reference": "PRDX3793",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "8,59 €",
+          "total_price": "85,92 €"
+        },
+        {
+          "name": "Black Snail Retinol Ampoule + Black Snail Cream + Black Snail Glutathione Tone Up",
+          "reference": "PRDX3818",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "15,50 €",
+          "total_price": "77,50 €"
+        },
+        {
+          "name": "R.E.D Blemish Clear Soorhing Cream",
+          "reference": "PRDX0327",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "16,44 €",
+          "total_price": "82,20 €"
+        },
+        {
+          "name": "Ceramide Ato Concentrate Cream 75ml",
+          "reference": "PRDX3780",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "7,38 €",
+          "total_price": "73,83 €"
+        },
+        {
+          "name": "No.9 Nad+ Bio Lifting-sil Full Face Mask",
+          "reference": "PRDX1582",
+          "barcode": "",
+          "quantity": 60,
+          "unit_price": "2,34 €",
+          "total_price": "140,40 €"
+        },
+        {
+          "name": "No.9+ NAD+Bio Lifting-sil Essence 50ml",
+          "reference": "PRDX1557",
+          "barcode": "",
+          "quantity": 35,
+          "unit_price": "13,36 €",
+          "total_price": "467,60 €"
+        },
+        {
+          "name": "No.5 Glutathione Vitamin Dark Spot Cream 50ml",
+          "reference": "PRDX1047",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "11,67 €",
+          "total_price": "70,02 €"
+        },
+        {
+          "name": "Balanceful Cica Mask",
+          "reference": "PRDX1470",
+          "barcode": "",
+          "quantity": 30,
+          "unit_price": "1,82 €",
+          "total_price": "54,60 €"
+        },
+        {
+          "name": "DIVE IN Low Molecular Hyaluronic Acid Mask",
+          "reference": "PRD00224",
+          "barcode": "",
+          "quantity": 50,
+          "unit_price": "1,70 €",
+          "total_price": "85,00 €"
+        },
+        {
+          "name": "PDRN Glow Ampoule 100ml",
+          "reference": "PRDX2224",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "13,15 €",
+          "total_price": "131,50 €"
+        },
+        {
+          "name": "Pure Cleansing Oil 100ml",
+          "reference": "PRDX3776",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "7,98 €",
+          "total_price": "79,83 €"
+        }
+      ]
+    },
+    {
+      "reference": "DVJVGIMWJ",
+      "date": "27/04/2026",
+      "raw_date": "27/04/2026",
+      "status": "Paiement à distance accepté",
+      "total": "1 498,01 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10416",
+      "products": [
+        {
+          "name": "PDRN EXOSOME Skinplaning Glaze Mask 50ml",
+          "reference": "PRDX3632",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,36 €",
+          "total_price": "46,80 €"
+        },
+        {
+          "name": "Black Rice Hyaluronic Toner - Ultra Deep Technology - 150ml",
+          "reference": "PRD00185",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "6,30 €",
+          "total_price": "31,50 €"
+        },
+        {
+          "name": "Black Rice Hyaluronic Anti-Wrinkle Serum",
+          "reference": "PRDX0959",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "8,75 €",
+          "total_price": "43,75 €"
+        },
+        {
+          "name": "RX Retinol Bakuchiol Hydrogel Eye Patch",
+          "reference": "PRDX2968",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "7,56 €",
+          "total_price": "75,60 €"
+        },
+        {
+          "name": "Rice Cream 50g",
+          "reference": "PRDX0547",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "15,48 €",
+          "total_price": "77,40 €"
+        },
+        {
+          "name": "Ceramide Ato Concentrate Cream 75ml",
+          "reference": "PRDX3780",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "7,38 €",
+          "total_price": "36,92 €"
+        },
+        {
+          "name": "No Sebum AC Powder",
+          "reference": "PRDX2641",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "4,80 €",
+          "total_price": "48,00 €"
+        },
+        {
+          "name": "Yam Root Vegan Milk Cleanser",
+          "reference": "PRDX0894",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "10,56 €",
+          "total_price": "52,80 €"
+        },
+        {
+          "name": "Waterfull Hyaluronic Acid Serum 50ml",
+          "reference": "PRDX3382",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "9,12 €",
+          "total_price": "91,20 €"
+        },
+        {
+          "name": "Retinal Liposome 1% + Fermented Rice",
+          "reference": "PRDX2214",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "11,16 €",
+          "total_price": "89,28 €"
+        },
+        {
+          "name": "Premium Brilliant Mist 90ml",
+          "reference": "PRDX3258",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "8,16 €",
+          "total_price": "81,60 €"
+        },
+        {
+          "name": "Objet Liquid 002 Sequence",
+          "reference": "PRDX2854",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "9,12 €",
+          "total_price": "36,48 €"
+        },
+        {
+          "name": "No.9 Nad+ Bio Lifting-sil Full Face Mask",
+          "reference": "PRDX1582",
+          "barcode": "",
+          "quantity": 40,
+          "unit_price": "2,32 €",
+          "total_price": "92,80 €"
+        },
+        {
+          "name": "Azelaic Acid Kojic Tea Tree Serum 30ml",
+          "reference": "PRDX3063",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,88 €",
+          "total_price": "59,40 €"
+        },
+        {
+          "name": "Deep Collagen Retinol Boost-Up Mask",
+          "reference": "PRDX1583",
+          "barcode": "",
+          "quantity": 32,
+          "unit_price": "3,49 €",
+          "total_price": "111,68 €"
+        },
+        {
+          "name": "DIVE-IN Low Molecular Hyaluronic Acid Cream [Tube] 80ml",
+          "reference": "PRDX3126",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "11,04 €",
+          "total_price": "55,20 €"
+        },
+        {
+          "name": "DIVE-IN Low Molecular Hyaluronic Acid Serum 50ml",
+          "reference": "PRD00126",
+          "barcode": "",
+          "quantity": 35,
+          "unit_price": "10,80 €",
+          "total_price": "378,00 €"
+        },
+        {
+          "name": "Real Nature Shea Butter Face Mask",
+          "reference": "PRDX1934",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "0,85 €",
+          "total_price": "8,50 €"
+        },
+        {
+          "name": "Real Nature Rice Face Mask",
+          "reference": "PRDX0311",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "0,85 €",
+          "total_price": "8,50 €"
+        },
+        {
+          "name": "White Truffle Body Cleanser",
+          "reference": "PRDX2433",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "14,52 €",
+          "total_price": "72,60 €"
+        }
+      ]
+    },
+    {
+      "reference": "TVUSJKBXK",
+      "date": "15/04/2026",
+      "raw_date": "15/04/2026",
+      "status": "Paiement à distance accepté",
+      "total": "6 748,81 €",
+      "payment": "Transfert bancaire",
+      "detail_url": "https://koreancosmetics.fr/index.php?controller=order-detail&id_order=10151",
+      "products": [
+        {
+          "name": "Glow Collagen Mask Glutathione Film",
+          "reference": "PRDX3381",
+          "barcode": "",
+          "quantity": 60,
+          "unit_price": "2,04 €",
+          "total_price": "122,40 €"
+        },
+        {
+          "name": "PDRN Retinal Eye Patch Glow Jelly 84g",
+          "reference": "PRDX2473",
+          "barcode": "",
+          "quantity": 25,
+          "unit_price": "9,55 €",
+          "total_price": "238,75 €"
+        },
+        {
+          "name": "Azelaic Acid 3 Cica Skin Clarifying Toner 250ml",
+          "reference": "PRDX2837",
+          "barcode": "",
+          "quantity": 12,
+          "unit_price": "10,86 €",
+          "total_price": "130,32 €"
+        },
+        {
+          "name": "PDRN 100 Hyaluronic Acid Booster Toner 250ml",
+          "reference": "PRDX2838",
+          "barcode": "",
+          "quantity": 12,
+          "unit_price": "10,75 €",
+          "total_price": "129,00 €"
+        },
+        {
+          "name": "Black Tea And Yuzu Rice Mochi Cleanser",
+          "reference": "PRDX2531",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "9,19 €",
+          "total_price": "36,76 €"
+        },
+        {
+          "name": "Vitamin C Booster Shot 30ml",
+          "reference": "PRDX3330",
+          "barcode": "",
+          "quantity": 25,
+          "unit_price": "8,12 €",
+          "total_price": "203,00 €"
+        },
+        {
+          "name": "Red Collagen Jello Mask",
+          "reference": "PRDX3482",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "1,32 €",
+          "total_price": "26,40 €"
+        },
+        {
+          "name": "Retinal Boosting Eye Mask 84g",
+          "reference": "PRDX3791",
+          "barcode": "",
+          "quantity": 35,
+          "unit_price": "8,59 €",
+          "total_price": "300,71 €"
+        },
+        {
+          "name": "Tea Tree Purifying Shampoo 180ml",
+          "reference": "PRDX3782",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "7,38 €",
+          "total_price": "44,30 €"
+        },
+        {
+          "name": "Revive Firming Moisturizer Ginseng Retinol Firming Cream 60ml",
+          "reference": "PRDX3807",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "10,95 €",
+          "total_price": "164,25 €"
+        },
+        {
+          "name": "Centella Asiatica Calming Mask",
+          "reference": "PRD00016",
+          "barcode": "",
+          "quantity": 30,
+          "unit_price": "1,20 €",
+          "total_price": "36,00 €"
+        },
+        {
+          "name": "Lipsleek Blur 01 Ador",
+          "reference": "PRDX3186",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "9,67 €",
+          "total_price": "96,70 €"
+        },
+        {
+          "name": "Lipsleek Blur 09 Proud",
+          "reference": "PRDX3182",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "9,67 €",
+          "total_price": "145,05 €"
+        },
+        {
+          "name": "Propolis Lipcerin",
+          "reference": "PRDX0535",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "7,88 €",
+          "total_price": "78,80 €"
+        },
+        {
+          "name": "Propolis Lipcecin Spicy 15ml",
+          "reference": "PRDX3757",
+          "barcode": "",
+          "quantity": 12,
+          "unit_price": "8,93 €",
+          "total_price": "107,20 €"
+        },
+        {
+          "name": "Juicy Drop Tint 07 Cool Peach",
+          "reference": "PRDX3605",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "6,09 €",
+          "total_price": "60,90 €"
+        },
+        {
+          "name": "Fruity Glass Tint [1004 Pink Gloss]",
+          "reference": "PRDX2739",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "6,09 €",
+          "total_price": "60,90 €"
+        },
+        {
+          "name": "Glow Lock Jelly Tint 101 Chou",
+          "reference": "PRDX3676",
+          "barcode": "",
+          "quantity": 13,
+          "unit_price": "6,21 €",
+          "total_price": "80,73 €"
+        },
+        {
+          "name": "Dual Barrier Creamy Toner 150ml",
+          "reference": "PRDX3553",
+          "barcode": "",
+          "quantity": 9,
+          "unit_price": "9,49 €",
+          "total_price": "85,41 €"
+        },
+        {
+          "name": "Oil Control Moisturizing Cream 80ml",
+          "reference": "PRDX2841",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "9,19 €",
+          "total_price": "55,14 €"
+        },
+        {
+          "name": "Madeca Derma Mask III Intensive Formula",
+          "reference": "PRDX3671",
+          "barcode": "",
+          "quantity": 40,
+          "unit_price": "1,08 €",
+          "total_price": "43,20 €"
+        },
+        {
+          "name": "Madeca Cream Time Reverse (Season7) 50ml",
+          "reference": "PRDX1650",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "7,41 €",
+          "total_price": "74,10 €"
+        },
+        {
+          "name": "Lifting Peptide Eye Cream 15ml",
+          "reference": "PRDX3796",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,80 €",
+          "total_price": "49,00 €"
+        },
+        {
+          "name": "360 Shot PDRN Lifting Eye Cream 30ml",
+          "reference": "PRDX3793",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "8,59 €",
+          "total_price": "171,83 €"
+        },
+        {
+          "name": "Abc Glow Whipped Serum 100ml",
+          "reference": "PRDX3794",
+          "barcode": "",
+          "quantity": 12,
+          "unit_price": "17,92 €",
+          "total_price": "215,00 €"
+        },
+        {
+          "name": "R.E.D Blemish Clear Soorhing Cream",
+          "reference": "PRDX0327",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "16,27 €",
+          "total_price": "130,16 €"
+        },
+        {
+          "name": "Purple PDRN Pore Minimizing Serum 30ml",
+          "reference": "PRDX3586",
+          "barcode": "",
+          "quantity": 14,
+          "unit_price": "12,95 €",
+          "total_price": "181,30 €"
+        },
+        {
+          "name": "Fino Premium Touch Shampoo",
+          "reference": "PRDX1020",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "10,03 €",
+          "total_price": "40,12 €"
+        },
+        {
+          "name": "Damage Therapy Multi Silk Balm Mini 02 True Me",
+          "reference": "PRDX3626",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "4,90 €",
+          "total_price": "73,50 €"
+        },
+        {
+          "name": "Damage Therapy Shampoo Ex 50ml",
+          "reference": "PRDX3627",
+          "barcode": "",
+          "quantity": 2,
+          "unit_price": "4,06 €",
+          "total_price": "8,12 €"
+        },
+        {
+          "name": "Damage Therapy Multi Silk Balm Mini 01 Due Rose",
+          "reference": "PRDX3625",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "4,90 €",
+          "total_price": "73,50 €"
+        },
+        {
+          "name": "Rice Cream 50g",
+          "reference": "PRDX0547",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "15,40 €",
+          "total_price": "92,40 €"
+        },
+        {
+          "name": "Ceramide Ato Concentrate Cream 75ml",
+          "reference": "PRDX3780",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "7,38 €",
+          "total_price": "147,67 €"
+        },
+        {
+          "name": "Seoul 1988 Glow Serum Niacinamide 15% + Yuja",
+          "reference": "PRDX2626",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "9,08 €",
+          "total_price": "54,48 €"
+        },
+        {
+          "name": "Gentle Steam Eye Mask (rose)",
+          "reference": "PRDX0985",
+          "barcode": "",
+          "quantity": 40,
+          "unit_price": "1,11 €",
+          "total_price": "44,40 €"
+        },
+        {
+          "name": "Gentle steam eye mask (forêt)",
+          "reference": "PRDX2643",
+          "barcode": "",
+          "quantity": 40,
+          "unit_price": "1,11 €",
+          "total_price": "44,33 €"
+        },
+        {
+          "name": "Gentle Steam Eye Mask (lavande)",
+          "reference": "PRDX2717",
+          "barcode": "",
+          "quantity": 40,
+          "unit_price": "1,11 €",
+          "total_price": "44,33 €"
+        },
+        {
+          "name": "Pair Acne Cream W [24g]",
+          "reference": "PRDX1247",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "7,88 €",
+          "total_price": "78,80 €"
+        },
+        {
+          "name": "Red Lacto Collagen Konjac Peeling Gel",
+          "reference": "PRDX2521",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "10,15 €",
+          "total_price": "101,50 €"
+        },
+        {
+          "name": "Peptide 9 Aqua Essence Lifting Eye Cream 40ml",
+          "reference": "PRDX3777",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "10,35 €",
+          "total_price": "207,00 €"
+        },
+        {
+          "name": "30 Seconds Bubble Cleanser Daily Comfort 150ml",
+          "reference": "PRDX3803",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "9,01 €",
+          "total_price": "90,08 €"
+        },
+        {
+          "name": "30 Seconds Bubble Cleanser Bright 150ml",
+          "reference": "PRDX3802",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "9,01 €",
+          "total_price": "90,08 €"
+        },
+        {
+          "name": "No.9 Nad+ Bio Lifting-sil Full Face Mask",
+          "reference": "PRDX1582",
+          "barcode": "",
+          "quantity": 40,
+          "unit_price": "2,31 €",
+          "total_price": "92,40 €"
+        },
+        {
+          "name": "The Juicy Lasting Tint 22 Dotori Bomb",
+          "reference": "PRDX2696",
+          "barcode": "",
+          "quantity": 7,
+          "unit_price": "5,13 €",
+          "total_price": "35,91 €"
+        },
+        {
+          "name": "The Juicy Lasting Tint 21 Grape Bomb",
+          "reference": "PRDX2698",
+          "barcode": "",
+          "quantity": 7,
+          "unit_price": "5,13 €",
+          "total_price": "35,91 €"
+        },
+        {
+          "name": "The Juicy Lasting Tint 06 Peeling Angdoo",
+          "reference": "PRDX2283",
+          "barcode": "",
+          "quantity": 15,
+          "unit_price": "5,65 €",
+          "total_price": "84,75 €"
+        },
+        {
+          "name": "The Juicy Lasting Tint 12 Apple Brown",
+          "reference": "PRDX2693",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "5,13 €",
+          "total_price": "41,04 €"
+        },
+        {
+          "name": "The Juicy Lasting Tint 07 Cherry Bomb",
+          "reference": "PRDX2691",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "5,13 €",
+          "total_price": "41,04 €"
+        },
+        {
+          "name": "Tea-Trica Mild Peeling Gel 125ml",
+          "reference": "PRDX2453",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "8,24 €",
+          "total_price": "32,96 €"
+        },
+        {
+          "name": "Green Tomato Nmn Pore Lifting Ampoule Mask",
+          "reference": "PRDX3713",
+          "barcode": "",
+          "quantity": 30,
+          "unit_price": "1,09 €",
+          "total_price": "32,75 €"
+        },
+        {
+          "name": "Deep Collagen Retinol Boost-Up Mask",
+          "reference": "PRDX1583",
+          "barcode": "",
+          "quantity": 60,
+          "unit_price": "3,47 €",
+          "total_price": "208,20 €"
+        },
+        {
+          "name": "Green Tomato Pore Zero Ampoule+ 40ml",
+          "reference": "PRDX1601",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "7,88 €",
+          "total_price": "78,80 €"
+        },
+        {
+          "name": "Mask Fit Make Up Fixer",
+          "reference": "PRDX1313",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "6,69 €",
+          "total_price": "33,45 €"
+        },
+        {
+          "name": "Water Essence Mist Tender Bloom",
+          "reference": "PRDX2455",
+          "barcode": "",
+          "quantity": 4,
+          "unit_price": "15,52 €",
+          "total_price": "62,08 €"
+        },
+        {
+          "name": "Deep Damage Treatment EX Tender Bloom",
+          "reference": "PRDX1035",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "15,52 €",
+          "total_price": "93,12 €"
+        },
+        {
+          "name": "Reedle Shot Lifting Serum 30ml",
+          "reference": "PRDX1236",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "18,94 €",
+          "total_price": "151,52 €"
+        },
+        {
+          "name": "PDRN Cream 100 50ml",
+          "reference": "PRDX1243",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "18,26 €",
+          "total_price": "182,58 €"
+        },
+        {
+          "name": "Reedle Shot Vita-Light Eye Cream",
+          "reference": "PRDX2179",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "15,11 €",
+          "total_price": "151,10 €"
+        },
+        {
+          "name": "PDRN Glow Ampoule 100ml",
+          "reference": "PRDX2224",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "13,01 €",
+          "total_price": "130,10 €"
+        },
+        {
+          "name": "PDRN Essence 100 + Gift",
+          "reference": "PRDX3779",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "18,26 €",
+          "total_price": "182,58 €"
+        },
+        {
+          "name": "And Honey Body Wash 500ml",
+          "reference": "PRDX2966",
+          "barcode": "",
+          "quantity": 8,
+          "unit_price": "11,82 €",
+          "total_price": "94,56 €"
+        },
+        {
+          "name": "Scalp Therapy Serum Shampoo",
+          "reference": "PRDX2428",
+          "barcode": "",
+          "quantity": 6,
+          "unit_price": "14,44 €",
+          "total_price": "86,64 €"
+        },
+        {
+          "name": "White Truffle Serum Intensive Solution 100ml",
+          "reference": "PRDX3398",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "16,83 €",
+          "total_price": "168,30 €"
+        },
+        {
+          "name": "White Truffle Serum Intensive Solution 60ml",
+          "reference": "PRDX3399",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "14,44 €",
+          "total_price": "144,40 €"
+        },
+        {
+          "name": "First Spray Serum 50ml",
+          "reference": "PRDX2901",
+          "barcode": "",
+          "quantity": 14,
+          "unit_price": "9,08 €",
+          "total_price": "127,12 €"
+        },
+        {
+          "name": "Vita Toning Serum Toner",
+          "reference": "PRDX1688",
+          "barcode": "",
+          "quantity": 1,
+          "unit_price": "11,78 €",
+          "total_price": "11,78 €"
+        },
+        {
+          "name": "Beta-Glucan 3X Barrier Cream 50ml",
+          "reference": "PRDX2974",
+          "barcode": "",
+          "quantity": 5,
+          "unit_price": "9,20 €",
+          "total_price": "46,00 €"
+        },
+        {
+          "name": "Pure Cleansing Oil 100ml",
+          "reference": "PRDX3776",
+          "barcode": "",
+          "quantity": 10,
+          "unit_price": "7,94 €",
+          "total_price": "79,42 €"
+        },
+        {
+          "name": "Galac Niacin Essence Mask",
+          "reference": "PRDX3774",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "1,57 €",
+          "total_price": "31,33 €"
+        },
+        {
+          "name": "Bifida Biome Ampoule Mask",
+          "reference": "PRDX3773",
+          "barcode": "",
+          "quantity": 20,
+          "unit_price": "1,57 €",
+          "total_price": "31,33 €"
+        }
+      ]
+    },
     {
       "reference": "UZYCVOTOP",
       "date": "27/04/2026",

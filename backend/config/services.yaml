@@ -27,3 +27,18 @@ services:
     App\Doctrine\ProductSearchExtension:
         tags:
             - { name: api_platform.doctrine.orm.query_extension.collection }
+
+    # Server-side `?search=` filter for the Order collection.
+    App\Doctrine\OrderSearchExtension:
+        tags:
+            - { name: api_platform.doctrine.orm.query_extension.collection }
+
+    # Server-side `?date[after]=` filter for the Order collection.
+    App\Doctrine\OrderDateRangeExtension:
+        tags:
+            - { name: api_platform.doctrine.orm.query_extension.collection }
+
+    # Server-side `?status=` filter for the Order collection.
+    App\Doctrine\OrderStatusFilterExtension:
+        tags:
+            - { name: api_platform.doctrine.orm.query_extension.collection }

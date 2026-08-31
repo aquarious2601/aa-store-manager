@@ -13,12 +13,15 @@ Default — full crawl. Walks every row of the history page, follows every
 detail link, and writes a fresh orders.json (overwriting any previous file).
 
 Create-only — set `CREATE_ONLY=1` in .env (or env). Loads the existing
-orders.json, collects the set of references already known, and skips any
-row whose reference is in that set. Once the scraper has seen
-`CREATE_ONLY_STOP_AFTER` consecutive known references on the listing page,
-it stops walking (the page is newest-first, so past that point everything
-is also known). Newly-found orders are MERGED with the existing ones in
-orders.json — old orders are preserved, new ones are appended.
+orders.json, collects the set of references already known along with their
+last-seen status, and skips any row whose reference is known AND whose
+status hasn't changed since. A known reference whose status HAS changed
+(e.g. "Paiement à distance accepté" -> "livré") is treated like a new order:
+its detail page is re-fetched and it overwrites the stale entry. The full
+history table is walked every run (it's all loaded in one page, no
+pagination) so a status change is caught no matter how far back it sits.
+Newly-found or updated orders are MERGED with the existing ones in
+orders.json — untouched old orders are preserved.
 
 Usage:
     pip install -r requirements.txt
@@ -321,7 +324,7 @@ def collect_order_rows(
     page: Page,
     *,
     known_refs: Optional[set[str]] = None,
-    stop_after_known: int = 0,
+    known_status: Optional[dict[str, str]] = None,
 ) -> List[Order]:
     """
     Scrape the order list table on /historique-commandes.
@@ -399,10 +402,6 @@ def collect_order_rows(
             print(f"   first-row status sample: raw={sample!r}  normalized={normalize(sample)!r}")
             print(f"   matching against WANTED_STATUSES={WANTED_STATUSES!r}")
 
-    # Incremental-mode tracker: how many consecutive already-known orders
-    # we've seen. Once we hit `stop_after_known`, the rest of the page is
-    # assumed to also be known (the page is newest-first) and we break out.
-    consecutive_known = 0
     skipped_known = 0
 
     for row in rows:
@@ -449,21 +448,33 @@ def collect_order_rows(
         if not any(w in norm for w in WANTED_STATUSES):
             continue
 
-        # Incremental mode: skip references we already know about. We also
-        # track a "consecutive known" counter so we can stop walking the
-        # listing entirely once we're firmly past the unknown section.
-        if known_refs is not None and reference in known_refs:
+        # Incremental mode: skip references we already know about — UNLESS
+        # the status shown on this listing row has changed since we last
+        # scraped it (e.g. "Paiement à distance accepté" -> "livré"). The
+        # status is already sitting right here in `status`; previously we
+        # discarded it unconditionally for any known reference, so an order
+        # transitioning to "livré" after its initial scrape was silently
+        # never re-synced. When the status did change we fall through and
+        # re-fetch the order's detail page like a brand-new order, so the
+        # merge step (in main()) overwrites the stale entry.
+        prev_status = (known_status or {}).get(reference)
+        status_changed = prev_status is not None and normalize(prev_status) != normalize(status)
+        if known_refs is not None and reference in known_refs and not status_changed:
             skipped_known += 1
-            consecutive_known += 1
-            if stop_after_known > 0 and consecutive_known >= stop_after_known:
-                print(
-                    f"   create-only: hit {consecutive_known} consecutive known refs, "
-                    "stopping listing walk early"
-                )
-                break
+            # NOTE: no early `break` here anymore. The whole history table is
+            # already loaded in the DOM in one page load (no pagination — see
+            # "Found N rows" above), so walking every remaining row costs
+            # nothing but cheap local DOM queries. An early break on N
+            # consecutive known+unchanged rows previously stopped the walk
+            # before it reached older known orders further down the table —
+            # which is exactly where a status flip like "Paiement à distance
+            # accepté" -> "livré" shows up, since new orders (which reset the
+            # streak) only ever land at the top. That silently hid every
+            # status change past the streak threshold.
             continue
-        else:
-            consecutive_known = 0  # any unknown reference resets the streak
+
+        if status_changed:
+            print(f"   status change detected for {reference}: {prev_status!r} -> {status!r}")
 
         orders.append(Order(
             reference=reference,
@@ -504,38 +515,62 @@ def collect_order_detail(page: Page, order: Order) -> None:
             print(f"   ! Order {order.reference}: goto failed: {msg.splitlines()[0]}")
         return
 
-    # The product list on the order detail page is `table#order-products`, a
-    # fixed 4-column layout (NO data-label attributes):
-    #   col 0: Produit  — contains both the product name AND its reference, e.g.
-    #          <strong><a>Heartleaf TECA …</a></strong><br>Référence: PRDX2389<br>
-    #   col 1: Quantité
-    #   col 2: Prix unitaire
-    #   col 3: Prix total
-    # The Sous-total / Total rows are in <tfoot>, so scoping to tbody skips them.
+    # The product list on the order detail page is `table#order-products`.
+    # It has two layouts on koreancosmetics.fr (NO data-label attributes on
+    # either, so we can't key off that like the listing page):
+    #   - normal orders (class "table table-bordered"): 4 columns —
+    #     Produit, Quantité, Prix unitaire, Prix total.
+    #   - orders eligible for a return (class "... return"): 6 columns — a
+    #     leading checkbox column, Produit, Quantité, Retourné, Prix
+    #     unitaire, Prix total. Assuming fixed indices 0..3 here silently
+    #     read the checkbox cell as the product name (empty) and skipped
+    #     every row, leaving these orders with 0 product lines.
+    # We read the header row to find each column's actual index instead of
+    # assuming fixed positions, so both layouts parse correctly.
     try:
         page.wait_for_selector("table#order-products", timeout=10000)
     except PWTimeout:
         print(f"   ! Order {order.reference}: no #order-products table on detail page")
         return
 
+    header_cells = page.query_selector_all("table#order-products thead th")
+    headers = [normalize(h.inner_text() or "") for h in header_cells]
+
+    def find_col(*substrings: str) -> Optional[int]:
+        for i, lbl in enumerate(headers):
+            if any(s in lbl for s in substrings):
+                return i
+        return None
+
+    col_product = find_col("produit")
+    col_qty = find_col("quantit")
+    col_unit = find_col("unitaire")
+    col_total = find_col("total")
+
+    if None in (col_product, col_qty, col_unit, col_total):
+        # Unrecognized header row — fall back to the classic 4-column layout.
+        col_product, col_qty, col_unit, col_total = 0, 1, 2, 3
+
+    min_cells = max(col_product, col_qty, col_unit, col_total) + 1
+
     product_rows = page.query_selector_all("table#order-products tbody tr")
     for row in product_rows:
         cells = row.query_selector_all("th, td")
-        if len(cells) < 4:
+        if len(cells) < min_cells:
             continue
 
-        name_cell_text = (cells[0].inner_text() or "").strip()
+        name_cell_text = (cells[col_product].inner_text() or "").strip()
         if not name_cell_text:
             continue
 
-        # Product name is the text of the <a> (or <strong>) inside cell 0.
-        name_link = cells[0].query_selector("a") or cells[0].query_selector("strong")
+        # Product name is the text of the <a> (or <strong>) inside the product cell.
+        name_link = cells[col_product].query_selector("a") or cells[col_product].query_selector("strong")
         if name_link:
             name = (name_link.inner_text() or "").strip()
         else:
             name = next((ln.strip() for ln in name_cell_text.splitlines() if ln.strip()), "")
 
-        # Reference appears after "Référence:" inside the same first cell.
+        # Reference appears after "Référence:" inside the same product cell.
         ref_match = re.search(
             r"r[ée]f[ée]rence\s*[:\-]?\s*([A-Z0-9_\-/]+)",
             name_cell_text,
@@ -543,14 +578,19 @@ def collect_order_detail(page: Page, order: Order) -> None:
         )
         reference = ref_match.group(1) if ref_match else ""
 
-        qty_raw = (cells[1].inner_text() or "").strip()
+        # On the return-eligible layout, the quantity cell also contains a
+        # <select> of choices (1..N) for how many units to return — its
+        # rendered text is a run of digits following the true quantity. The
+        # true quantity is always the first number in the cell's text, so a
+        # first-match regex is deliberate here, not incidental.
+        qty_raw = (cells[col_qty].inner_text() or "").strip()
         try:
             qty = int(re.search(r"\d+", qty_raw or "1").group())
         except Exception:
             qty = 1
 
-        unit  = (cells[2].inner_text() or "").strip()
-        total = (cells[3].inner_text() or "").strip()
+        unit  = (cells[col_unit].inner_text() or "").strip()
+        total = (cells[col_total].inner_text() or "").strip()
 
         # Barcode isn't shown on this page; leave blank. The Symfony import
         # backfills barcodes later if you provide them through another channel.
@@ -577,9 +617,9 @@ def main() -> int:
     headless = os.getenv("HEADLESS", "1") not in ("0", "false", "False")
     out_path = Path(os.getenv("OUTPUT", "orders.json"))
     create_only = os.getenv("CREATE_ONLY", "0") in ("1", "true", "True")
-    stop_after_known = int(os.getenv("CREATE_ONLY_STOP_AFTER", "10"))
 
     known_refs: Optional[set[str]] = None
+    known_status: Optional[dict[str, str]] = None
     existing_orders: list[dict] = []
     if create_only:
         if not out_path.is_file():
@@ -593,8 +633,29 @@ def main() -> int:
                 for o in existing_orders
                 if (o.get("reference") or "").strip()
             }
+            known_status = {
+                (o.get("reference") or "").strip(): (o.get("status") or "")
+                for o in existing_orders
+                if (o.get("reference") or "").strip()
+            }
+            # Orders already marked "livré" but with zero product lines are
+            # most likely a past run whose detail page failed to load (e.g.
+            # the #order-products table didn't appear in time). Treat them
+            # as NOT known so this run re-fetches their detail page instead
+            # of leaving them empty forever.
+            empty_livre_refs = {
+                (o.get("reference") or "").strip()
+                for o in existing_orders
+                if (o.get("reference") or "").strip()
+                and "livre" in normalize(o.get("status") or "")
+                and not o.get("products")
+            }
+            if empty_livre_refs:
+                print(f"-> {len(empty_livre_refs)} known 'livré' order(s) have no items; "
+                      "will re-fetch them this run")
+                known_refs -= empty_livre_refs
             print(f"-> create-only mode: {len(known_refs)} known reference(s) "
-                  f"loaded from {out_path}, stop after {stop_after_known} consecutive known")
+                  f"loaded from {out_path}")
 
     with sync_playwright() as p:
         # RAM-frugal flags for small EC2 instances — see scrape_sales.py
@@ -617,7 +678,7 @@ def main() -> int:
         orders = collect_order_rows(
             page,
             known_refs=known_refs,
-            stop_after_known=stop_after_known,
+            known_status=known_status,
         )
 
         for i, order in enumerate(orders, 1):

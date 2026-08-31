@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { api } from '../api/client'
-import { computeMargin } from '../utils/margin'
+import { computeMargin, parsePrice } from '../utils/margin'
 
 /**
  * Count how many items in an order have a computable margin strictly below
@@ -33,7 +33,21 @@ const PAGE_SIZES = [10, 25, 50, 100]
 export default function OrdersPage() {
   const [page, setPage] = useState(1)
   const [pageSize, setPageSize] = useState(25)
-  const [filter, setFilter] = useState('')
+
+  // Server-side search. `search` is the live value bound to the input;
+  // `debouncedSearch` is what we actually send to the API (300ms after the
+  // user stops typing) so we don't hammer the server on every keystroke.
+  const [search, setSearch] = useState('')
+  const [debouncedSearch, setDebouncedSearch] = useState('')
+
+  // Server-side status filter, driven by clicking a chip in the summary
+  // panel below. Empty string = no filter (all statuses).
+  const [statusFilter, setStatusFilter] = useState('')
+  const toggleStatusFilter = (status) => {
+    setStatusFilter((cur) => (cur === status ? '' : status))
+    setPage(1)
+  }
+
   const [data, setData] = useState({
     loading: true,
     items: [],
@@ -44,6 +58,76 @@ export default function OrdersPage() {
   // State for the "Fetch new orders" pipeline button
   const [fetching, setFetching] = useState(false)
   const [fetchResult, setFetchResult] = useState(null) // {ok, newOrders, totalOrders, error}
+
+  // State for the "Export margin < 30%" button: a date the user must pick,
+  // plus busy/error tracking for the export itself.
+  const [exportDate, setExportDate] = useState('')
+  const [exporting, setExporting] = useState(false)
+  const [exportError, setExportError] = useState(null)
+
+  // Export every item with a computable gross margin below 30% from all
+  // orders dated on or after `exportDate`. Fetches directly from the API
+  // (not the currently-loaded page) so this covers the full date range
+  // regardless of pagination.
+  const exportLowMargin = async () => {
+    if (!exportDate) {
+      setExportError('Pick a date first.')
+      return
+    }
+    setExporting(true)
+    setExportError(null)
+    try {
+      const { data: res } = await api.get('/orders', {
+        params: { 'date[after]': exportDate, itemsPerPage: 100000 },
+      })
+      const orders = res['hydra:member'] ?? res.member ?? (Array.isArray(res) ? res : [])
+
+      const rows = [
+        ['Commande', 'Référence', 'Code produit', 'Nom produit', 'Prix facturé', 'Quantité', 'Prix corrigé', 'Avoir'],
+      ]
+      for (const o of orders) {
+        for (const it of o.items || []) {
+          const m = computeMargin(it.unitPrice, it.product?.sellingPrice)
+          if (m === null || m >= 0.30) continue
+          const unit = parsePrice(it.unitPrice)
+          rows.push([
+            o.reference || '',
+            it.product?.reference || '',
+            '',
+            it.product?.name || '',
+            unit !== null ? unit.toFixed(2) : '',
+            String(it.quantity ?? ''),
+            '',
+            '',
+          ])
+        }
+      }
+
+      if (rows.length === 1) {
+        setExportError(`No items with margin below 30% in orders on/after ${exportDate}.`)
+        return
+      }
+
+      const esc = (v) => {
+        const s = String(v ?? '')
+        return /[";\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s
+      }
+      const csv = rows.map((r) => r.map(esc).join(';')).join('\r\n')
+      const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' })
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = `margin_below_30_from_${exportDate}.csv`
+      document.body.appendChild(a)
+      a.click()
+      a.remove()
+      setTimeout(() => URL.revokeObjectURL(url), 500)
+    } catch (err) {
+      setExportError(err?.response?.data?.detail || err.message || 'Export failed')
+    } finally {
+      setExporting(false)
+    }
+  }
 
   // Aggregated counts/amounts by order status — fetched once on mount and
   // refreshed after a successful Fetch-new-orders run so the numbers reflect
@@ -70,10 +154,6 @@ export default function OrdersPage() {
       .finally(() => setPeriodsLoading(false))
   }
 
-  // Fetch whenever page or pageSize changes. Filter is purely client-side over
-  // the current page's rows (good enough for at most a few hundred orders);
-  // if you ever want server-side search across all pages, switch this to a
-  // `?reference=` query param.
   const fetchNewOrders = async () => {
     setFetching(true)
     setFetchResult(null)
@@ -104,8 +184,15 @@ export default function OrdersPage() {
   useEffect(() => {
     let cancelled = false
     setData((d) => ({ ...d, loading: true, error: null }))
+    const params = { page, itemsPerPage: pageSize }
+    if (debouncedSearch.trim()) {
+      params.search = debouncedSearch.trim()
+    }
+    if (statusFilter) {
+      params.status = statusFilter
+    }
     api
-      .get('/orders', { params: { page, itemsPerPage: pageSize } })
+      .get('/orders', { params })
       .then((res) => {
         if (cancelled) return
         // API Platform 3 uses `hydra:member` / `hydra:totalItems`; 4.x can
@@ -127,7 +214,7 @@ export default function OrdersPage() {
     return () => {
       cancelled = true
     }
-  }, [page, pageSize])
+  }, [page, pageSize, debouncedSearch, statusFilter])
 
   // Summary fetch runs once on mount (and again after Fetch-new-orders via
   // loadSummary() in the click handler above).
@@ -136,15 +223,20 @@ export default function OrdersPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  const visible = data.items.filter((o) => {
-    if (!filter.trim()) return true
-    const t = filter.toLowerCase()
-    return (
-      o.reference?.toLowerCase().includes(t) ||
-      o.status?.toLowerCase().includes(t) ||
-      o.payment?.toLowerCase().includes(t)
-    )
-  })
+  // Debounce the search input: wait 300ms after the last keystroke before
+  // committing to `debouncedSearch`, and reset to page 1 every time the
+  // committed term changes (so the user always sees results from page 1
+  // when their query updates).
+  useEffect(() => {
+    const handle = setTimeout(() => {
+      setDebouncedSearch(search)
+      setPage(1)
+    }, 300)
+    return () => clearTimeout(handle)
+  }, [search])
+
+  // No client-side filtering — the server already did it.
+  const visible = data.items
 
   const totalPages = Math.max(1, Math.ceil(data.total / pageSize))
   const firstShown = data.items.length === 0 ? 0 : (page - 1) * pageSize + 1
@@ -157,9 +249,9 @@ export default function OrdersPage() {
         <div className="flex flex-wrap items-center gap-2">
           <input
             type="search"
-            placeholder="Filter current page by reference / status / payment…"
-            value={filter}
-            onChange={(e) => setFilter(e.target.value)}
+            placeholder="Search orders (reference / status / payment)…"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
             className="rounded-md border border-slate-300 px-3 py-2 text-sm w-full sm:w-80"
           />
           <button
@@ -171,8 +263,47 @@ export default function OrdersPage() {
           >
             {fetching ? 'Fetching…' : 'Fetch new orders'}
           </button>
+
+          {/* Export items with margin < 30% from all orders on/after the
+              chosen date — scans the full dataset via the API, not just the
+              currently-loaded page. */}
+          <div className="flex items-center gap-1">
+            <input
+              type="date"
+              value={exportDate}
+              onChange={(e) => {
+                setExportDate(e.target.value)
+                setExportError(null)
+              }}
+              className="rounded-md border border-slate-300 px-2 py-2 text-sm"
+              title="Orders on or after this date"
+            />
+            <button
+              type="button"
+              onClick={exportLowMargin}
+              disabled={exporting || !exportDate}
+              title="Export items with gross margin below 30% from orders on/after the chosen date"
+              className="rounded-md border border-slate-300 px-3 py-2 text-sm hover:bg-slate-100 disabled:opacity-60"
+            >
+              {exporting ? 'Exporting…' : 'Export margin < 30%'}
+            </button>
+          </div>
         </div>
       </header>
+
+      {exportError && (
+        <div className="mb-3 rounded-md border border-red-300 bg-red-50 text-red-800 px-3 py-2 text-sm">
+          {exportError}
+          <button
+            type="button"
+            onClick={() => setExportError(null)}
+            className="float-right text-red-500 hover:text-red-700"
+            aria-label="Dismiss"
+          >
+            ×
+          </button>
+        </div>
+      )}
 
       {/* Summary by status. Shows the global totals plus one chip per status
           (count + summed € amount). Hidden until the summary has loaded so
@@ -189,27 +320,52 @@ export default function OrdersPage() {
               })} €
             </span>
           </div>
+          {/* Each chip is a toggle for the server-side `?status=` filter —
+              click to show only that status, click again (or the same chip)
+              to clear it. */}
           <div className="mt-2 flex flex-wrap gap-2">
-            {summary.byStatus.map((s) => (
-              <div
-                key={s.status}
-                className="inline-flex items-baseline gap-2 rounded-md border border-slate-200 bg-slate-50 px-2 py-1 text-xs"
-                title={`${s.status} — ${s.count} order${s.count > 1 ? 's' : ''}`}
-              >
-                <span className="font-medium text-slate-700">{s.status}</span>
-                <span className="text-slate-500">
-                  {s.count} order{s.count > 1 ? 's' : ''}
-                </span>
-                {s.amount > 0 && (
-                  <span className="text-slate-700">
-                    {Number(s.amount).toLocaleString('fr-FR', {
-                      minimumFractionDigits: 2,
-                      maximumFractionDigits: 2,
-                    })} €
+            {summary.byStatus.map((s) => {
+              const active = statusFilter === s.status
+              return (
+                <button
+                  key={s.status}
+                  type="button"
+                  onClick={() => toggleStatusFilter(s.status)}
+                  aria-pressed={active}
+                  title={`${active ? 'Clear filter' : 'Filter by'}: ${s.status} — ${s.count} order${s.count > 1 ? 's' : ''}`}
+                  className={
+                    'inline-flex items-baseline gap-2 rounded-md border px-2 py-1 text-xs ' +
+                    (active
+                      ? 'border-slate-900 bg-slate-900 text-white'
+                      : 'border-slate-200 bg-slate-50 hover:bg-slate-100')
+                  }
+                >
+                  <span className={'font-medium ' + (active ? 'text-white' : 'text-slate-700')}>
+                    {s.status}
                   </span>
-                )}
-              </div>
-            ))}
+                  <span className={active ? 'text-slate-300' : 'text-slate-500'}>
+                    {s.count} order{s.count > 1 ? 's' : ''}
+                  </span>
+                  {s.amount > 0 && (
+                    <span className={active ? 'text-white' : 'text-slate-700'}>
+                      {Number(s.amount).toLocaleString('fr-FR', {
+                        minimumFractionDigits: 2,
+                        maximumFractionDigits: 2,
+                      })} €
+                    </span>
+                  )}
+                </button>
+              )
+            })}
+            {statusFilter && (
+              <button
+                type="button"
+                onClick={() => toggleStatusFilter(statusFilter)}
+                className="inline-flex items-center rounded-md border border-slate-200 px-2 py-1 text-xs text-slate-500 hover:bg-slate-100"
+              >
+                Clear status filter ×
+              </button>
+            )}
           </div>
 
           {/* Weekly + monthly breakdowns are computed on demand. Expanding
@@ -331,7 +487,7 @@ export default function OrdersPage() {
                           <code>php bin/console app:import-orders ../scraper/orders.json</code>.
                         </>
                       ) : (
-                        'No rows on this page match the filter.'
+                        'No orders match your search/filter.'
                       )}
                     </td>
                   </tr>

@@ -172,6 +172,9 @@ export default function OrderDetailPage() {
               <th className="text-right px-3 py-2">Qty</th>
               <th className="text-right px-3 py-2">Unit</th>
               <th className="text-right px-3 py-2">Total</th>
+              <th className="text-right px-3 py-2" title="Current selling price (TTC) from Dolibarr">
+                Selling price
+              </th>
               <th
                 className="text-right px-3 py-2"
                 title="(selling_price / 1.2 − unit_price) / (selling_price / 1.2)"
@@ -191,6 +194,13 @@ export default function OrderDetailPage() {
                   <td className="px-3 py-2 text-right">{it.quantity}</td>
                   <td className="px-3 py-2 text-right">{it.unitPrice || '—'}</td>
                   <td className="px-3 py-2 text-right">{it.totalPrice || '—'}</td>
+                  <td className="px-3 py-2 text-right">
+                    {sellingTtc !== null ? (
+                      `${sellingTtc.toFixed(2)} €`
+                    ) : (
+                      <span className="text-slate-400" title="No selling price — run the Dolibarr scraper">—</span>
+                    )}
+                  </td>
                   <td className="px-3 py-2 text-right">
                     {margin === null ? (
                       <span className="text-slate-400" title="Missing unit or selling price">—</span>

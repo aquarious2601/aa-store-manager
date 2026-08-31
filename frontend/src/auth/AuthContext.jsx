@@ -32,6 +32,18 @@ export function AuthProvider({ children }) {
     }
   }, [token])
 
+  // The axios response interceptor (api/client.js) clears localStorage and
+  // fires this event whenever a request comes back 401 — e.g. the JWT
+  // expired mid-session. Without syncing that back into `token` here,
+  // RequireAuth keeps rendering protected routes with a token that no
+  // longer works, and every subsequent request 401s with no way to recover
+  // short of a manual reload.
+  useEffect(() => {
+    const onUnauthorized = () => setToken(null)
+    window.addEventListener('aashop:unauthorized', onUnauthorized)
+    return () => window.removeEventListener('aashop:unauthorized', onUnauthorized)
+  }, [])
+
   const login = async (login, password) => {
     const { data } = await api.post('/login', { login, password })
     setToken(data.token)
